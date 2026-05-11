@@ -1,0 +1,282 @@
+Address    +0  +1  +2  +3  +4  +5  +6  +7  +8  +9  +A  +B  +C  +D  +E  +F  
+-----------+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+0x00000000 |
+    :
+0x00001000 |_u16_dpsin_tbl2(2052)------------------------------------------
+    :
+0x00001800 |-------------->|_u16_dpatan_tbl2(512)--------------------------
+    :
+0x00001A00 |-------------->|_u16_dpsqrt_tbl2(1024)-------------------------
+    :
+0x00001E00 |-------------->|_f4_atan2Table(4100)---------------------------
+    :
+0x00002E00 |------------------------------>|_f4_k_pwm_tbl(2052)------------
+    :
+0x00003600 |---------------------------------------------->|_f4_vctrlerr_tb
+    :
+0x00003A00 |-------------------------------------------------------------->|
+0x00003A10 |_map_tq_to_idq(19392)------------------------------------------
+    :
+0x000085C0 |-------------------------------------------------------------->|
+0x000085D0 |_map_tq_limit(204)---------------------------------------------
+    :
+0x00008690 |---------------------------------------------->|_map_tq_to_powe
+    :
+0x0000D250 |---------------------------------------------->|_S2_THERM_MODUL
+    :
+0x0000D350 |---------------------------------------------->|_map_lm_1d(1028
+    :
+0x0000D750 |-------------------------------------------------------------->|
+0x0000D760 |_i_ldes.c@_LengthMask.1(16)----------------------------------->|
+    :
+0xFEBF0000 |___u4_cnt_tsg3>|___u4_cnt_tsg3>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|
+0xFEBF0010 |_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|
+0xFEBF0020 |_u>|_u>|_u>|_u>|_u>|_u>|_u>|   |___u2_>|       |___u2_>|
+0xFEBF0030 |_can0(16)----------------------------------------------------->|
+0xFEBF0040 |_can1(16)----------------------------------------------------->|
+0xFEBF0050 |_can2(16)----------------------------------------------------->|
+0xFEBF0060 |_can3(16)----------------------------------------------------->|
+0xFEBF0070 |_rx_mbox_no(4)>|_rx_mbox_id(512)-------------------------------
+    :
+0xFEBF0270 |-------------->|_rx_mbox_dlc(512)------------------------------
+    :
+0xFEBF0470 |-------------->|_rx_mbox_length(512)---------------------------
+    :
+0xFEBF0670 |-------------->|_rx_mbox_extened(512)--------------------------
+    :
+0xFEBF0870 |-------------->|_rx_mbox_cnt(16)-------------------------------
+0xFEBF0880 |-------------->|_tx_mbox_no(4)>|_tx_mbox_id(512)---------------
+    :
+0xFEBF0A80 |------------------------------>|_tx_mbox_dlc(512)--------------
+    :
+0xFEBF0C80 |------------------------------>|_tx_mbox_length(512)-----------
+    :
+0xFEBF0E80 |------------------------------>|_tx_mbox_extened(512)----------
+    :
+0xFEBF1080 |------------------------------>|_tx_mbox_cnt(16)---------------
+0xFEBF1090 |------------------------------>|__>|           |___u2_>|___u2_>|
+0xFEBF10A0 |___u2_>|___u2_>|__>|   |__S2_D>|__>|           |_f_mu_old(4)-->|
+0xFEBF10B0 |_f_mv_old(4)-->|_f_mw_old(4)-->|__>|   |__S2_D>|__>|
+0xFEBF10C0 |_f_mu_old2(4)->|_f_mv_old2(4)->|_f_mw_old2(4)->|__>|
+0xFEBF10D0 |_testrt0(4)--->|_testrt1(4)--->|_testrt2(4)--->|_testrt3(4)--->|
+0xFEBF10E0 |_u4_flag_rx0_f>|_RX_DATA_0x010(8)------------->|_RX_DATA_0x011(
+0xFEBF10F0 |-------------->|_TX_DATA_0x030(8)------------->|_CAN_MBOX_TX_ID
+0xFEBF1100 |---------------------------------------------->|_TX_DATA_0x031(
+0xFEBF1110 |-------------->|_CAN_MBOX_TX_ID0x031(16)-----------------------
+0xFEBF1120 |-------------->|_TX_DATA_0x032(8)------------->|_CAN_MBOX_TX_ID
+0xFEBF1130 |---------------------------------------------->|_TX_DATA_0x033(
+0xFEBF1140 |-------------->|_CAN_MBOX_TX_ID0x033(16)-----------------------
+0xFEBF1150 |-------------->|_TX_DATA_0x034(8)------------->|_CAN_MBOX_TX_ID
+0xFEBF1160 |---------------------------------------------->|_TX_DATA_0x035(
+0xFEBF1170 |-------------->|_CAN_MBOX_TX_ID0x035(16)-----------------------
+0xFEBF1180 |-------------->|_TX_DATA_0x036(8)------------->|_CAN_MBOX_TX_ID
+0xFEBF1190 |---------------------------------------------->|_TX_DATA_0x037(
+0xFEBF11A0 |-------------->|_CAN_MBOX_TX_ID0x037(16)-----------------------
+0xFEBF11B0 |-------------->|_TX_DATA_0x038(8)------------->|_CAN_MBOX_TX_ID
+0xFEBF11C0 |---------------------------------------------->|_u>|_u>|_u>|_u>|
+0xFEBF11D0 |_u2_co>|_u2_co>|_u2_co>|_s2_co>|_s2_co>|_s2_co>|_s2_co>|
+0xFEBF11E0 |_f4_com_tq_ref>|_f4_com_irms_r>|_f4_com_speed_>|_f4_com_tq_ref>|
+0xFEBF11F0 |_f4_com_irms_r>|_f4_com_f_slip>|_f4_com_speed_>|_u>|_u>|_u>|
+0xFEBF1200 |_s2_co>|_s2_co>|_s2_co>|_s2_co>|_s2_co>|_u2_co>|_s2_co>|_s2_co>|
+0xFEBF1210 |_s2_co>|_s2_co>|_s2_co>|_s2_co>|_s2_co>|_u2_co>|_u2_co>|_s2_co>|
+0xFEBF1220 |_s2_co>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|   |_u4_com_flag_e>|
+0xFEBF1230 |_u4_com_flag_e>|_u4_com_flag_e>|_u4_com_flag_e>|_f4_com_tq_ref>|
+0xFEBF1240 |_f4_com_irms_a>|_f4_com_speed_>|_f4_com_id_ref>|_f4_com_iq_ref>|
+0xFEBF1250 |_f4_com_irms_r>|_f4_com_f_slip>|_f4_com_id_ad_>|_f4_com_iq_ad_>|
+0xFEBF1260 |_f4_com_idc_es>|_f4_com_speed_>|_f4_com_vd_ref>|_f4_com_vq_ref>|
+0xFEBF1270 |_f4_com_vdc_ad>|_f4_com_vrms_r>|_f4_com_tq_lim>|_f4_com_tq_lim>|
+0xFEBF1280 |_f4_com_tmp_mo>|_f4_com_tmp_mo>|_f4_com_tmp_in>|_f4_com_tmp_ig>|
+0xFEBF1290 |_f4_com_tmp_ig>|_f4_com_tmp_ig>|_f4_com_tmp_ig>|_f4_com_tmp_ig>|
+0xFEBF12A0 |_f4_com_tmp_ig>|_u2_cn>|       |_u4_status_can>|_u4_status_can>|
+0xFEBF12B0 |_u>|   |_u2_cn>|_u2_cn>|_u>|   |_u2_cn>|_u2_cn>|_u4_chk(4)---->|
+0xFEBF12C0 |_u4_chk_id(4)->|_u2_cn>|_u>|   |_u4_cnt_1ms(4)>|_th_IGBT(36)---
+    :
+0xFEBF12E0 |-------------------------------------------------------------->|
+0xFEBF12F0 |_th_103JT(36)--------------------------------------------------
+    :
+0xFEBF1310 |-------------->|_th_MOTOR1_INV0(36)----------------------------
+    :
+0xFEBF1330 |------------------------------>|_th_MOTOR2_INV0(36)------------
+    :
+0xFEBF1350 |---------------------------------------------->|_th_493HT(36)--
+    :
+0xFEBF1370 |-------------------------------------------------------------->|
+0xFEBF1380 |_th_AL03006_1753K_98_G1(36)------------------------------------
+    :
+0xFEBF13A0 |-------------->|_th_PSB_S3(36)---------------------------------
+    :
+0xFEBF13C0 |------------------------------>|_th_NCP18XH103(36)-------------
+    :
+0xFEBF13E0 |---------------------------------------------->|_th_NCU18WB473F
+    :
+0xFEBF1400 |-------------------------------------------------------------->|
+0xFEBF1410 |_th_FMF800DX_24B(36)-------------------------------------------
+    :
+0xFEBF1430 |-------------->|_th_NTCALUG01T103G(36)-------------------------
+    :
+0xFEBF1450 |------------------------------>|_f4_tmp_inv0_i>|_f4_tmp_inv0_i>|
+0xFEBF1460 |_f4_tmp_inv0_i>|_f4_tmp_inv0_i>|_f4_tmp_inv0_i>|_f4_tmp_inv0_i>|
+0xFEBF1470 |_f4_tmp_inv0_i>|_f4_tmp_inv0_i>|_f4_tmp_inv0_i>|_f4_tmp_inv0_m>|
+0xFEBF1480 |_f4_tmp_inv0_m>|_f4_tmp_inv0_m>|_f4_tmp_inv0_i>|_f4_tmp_inv0_b>|
+0xFEBF1490 |_f4_tmp_inv0_b>|_f4_tmp_inv0_f>|_f4_wclpf_inv0>|_f4_lev_uv_inv>|
+0xFEBF14A0 |_f4_lev_oh_inv>|_f4_lev_oh_inv>|_f4_lev_oh_inv>|_f4_lev_os_inv>|
+0xFEBF14B0 |_f4_lev_oh_inv>|_f4_lev_ov_inv>|_f4_lev_uv_inv>|_s4_lev_snsr_i>|
+0xFEBF14C0 |_s4_lev_snsr_i>|_s4_lev_snsr_i>|_s4_lev_snsr_i>|_s4_lev_snsr_i>|
+0xFEBF14D0 |_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|
+0xFEBF14E0 |_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|
+0xFEBF14F0 |_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|
+0xFEBF1500 |_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|
+0xFEBF1510 |_u2_cn>|_u2_cn>|_u4_flag_inv0_>|_u>|           |_u4_flag_inv0_>|
+0xFEBF1520 |_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_u>|_u>|_u>|_u>|_u4_cpldspi_in>|
+0xFEBF1530 |_u4_cpldspi_in>|_u>|_u>|       |_u>|           |_f4_k_inv0_tmp>|
+0xFEBF1540 |_f4_tmp_inv0_i>|_f4_tmp_inv0_i>|_f4_k_inv0_tmp>|_f4_tmp_inv0_m>|
+0xFEBF1550 |_f4_tmp_inv0_m>|_f4_k_inv0_tmp>|_f4_tmp_inv0_m>|_f4_tmp_inv0_m>|
+0xFEBF1560 |_f4_k_inv0_tq_>|_f4_speed_inv0>|_f4_irms_inv0_>|_u>|_u>|_u>|
+0xFEBF1570 |_f4_id_inv0_ct>|_f4_iq_inv0_ct>|_f4_irms_inv0_>|_f4_theta_inv0>|
+0xFEBF1580 |_f4_irms_inv0_>|_f4_dirms_inv0>|_f4_theta_inv0>|_f4_dtheta_inv>|
+0xFEBF1590 |_f4_idq_inv0_c>|_f4_irms_inv0_>|_f4_theta_inv0>|_f4_irms_inv0_>|
+0xFEBF15A0 |_f4_theta_inv0>|_f4_tq_inv0_re>|_f4_tq_inv0_re>|_f4_dtq_inv0_r>|
+0xFEBF15B0 |_f4_tq_inv0_re>|_f4_tq_inv0_re>|_f4_tq_inv0_re>|_f4_tq_inv0_re>|
+0xFEBF15C0 |_f4_speed_inv0>|_f4_power_inv0>|_f4_power_inv0>|_f4_wclpf_inv0>|
+0xFEBF15D0 |_f4_power_inv0>|_f4_power_inv0>|_f4_tq_inv0_es>|_f4_idc_inv0_e>|
+0xFEBF15E0 |_f4_lev_inv0_s>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|_u>|
+0xFEBF15F0 |_f4_speed_inv0>|_f4_wr_inv0_re>|_f4_dspeed_inv>|_f4_dwr_inv0_r>|
+0xFEBF1600 |_u>|           |_f4_speed_inv0>|_f4_wr_inv0_li>|_f4_kp_inv0_wr>|
+0xFEBF1610 |_f4_ki_inv0_wr>|_f4_wr_inv0_ct>|_f4_tq_inv0_wr>|_f4_tq_inv0_wr>|
+0xFEBF1620 |_f4_tq_inv0_wr>|_f4_iq_inv0_wr>|_f4_iq_inv0_wr>|_f4_iq_inv0_wr>|
+0xFEBF1630 |_f4_kp_inv0_wr>|_f4_ki_inv0_wr>|_f4_wr_inv0_li>|_f4_tq_inv0_wr>|
+0xFEBF1640 |_f4_tq_inv0_wr>|_f4_tq_inv0_wr>|_f4_iq_inv0_wr>|_f4_idq_inv0_m>|
+0xFEBF1650 |_u4_cnt_re_oer>|_u4_cnt_re_fer>|_u>|_u>|       |_u4_fc_inv0_ls>|
+0xFEBF1660 |_f4_fs_inv0_ct>|_f4_ts_inv0_ct>|_u4_cnt_pwm(4)>|_f4_mu_inv0_1p>|
+0xFEBF1670 |_f4_mv_inv0_1p>|_f4_mw_inv0_1p>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|
+0xFEBF1680 |_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|
+0xFEBF1690 |_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|
+0xFEBF16A0 |_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|
+0xFEBF16B0 |_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|
+0xFEBF16C0 |_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|
+0xFEBF16D0 |_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|
+0xFEBF16E0 |_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|
+0xFEBF16F0 |_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|_s2_ad>|
+0xFEBF1700 |_s2_AD>|_s2_AD>|_s4_adtrig_inv>|_f4_k_iu_inv0_>|_f4_k_iv_inv0_>|
+0xFEBF1710 |_f4_k_iw_inv0_>|_f4_k_vdc_inv0>|_f4_k_idc_inv0>|_f4_k_vuvw_inv>|
+0xFEBF1720 |_s4_iu_inv0_ad>|_s4_iv_inv0_ad>|_s4_iw_inv0_ad>|_f4_iu_inv0_ad>|
+0xFEBF1730 |_f4_iv_inv0_ad>|_f4_iw_inv0_ad>|_f4_iu_inv0_tm>|_f4_iv_inv0_tm>|
+0xFEBF1740 |_f4_iw_inv0_tm>|_u>|_u>|       |_f4_iu_inv0_ct>|_f4_iv_inv0_ct>|
+0xFEBF1750 |_f4_iw_inv0_ct>|_f4_vdc_inv0_a>|_f4_vdc_inv0_a>|_f4_vuv_inv0_a>|
+0xFEBF1760 |_f4_vwv_inv0_a>|_f4_vu_inv0_ad>|_f4_vv_inv0_ad>|_f4_vw_inv0_ad>|
+0xFEBF1770 |_f4_vvw_inv0_a>|_f4_vwu_inv0_a>|_f4_vu_inv0_ad>|_f4_vv_inv0_ad>|
+0xFEBF1780 |_f4_vw_inv0_ad>|_f4_vuvw_inv0_>|_f4_va_inv0_ad>|_f4_vb_inv0_ad>|
+0xFEBF1790 |_f4_vdq_inv0_a>|_f4_wt_inv0_vu>|_f4_wt_inv0_pl>|_f4_wt_inv0_pl>|
+0xFEBF17A0 |_f4_kp_inv0_wr>|_f4_ki_inv0_wr>|_f4_wr_inv0_pl>|_f4_wr_inv0_pl>|
+0xFEBF17B0 |_f4_wr_inv0_pl>|_f4_wclpf_inv0>|_f4_wr_inv0_pl>|_s4_idc_inv0_a>|
+0xFEBF17C0 |_f4_idc_inv0_a>|_f4_idc_inv0_t>|_f4_vctrlbd_in>|_f4_k_vctrlbd_>|
+0xFEBF17D0 |_f4_wclpf_inv0>|_f4_vdc_inv0_l>|_f4_wclpf_inv0>|_f4_idc_inv0_l>|
+0xFEBF17E0 |_f4_wclpf_inv0>|_f4_v_ai_inv0_>|_f4_dvdc_inv0_>|_s4_offset_iu_>|
+0xFEBF17F0 |_s4_offset_iv_>|_s4_offset_iw_>|_s4_offset_idc>|_s4_offset_iu_>|
+0xFEBF1800 |_s4_offset_iv_>|_s4_offset_iw_>|_s4_offset_idc>|_u2_cn>|_u>|
+0xFEBF1810 |_u2_cn>|       |_f4_wt_inv0_dq>|_f4_wt_inv0_dq>|_f4_sin_inv0_w>|
+0xFEBF1820 |_f4_cos_inv0_w>|_u4_flag_dir_i>|_f4_wt_inv0_pl>|_f4_wt_inv0_pl>|
+0xFEBF1830 |_f4_wr_inv0_pl>|_f4_kp_inv0_wr>|_f4_ki_inv0_wr>|_f4_wr_inv0_en>|
+0xFEBF1840 |_f4_wr_inv0_en>|_f4_wr_inv0_en>|_f4_wr_inv0_pl>|_f4_wclpf_inv0>|
+0xFEBF1850 |_f4_wr_inv0_pl>|_f4_wr_inv0_pl>|_f4_speed_inv0>|_f4_winv_inv0_>|
+0xFEBF1860 |_f4_winv_inv0_>|_f4_wsl_inv0_r>|_f4_fsl_inv0_r>|_f4_wt_inv0_ws>|
+0xFEBF1870 |_f4_wsl_inv0_r>|_f4_fsl_inv0_r>|_u4_flag_inv0_>|_u4_flag_inv0_>|
+0xFEBF1880 |_u4_flag_inv0_>|_f4_lev_oc_inv>|_f4_lev_ov_inv>|_u2_cn>|_u2_cn>|
+0xFEBF1890 |_u2_cn>|_u2_cn>|_u2_cn>|_u2_cn>|_f4_pf_inv0(4)>|_f4_dpf_inv0(4>|
+0xFEBF18A0 |_f4_r1_inv0(4)>|_f4_r2_inv0(4)>|_f4_lm_inv0(4)>|_f4_lm_inv0_co>|
+0xFEBF18B0 |_f4_ls_inv0(4)>|_f4_rm_inv0(4)>|_u>|_u>|_u>|   |_f4_tmp_inv0_r>|
+0xFEBF18C0 |_f4_tmp_inv0_r>|_f4_r1_inv0_cm>|_f4_r2_inv0_cm>|_f4_kp_inv0_vd>|
+0xFEBF18D0 |_f4_ki_inv0_vd>|_f4_k_inv0_vdq>|_f4_vdq_inv0_v>|_f4_vdqctrl_in>|
+0xFEBF18E0 |_f4_idq_inv0_v>|_f4_idq_inv0_v>|_f4_idq_inv0_v>|_f4_id_inv0_vd>|
+0xFEBF18F0 |_f4_iq_inv0_vd>|_f4_idq_inv0_v>|_f4_fd_inv0_re>|_f4_fq_inv0_re>|
+0xFEBF1900 |_f4_id_inv0_ad>|_f4_iq_inv0_ad>|_f4_id_inv0_re>|_f4_iq_inv0_re>|
+0xFEBF1910 |_f4_id_inv0_re>|_f4_id_inv0_re>|_f4_idq_inv0_r>|_f4_k_inv0_idq>|
+0xFEBF1920 |_f4_wt_inv0_id>|_f4_sin_inv0_w>|_f4_cos_inv0_w>|_f4_id_inv0_ad>|
+0xFEBF1930 |_f4_iq_inv0_ad>|_u>|           |_f4_kp_inv0_id>|_f4_ki_inv0_id>|
+0xFEBF1940 |_f4_vdq_inv0_c>|_f4_vdq_inv0_c>|_f4_kp_inv0_id>|_f4_kp_inv0_id>|
+0xFEBF1950 |_f4_lev_m_kp_i>|_f4_lev_m_kp_i>|_f4_a_kp_inv0_>|_f4_b_kp_inv0_>|
+0xFEBF1960 |_f4_ki_inv0_id>|_f4_ki_inv0_id>|_f4_lev_m_ki_i>|_f4_lev_m_ki_i>|
+0xFEBF1970 |_f4_a_ki_inv0_>|_f4_b_ki_inv0_>|_u>|_u>|       |_f4_kp_inv0_id>|
+0xFEBF1980 |_f4_ki_inv0_id>|_f4_id_inv0_ct>|_f4_id_inv0_ct>|_f4_id_inv0_ct>|
+0xFEBF1990 |_f4_id_inv0_ctrliref_array(20)---------------------------------
+0xFEBF19A0 |-------------->|_f4_vd_inv0_ct>|_f4_vd_inv0_ct>|_f4_vd_inv0_ct>|
+0xFEBF19B0 |_f4_kp_inv0_iq>|_f4_ki_inv0_iq>|_f4_iq_inv0_ct>|_f4_iq_inv0_ct>|
+0xFEBF19C0 |_f4_iq_inv0_ct>|_f4_iq_inv0_ctrliref_array(20)-----------------
+0xFEBF19D0 |------------------------------>|_f4_vq_inv0_ct>|_f4_vq_inv0_ct>|
+0xFEBF19E0 |_f4_vq_inv0_ct>|_u>|           |_f4_vd_inv0_em>|_f4_vq_inv0_em>|
+0xFEBF19F0 |_f4_vd_inv0_rs>|_f4_vq_inv0_rs>|_f4_vd_inv0_re>|_f4_vq_inv0_re>|
+0xFEBF1A00 |_u>|           |_f4_k_inv0_vdq>|_f4_vdq_inv0_r>|_f4_vdq_inv0_m>|
+0xFEBF1A10 |_f4_vd_inv0_re>|_f4_vq_inv0_re>|_f4_wt_inv0_vd>|_f4_wt_inv0_vd>|
+0xFEBF1A20 |_f4_m_inv0_ref>|_f4_k_inv0_mod>|_f4_k_inv0_mod>|_u>|
+0xFEBF1A30 |_f4_dk_inv0_mo>|_f4_dk_inv0_mo>|_f4_dk_inv0_mo>|_u4_n_k_inv0_m>|
+0xFEBF1A40 |_f4_m_inv0_lpf>|_f4_wclpf_inv0>|_u>|_u>|_u2_cn>|_u2_cn>|_u2_cn>|
+0xFEBF1A50 |_u>|           |_f4_lev_m_inv0>|_f4_lev_m_inv0>|_u>|
+0xFEBF1A60 |_f4_wt_inv0_de>|_f4_wt_inv0_sv>|_f4_sin_inv0_w>|_f4_cos_inv0_w>|
+0xFEBF1A70 |_s4_wt_inv0_dq>|_s4_wt_inv0_de>|_s4_wt_inv0_vd>|_f4_wt_inv0_1p>|
+0xFEBF1A80 |_s4_wt_inv0_1p>|_u>|           |_f4_f_inv0_adj>|_f4_f_inv0_adj>|
+0xFEBF1A90 |_f4_df_inv0_ad>|_f4_wr_inv0_ad>|_f4_wt_inv0_ad>|_f4_sin_inv0_w>|
+0xFEBF1AA0 |_f4_cos_inv0_w>|_f4_id_inv0_ad>|_f4_iq_inv0_ad>|_f4_id_inv0_dc>|
+0xFEBF1AB0 |_f4_id_inv0_ac>|_f4_iq_inv0_dc>|_f4_iq_inv0_ac>|_f4_id_inv0_dc>|
+0xFEBF1AC0 |_f4_id_inv0_ac>|_f4_iq_inv0_dc>|_f4_iq_inv0_ac>|_f4_didq_inv0_>|
+0xFEBF1AD0 |_f4_vd_inv0_ad>|_f4_vd_inv0_ad>|_f4_vq_inv0_ad>|_f4_dvd_inv0_a>|
+0xFEBF1AE0 |_f4_wtdq_inv0_>|_f4_f_inv0_sli>|_f4_f_inv0_sli>|_f4_vd_inv0_ad>|
+0xFEBF1AF0 |_f4_vq_inv0_ad>|_u>|           |_f4_vctrlerr_i>|_f4_rs_inv0_ad>|
+0xFEBF1B00 |_f4_wt_inv0_of>|_f4_wt_inv0_dq>|_f4_sin_inv0_w>|_f4_cos_inv0_w>|
+0xFEBF1B10 |_f4_vd_inv0_wt>|_f4_vq_inv0_wt>|_f4_time_inv0_>|_f4_ki_inv0_wt>|
+0xFEBF1B20 |_f4_vd_inv0_pl>|_f4_vq_inv0_pl>|_f4_id_inv0_ad>|_f4_iq_inv0_ad>|
+0xFEBF1B30 |_f4_vd_inv0_ad>|_f4_vq_inv0_ad>|_f4_wr_inv0_pl>|_f4_id_inv0_ad>|
+0xFEBF1B40 |_f4_iq_inv0_ad>|_f4_wclpf_inv0>|_f4_va_inv0_re>|_f4_vb_inv0_re>|
+0xFEBF1B50 |_f4_vu_inv0_sv>|_f4_vv_inv0_sv>|_f4_vw_inv0_sv>|_f4_mu_inv0_sv>|
+0xFEBF1B60 |_f4_mv_inv0_sv>|_f4_mw_inv0_sv>|_f4_m_inv0_max>|_f4_v_vctrlerr>|
+0xFEBF1B70 |_f4_i_vctrlerr>|_f4_dfc_inv0_v>|_f4_k_dfc_inv0>|_f4_dvdc_inv0_>|
+0xFEBF1B80 |_f4_k_dvdc_inv>|_f4_vuctrl_inv>|_f4_vvctrl_inv>|_f4_vwctrl_inv>|
+0xFEBF1B90 |_u2_cn>|       |_f4_x_nom(4)-->|_f4_y_nom(4)-->|_f4_z_nom(4)-->|
+0xFEBF1BA0 |_s4_x_id(4)--->|_s4_y_id(4)--->|_s4_z_id(4)--->|_s4_x_id_p1(4)>|
+0xFEBF1BB0 |_s4_y_id_p1(4)>|_s4_z_id_p1(4)>|_f4_kw_x(4)--->|_f4_kw_y(4)--->|
+0xFEBF1BC0 |_f4_kw_z(4)--->|_f4_x_add1(4)->|_f4_x_add1_int>|_f4_x_add2(4)->|
+0xFEBF1BD0 |_f4_x_add2_int>|_f4_x_nom_temp>|_f4_kw_x_temp(>|_f4_kw_x_add(4>|
+0xFEBF1BE0 |_f4_z_add(4)-->|_f4_z_add_int(>|_f4_z_nom_temp>|_f4_kw_z_temp(>|
+0xFEBF1BF0 |_f4_kw_z_add(4>|_C000(4)------>|_C001(4)------>|_C010(4)------>|
+0xFEBF1C00 |_C011(4)------>|_C100(4)------>|_C101(4)------>|_C110(4)------>|
+0xFEBF1C10 |_C111(4)------>|_c000(>|_c001(>|_c010(>|_c011(>|_c100(>|_c101(>|
+0xFEBF1C20 |_c110(>|_c111(>|_f4_x_nom_2d(4>|_f4_z_nom_2d(4>|_s4_x_id_2d(4)>|
+0xFEBF1C30 |_s4_z_id_2d(4)>|_s4_x_id_p1_2d>|_s4_z_id_p1_2d>|_f4_kw_x_2d(4)>|
+0xFEBF1C40 |_f4_kw_z_2d(4)>|_f4_x_add1_2d(>|_f4_x_add1_int>|_f4_x_add2_2d(>|
+0xFEBF1C50 |_f4_x_add2_int>|_f4_x_nom_temp>|_f4_kw_x_temp_>|_f4_kw_x_add_2>|
+0xFEBF1C60 |_f4_z_add_2d(4>|_f4_z_add_int_>|_f4_z_nom_temp>|_f4_kw_z_temp_>|
+0xFEBF1C70 |_f4_kw_z_add_2>|_C00_2d(4)---->|_C01_2d(4)---->|_C10_2d(4)---->|
+0xFEBF1C80 |_C11_2d(4)---->|_c00_2>|_c01_2>|_c10_2>|_c11_2>|_u>|_u>|
+0xFEBF1C90 |_u>|_u>|       |_s4_cnt_inv0_p>|_u4_cnt_inv0_p>|_f4_k_inv0_pwm>|
+0xFEBF1CA0 |_u>|           |_u4_k_inv0_pwm>|_u4_k_inv0_pwm>|_u4_k_inv0_pwm>|
+0xFEBF1CB0 |_u4_k_inv0_pwm>|_u4_k_inv0_pwm>|_u4_fc_inv0_ma>|_u4_fc_inv0_mi>|
+0xFEBF1CC0 |_f4_fmot_inv0_>|_f4_fmot_inv0_>|_f4_dfmot_inv0>|_f4_lev_dfmot_>|
+0xFEBF1CD0 |_f4_wclpf_inv0>|_f4_wt_inv0_sy>|_f4_wt_inv0_sy>|_f4_fc_inv0_sy>|
+0xFEBF1CE0 |_f4_kp_inv0_fc>|_f4_ki_inv0_fc>|_f4_fc_inv0_sy>|_f4_fc_inv0_sy>|
+0xFEBF1CF0 |_f4_fc_inv0_sy>|_u>|_u>|       |_u4_RESF_reg(4>|_u4_ecm_mstatu>|
+0xFEBF1D00 |_u4_ecm_cstatu>|_u4_ecm_mstatu>|_u4_ecm_cstatu>|_u>|_u>|_u>|_u>|
+0xFEBF1D10 |_f4_x_2_nom_1d>|_f4_z_2_nom_1d>|_s4_x_2_id_1d(>|_s4_z_2_id_1d(>|
+0xFEBF1D20 |_s4_x_2_id_p1_>|_s4_z_2_id_p1_>|_f4_kw_x_2_1d(>|_f4_kw_z_2_1d(>|
+0xFEBF1D30 |_C00_2_1d(4)-->|_C01_2_1d(4)-->|_C10_2_1d(4)-->|_C11_2_1d(4)-->|
+0xFEBF1D40 |_i_ldes.c@_snd_ringbuf.5(128)----------------------------------
+    :
+0xFEBF1DB0 |-------------------------------------------------------------->|
+0xFEBF1DC0 |_i_ldes.c@_iRd>|_i_ldes.c@_iWr>|_i_ldes.c@_rcv_cmdbuf.8(24)----
+0xFEBF1DD0 |-------------------------------------------------------------->|
+0xFEBF1DE0 |_i_ldes.c@_snd_cmdbuf.9(32)------------------------------------
+0xFEBF1DF0 |-------------------------------------------------------------->|
+0xFEBF1E00 |_i_ldes.c@_buf_trace.10(4096)----------------------------------
+    :
+0xFEBF2DF0 |-------------------------------------------------------------->|
+0xFEBF2E00 |_i_ldes.c@_idy>|_i_ldes.c@_idy>|_i_ldes.c@_iTr>|_i_ldes.c@_iTr>|
+0xFEBF2E10 |_i_ldes.c@_iIn>|_i_ldes.c@_iTr>|_i_ldes.c@_iRe>|_i_ldes.c@_ptr_
+0xFEBF2E20 |---------------------------------------------->|_i_ldes.c@_adrs
+0xFEBF2E30 |---------------------------------------------->|_iTrigLevel(4)>|
+0xFEBF2E40 |_iTrigDelay(4)>|_itrig_cnt_del>|_itrig_cnt_wai>|_itrig_data_ol>|
+0xFEBF2E50 |_i_ldes.c@_ubf>|_i_ldes.c@_cnt>|_u4_monitor_st>|
+    :
+0xFEEF0000 |_u4_pe1_status>|_u>|           |_u4_flag_error>|_u>|
+    :
+0xFEF00000 |_u4_pe2_status>|_u>|           |_u>|
+    :
+0xFFFFFFF0 |
+-----------+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+

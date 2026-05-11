@@ -1,0 +1,29 @@
+;RENESAS OPTIMIZING LINKER GENERATED FILE 2024.08.22
+;fsymbol = .text.cmn, com.text, comGRAMA.data, comGRAMA.bss, comGRAMB.data, comGRAMB.bss
+
+;SECTION NAME = .text.cmn
+ .public __cstart_pm1
+__cstart_pm1 .equ 0xd874
+;SECTION NAME = com.text
+ .public _Dummy_func_pe1
+_Dummy_func_pe1 .equ 0xd8dc
+ .public _Dummy_EI_func_pe1
+_Dummy_EI_func_pe1 .equ 0xd8e6
+;SECTION NAME = comGRAMA.data
+ .public _u4_pe1_status
+_u4_pe1_status .equ 0xfeef0000
+ .public _u1_status_awatcher_cpu2
+_u1_status_awatcher_cpu2 .equ 0xfeef0004
+;SECTION NAME = comGRAMA.bss
+ .public _u4_flag_error_PE1
+_u4_flag_error_PE1 .equ 0xfeef0008
+ .public _u1_flag_awatcher_enable_cpu2
+_u1_flag_awatcher_enable_cpu2 .equ 0xfeef000c
+;SECTION NAME = comGRAMB.data
+ .public _u4_pe2_status
+_u4_pe2_status .equ 0xfef00000
+ .public _u1_status_awatcher_cpu1
+_u1_status_awatcher_cpu1 .equ 0xfef00004
+;SECTION NAME = comGRAMB.bss
+ .public _u1_flag_awatcher_enable_cpu1
+_u1_flag_awatcher_enable_cpu1 .equ 0xfef00008

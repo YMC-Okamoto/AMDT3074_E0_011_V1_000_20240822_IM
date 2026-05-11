@@ -1,0 +1,388 @@
+品質記録情報
+2024年8月22日 10:25:22
+
+------ ビルド開始(MotorDriver1, DefaultBuild) ------
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RH\V2.06.00\Bin\ccrh.exe Common\fi_pe2_error.c ..\Common\iolib\io_CPU.c ..\Common\iolib\io_ADC.c ..\Common\iolib\io_CSIH0.c ..\Common\iolib\io_CSIH1.c ..\Common\iolib\io_ENCA0.c ..\Common\iolib\io_ENCA1.c ..\Common\iolib\io_FCAN.c ..\Common\iolib\io_RDC20.c ..\Common\iolib\io_RDC21.c ..\Common\iolib\io_SCI0_40MHz.c ..\Common\iolib\io_SCI1_40MHz.c ..\Common\iolib\io_SCI2_40MHz.c ..\Common\iolib\io_TAUD0.c ..\Common\iolib\io_TAUD1.c ..\Common\iolib\io_TAUJ0.c ..\Common\iolib\io_TSG30.c ..\Common\iolib\io_TSG31.c ..\PE1\AWatcher\VECLIB_CMDMONI.c src\fpmsm_main.c ..\PE1\src\fi_AWatcher.c src\fi_1ms_int.c src\fi_20us_int.c src\fi_enc1_int.c src\fi_pwm_int.c ..\PE1\src\fb_kpwm_tbl.c ..\PE1\src\fb_therm_calc.c ..\PE1\src\fb_therm_tbl_module.c ..\PE1\src\fb_vctrlerr_tbl.c ..\PE1\src\fi_pwm_vctrlerrtbl.c ..\Common\iolib\io_PIO_amdt0530.c -Xobj_path=DefaultBuild -Xcpu=g3m -g -g_line -Ospeed -Oinline_size -I..\PE1\src -Isrc -I..\Common -D__CLK_HSB=80,__CLK_LSB=40,__CLKC_HSB=80,__CLK_CLSB=40 -use_recipf -Xasm_path=DefaultBuild -c -Xmsg_lang=japanese
+..\Common\iolib\io_FCAN.c(184):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(191):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(198):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(205):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(732):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(733):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(734):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(735):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(775):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(776):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(777):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(778):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(803):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(804):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(805):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_FCAN.c(806):W0520186:符号なし整数と 0 の比較は無意味です。
+..\Common\iolib\io_SCI0_40MHz.c(37):W0520550:変数 "u1_temp_1" は設定されていますが利用されていません。
+..\Common\iolib\io_SCI0_40MHz.c(252):W0520177:変数 "u4_tx0w" は宣言されましたが参照されていません。
+..\Common\iolib\io_TSG30.c(864):W0520111:文は実行されません。
+..\Common\iolib\io_TSG31.c(856):W0520111:文は実行されません。
+src\fi_1ms_int.c(56):W0520177:変数 "u1_temp_1" は宣言されましたが参照されていません。
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RH\V2.06.00\Bin\ccrh.exe Common\vecttbl_pe2.asm Common\cstart2.asm Common\vecttbl_pe1_2.asm ..\PE1\DefaultBuild\MotorDirver0.fsy -Xobj_path=DefaultBuild -Xcpu=g3m -g -c -Xmsg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RH\V2.06.00\Bin\rlink.exe -subcommand=DefaultBuild\MotorDriver1.clnk
+W0561100:Cannot find "comGRAMB.data" specified in option "start"
+W0561100:Cannot find "comGRAMA.data.R" specified in option "start"
+W0561100:Cannot find "comGRAMA.bss" specified in option "start"
+W0561100:Cannot find "GRAMA.bss" specified in option "start"
+W0561100:Cannot find "comGRAMB.data.R" specified in option "start"
+W0561100:Cannot find "GRAMB.bss" specified in option "start"
+Renesas Optimizing Linker Completed
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE2>rammap -all DefaultBuild/MotorDriver1.abs 
+writing rammap.txt file
+writing rammap.csv file
+------ ビルド終了(エラー:0個, 警告:27個)(MotorDriver1, DefaultBuild) ------
+
+--- CommandFile 1 ---
+DefaultBuild\MotorDriver1.clnk :
+-input=DefaultBuild\fi_pe2_error.obj
+-input=DefaultBuild\vecttbl_pe2.obj
+-input=DefaultBuild\cstart2.obj
+-input=DefaultBuild\vecttbl_pe1_2.obj
+-input=DefaultBuild\io_CPU.obj
+-input=DefaultBuild\io_ADC.obj
+-input=DefaultBuild\io_CSIH0.obj
+-input=DefaultBuild\io_CSIH1.obj
+-input=DefaultBuild\io_ENCA0.obj
+-input=DefaultBuild\io_ENCA1.obj
+-input=DefaultBuild\io_FCAN.obj
+-input=DefaultBuild\io_RDC20.obj
+-input=DefaultBuild\io_RDC21.obj
+-input=DefaultBuild\io_SCI0_40MHz.obj
+-input=DefaultBuild\io_SCI1_40MHz.obj
+-input=DefaultBuild\io_SCI2_40MHz.obj
+-input=DefaultBuild\io_TAUD0.obj
+-input=DefaultBuild\io_TAUD1.obj
+-input=DefaultBuild\io_TAUJ0.obj
+-input=DefaultBuild\io_TSG30.obj
+-input=DefaultBuild\io_TSG31.obj
+-input=DefaultBuild\MotorDirver0.obj
+-input=DefaultBuild\VECLIB_CMDMONI.obj
+-input=DefaultBuild\fpmsm_main.obj
+-input=DefaultBuild\fi_AWatcher.obj
+-input=DefaultBuild\fi_1ms_int.obj
+-input=DefaultBuild\fi_20us_int.obj
+-input=DefaultBuild\fi_enc1_int.obj
+-input=DefaultBuild\fi_pwm_int.obj
+-input=DefaultBuild\fb_kpwm_tbl.obj
+-input=DefaultBuild\fb_therm_calc.obj
+-input=DefaultBuild\fb_therm_tbl_module.obj
+-input=DefaultBuild\fb_vctrlerr_tbl.obj
+-input=DefaultBuild\fi_pwm_vctrlerrtbl.obj
+-input=DefaultBuild\io_PIO_amdt0530.obj
+-library=..\PE1\AWatcher\AWatcherSCI30_256.lib
+-debug
+-nocompress
+-NOOPtimize
+-output=DefaultBuild\MotorDriver1.abs
+-library=v850e3v5\rhf8n.lib
+-library=v850e3v5\libmalloc.lib
+-list=DefaultBuild\MotorDriver1.map
+-show=symbol
+-start=EIINTTBL_PE2,EIINTTBL_PE1_2/00800000,.const,.INIT_DSEC.const,.INIT_BSEC.const,.text.cmn,com.text,.text,.data,comGRAMB.data/00801000,.data.R,.bss,.stack.bss/FE9F0000,comGRAMA.data.R,comGRAMA.bss/FEEF0000,GRAMA.bss/FEEF2000,comGRAMB.data.R,comGRAMB.bss/FEF00000,GRAMB.bss/FEF02000
+-fsymbol=.text.cmn
+-fsymbol=com.text
+-rom=.data=.data.R
+-stack
+-nologo
+-end
+-input=DefaultBuild\MotorDriver1.abs
+-output=DefaultBuild\MotorDriver1.mot
+-form=stype
+-exit
+
+
+--- SHA1 hash value of output files ---
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE2\DefaultBuild\MotorDriver1.abs: 7d2c0b366aa7650b8a335bc783b9a422ee12ebc4
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE2\DefaultBuild\MotorDriver1.mot: 50954bd9ed273210a6ef3ac0c19dff355f951cf9
+
+
+--- システム情報 ---
+*OS バージョン
+ Microsoft Windows 11 Home (-, 10.0.22631, WOW64)
+*言語
+ 日本語 (日本)
+*.NET Framework バージョン
+ Microsoft .NET Framework 4 [.NET 4.8 or later] (533320)
+
+--- アプリケーション情報 ---
+*製品名
+ CS+ for CC
+*パッケージ・バージョン
+ V8.11.00  [30 Nov 2023]
+*バージョン
+ V9.11.00.04 [30 Oct 2023]
+*アセンブリ・バージョン
+ 3.12.10.1
+*拠点情報
+ Japan
+*製品ライセンス
+ Compiler Standard V2 for RX (CC-RX) ノードロック・ライセンス(permanent); Compiler Standard V2 for RH850 (CC-RH) ノードロック・ライセンス(permanent); Compiler Professional V1 for RH850 (CC-RH) ノードロック・ライセンス(permanent); Compiler Upgrade (version) Standard V3 for RX (CC-RX) ノードロック・ライセンス(permanent); 
+*実行場所
+ C:\Program Files (x86)\Renesas Electronics\CS+\CC
+*メモリ使用量
+ *プライベート・ワーキング・セット
+  253 MB
+ *GDIオブジェクト数
+  2001
+ *USERオブジェクト数
+  958
+ *開いているファイル
+  3 editors, 3 files, 54 KB
+
+--- ビルド・ツール・プラグイン情報 ---
+RH850ビルド・ツールCC-RH用プラグイン
+ *バージョン
+  V8.09.00.00 [07 Oct 2022]
+ *アセンブリ・バージョン
+  1.1.10.12
+ *DLL ファイル名
+  BuildToolCCRH.dll
+RL78ビルド・ツールCC-RL用プラグイン
+ *バージョン
+  V8.11.00.00 [29 Sep 2023]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolCCRL.dll
+RXビルド・ツールCC-RX用プラグイン
+ *バージョン
+  V8.09.00.00 [07 Oct 2022]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  BuildToolCCRX.dll
+RH850ビルド・ツールGHS CCRH850用プラグイン
+ *バージョン
+  V1.08.00.00 [03 Apr 2023]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolGHSCCRH850.dll
+
+--- デバッグ・ツール・プラグイン情報 ---
+デバッガ・コレクション・プラグイン
+ *バージョン
+  V8.11.00.03 [21 Nov 2023]
+ *アセンブリ・バージョン
+  2.12.10.1
+ *DLL ファイル名
+  DebugToolCollection.dll
+
+--- その他のプラグイン情報 ---
+RH850用コード生成
+ *バージョン
+  V1.02.02.05 [25 May 2018]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  CodeGeneratorRH850.dll
+コード生成プラグイン
+ *バージョン
+  V4.08.06.01 [28 Oct 2022]
+ *アセンブリ・バージョン
+  3.0.0.0
+ *DLL ファイル名
+  CodePart.dll
+コード生成／端子図プラグイン
+ *バージョン
+  V2.10.07.02 [08 Nov 2021]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  CodePart2.dll
+デバッグ・コンソール・プラグイン
+ *バージョン
+  V8.09.00.03 [24 Nov 2022]
+ *アセンブリ・バージョン
+  8.9.0.0
+ *DLL ファイル名
+  DebugConsole.dll
+Quick and Effective tool solution - QE
+ *バージョン
+  V9.11.00.03 [13 Oct 2023]
+ *アセンブリ・バージョン
+  1.15.10.16
+ *DLL ファイル名
+  InCarTools.dll
+端子配置プラグイン
+ *バージョン
+  V1.54.01.01 [31 Jul 2014]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PinConfig.dll
+プログラム解析プラグイン
+ *バージョン
+  V4.13.00.03 [24 May 2023]
+ *アセンブリ・バージョン
+  3.12.11.9
+ *DLL ファイル名
+  ProgramAnalyzer.dll
+IronPythonコンソール・プラグイン
+ *バージョン
+  V1.47.00.02 [01 Nov 2023]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PythonConsole.dll
+エディタ・パネル
+ *バージョン
+  V1.19.00.01 [24 Oct 2022]
+ *アセンブリ・バージョン
+  1.1.0.0
+ *DLL ファイル名
+  SEditor.dll
+スタック見積もりツール
+ *バージョン
+  V1.05.00.02 [30 Jul 2014]
+ *アセンブリ・バージョン
+  1.30.11.15
+ *DLL ファイル名
+  Stk.dll
+アップデート・マネージャ・プラグイン
+ *バージョン
+  V2.03.00.02 [29 Oct 2018]
+ *アセンブリ・バージョン
+  1.13.6.20
+ *DLL ファイル名
+  Update.dll
+
+デバッグ・ツール共通インタフェース
+ *バージョン
+  V8.11.00.03 [21 Nov 2023]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  CommonDebuggerInterface.dll
+デバイス情報共通インタフェース
+ *バージョン
+  V9.11.00.03 [13 Oct 2023]
+ *アセンブリ・バージョン
+  3.0.0.0
+ *DLL ファイル名
+  DeviceInformation.dll
+
+--- メイン・プロジェクト情報 ---
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\MultiCoreC1H.mtpj
+マイクロコントローラ情報
+ *R7F701270
+  *ファイル名: バージョン
+   RH850_Productlist.xml: V8.110100
+   R7F701270_common.xml: V1.21.00.XX.XX
+   DR7F701270.DVF: V1.21
+   -: -
+   -: -
+  
+
+ビルド・ツール情報
+ *CC-RH
+   * プラグイン(*.dll)のバージョン
+     V8.11.00.02 [27 Oct 2023]
+   * コンパイラ・パッケージのバージョン
+     V2.06.00
+  
+
+デバッグ・ツール情報
+ *RH850 E1(LPD)
+  Debugger Library V8.11.00.03 [21 Nov 2023]
+  
+
+その他のツール情報
+ *ブート・ローダ
+ *なし
+
+ *なし
+
+ *なし
+
+ *なし
+
+ *なし
+
+--- サブプロジェクト情報(1/2) ---
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1\MotorDirver0.mtsp
+マイクロコントローラ情報
+ *R7F701270
+  *ファイル名: バージョン
+   RH850_Productlist.xml: V8.110100
+   R7F701270_common.xml: V1.21.00.XX.XX
+   DR7F701270.DVF: V1.21
+   -: -
+   -: -
+  
+
+ビルド・ツール情報
+ *CC-RH
+   * プラグイン(*.dll)のバージョン
+     V8.11.00.02 [27 Oct 2023]
+   * コンパイラ・パッケージのバージョン
+     V2.06.00
+  
+
+デバッグ・ツール情報
+ *RH850 E1(LPD)
+  Debugger Library V8.11.00.03 [21 Nov 2023]
+  
+
+その他のツール情報
+ *なし
+
+ *なし
+
+ *なし
+
+ *なし
+
+ *プログラム解析
+  *バージョン
+   V4.13.00.03 [24 May 2023]
+
+ *なし
+
+--- サブプロジェクト情報(2/2) ---
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE2\MotorDriver1.mtsp
+マイクロコントローラ情報
+ *R7F701270
+  *ファイル名: バージョン
+   RH850_Productlist.xml: V8.110100
+   R7F701270_common.xml: V1.21.00.XX.XX
+   DR7F701270.DVF: V1.21
+   -: -
+   -: -
+  
+
+ビルド・ツール情報
+ *CC-RH
+   * プラグイン(*.dll)のバージョン
+     V8.11.00.02 [27 Oct 2023]
+   * コンパイラ・パッケージのバージョン
+     V2.06.00
+  
+
+デバッグ・ツール情報
+ *RH850 E1(LPD)
+  Debugger Library V8.11.00.03 [21 Nov 2023]
+  
+
+その他のツール情報
+ *なし
+
+ *なし
+
+ *なし
+
+ *なし
+
+ *プログラム解析
+  *バージョン
+   V4.13.00.03 [24 May 2023]
+
+ *なし
+
+

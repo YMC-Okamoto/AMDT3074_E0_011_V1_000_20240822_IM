@@ -1,0 +1,269 @@
+Renesas Optimizing Linker (V3.05.00 )             29-Feb-2024 13:30:13
+
+*** Options ***
+
+-subcommand=DefaultBuild_dbg\MultiCoreC1H.clnk
+-input=DefaultBuild_dbg\boot1.obj
+-input=DefaultBuild_dbg\MotorDirver0.obj
+-input=DefaultBuild_dbg\MotorDriver1.obj
+-debug
+-nocompress
+-NOOPtimize
+-output=DefaultBuild_dbg\MultiCoreC1H.abs
+-library=v850e3v5\rhf8n.lib
+-library=v850e3v5\libmalloc.lib
+-list=DefaultBuild_dbg\MultiCoreC1H.map
+-show=symbol
+-start=RESET/1000000,.text/01000400
+-stack
+-nologo
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+RESET
+                                  01000000  010001f5       1f6   200
+.text
+                                  01000400  010005b5       1b6   2
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=RESET
+FILE=DefaultBuild_dbg\boot1.obj
+                                  01000000  010001f5       1f6
+
+SECTION=.text
+FILE=DefaultBuild_dbg\boot1.obj
+                                  01000400  010005b5       1b6
+  _Dummy
+                                  01000400         0   none ,l         * 
+  _Dummy_pe2
+                                  01000426         0   none ,l         * 
+  _Dummy_not_pe
+                                  0100043e         0   none ,l         * 
+  _Dummy_EI
+                                  01000448         0   none ,l         * 
+  _Dummy_EI_pe2
+                                  0100046c         0   none ,l         * 
+  _Dummy_EI_not_pe
+                                  01000482         0   none ,l         * 
+  __start
+                                  0100048a         0   none ,l         * 
+  __exit
+                                  0100051c         0   none ,l         * 
+  _hdwinit_PE1
+                                  0100053c         0   none ,l         * 
+  _hdwinit_PE2
+                                  01000572         0   none ,l         * 
+  _wait_GRAM_PE2
+                                  0100057a         0   none ,l         * 
+  _wait_GRAM_PE2.1
+                                  01000586         0   none ,l         * 
+  _zeroclr4
+                                  010005a8         0   none ,l         * 
+
+Absolute value symbols
+FILE=DefaultBuild_dbg\MotorDirver0.obj
+  __cstart_pm1
+                                  0000dc78         0   none ,g         * 
+  _Dummy_func_pe1
+                                  0000dce0         0   none ,g         * 
+  _Dummy_EI_func_pe1
+                                  0000dcea         0   none ,g         * 
+  _u4_pe1_status
+                                  feef0000         0   none ,g         * 
+  _u1_status_awatcher_cpu2
+                                  feef0004         0   none ,g         * 
+  _u4_flag_error_PE1
+                                  feef0008         0   none ,g         * 
+  _u1_flag_awatcher_enable_cpu2
+                                  feef000c         0   none ,g         * 
+  _u4_RESF_reg
+                                  feef0010         0   none ,g         * 
+  _u1_pwm_inv0_status
+                                  feef0014         0   none ,g         * 
+  _u1_flag_pwm_inv0_source
+                                  feef0015         0   none ,g         * 
+  _u4_fc_inv0_lsb_0
+                                  feef0018         0   none ,g         * 
+  _f4_fs_inv0_ctrl
+                                  feef001c         0   none ,g         * 
+  _f4_ts_inv0_ctrl
+                                  feef0020         0   none ,g         * 
+  _u2_flag_pwm_inv0_timing
+                                  feef0024         0   none ,g         * 
+  _u2_cnt_inv0_ecd_get
+                                  feef0026         0   none ,g         * 
+  _f4_wt_inv0_dq
+                                  feef0028         0   none ,g         * 
+  _f4_wt_inv0_dq_tmp
+                                  feef002c         0   none ,g         * 
+  _f4_wt_inv0_dq_offset
+                                  feef0030         0   none ,g         * 
+  _s4_wt_inv0_dq_offset_2pi_2_31
+                                  feef0034         0   none ,g         * 
+  _f4_wt_inv0_dq_delay
+                                  feef0038         0   none ,g         * 
+  _s4_wt_inv0_dq_delay_2pi_2_31
+                                  feef003c         0   none ,g         * 
+  _u4_flag_dir_inv0_enc
+                                  feef0040         0   none ,g         * 
+  _f4_wr_inv0_pll
+                                  feef0044         0   none ,g         * 
+  _f4_wr_inv0_pll_lpf
+                                  feef0048         0   none ,g         * 
+  _f4_wr_inv0_pll_lpf_abs
+                                  feef004c         0   none ,g         * 
+  _f4_speed_inv0_lpf
+                                  feef0050         0   none ,g         * 
+  _f4_ld_inv0_isat
+                                  feef0054         0   none ,g         * 
+  _f4_lq_inv0_isat
+                                  feef0058         0   none ,g         * 
+  _u4_flag_inv0_error
+                                  feef005c         0   none ,g         * 
+  _u1_flag_inv0_adj
+                                  feef0060         0   none ,g         * 
+  _f4_f_inv0_adj
+                                  feef0064         0   none ,g         * 
+  _f4_f_inv0_adj_tmp
+                                  feef0068         0   none ,g         * 
+  _f4_wr_inv0_adj
+                                  feef006c         0   none ,g         * 
+  _f4_wt_inv0_adj
+                                  feef0070         0   none ,g         * 
+  _f4_id_inv0_adj
+                                  feef0074         0   none ,g         * 
+  _f4_iq_inv0_adj
+                                  feef0078         0   none ,g         * 
+  _f4_id_inv0_dc_adj
+                                  feef007c         0   none ,g         * 
+  _f4_id_inv0_ac_adj
+                                  feef0080         0   none ,g         * 
+  _f4_iq_inv0_dc_adj
+                                  feef0084         0   none ,g         * 
+  _f4_iq_inv0_ac_adj
+                                  feef0088         0   none ,g         * 
+  _f4_vd_inv0_adj_ref
+                                  feef008c         0   none ,g         * 
+  _f4_vq_inv0_adj_ref
+                                  feef0090         0   none ,g         * 
+  _f4_wtdq_inv0_adj
+                                  feef0094         0   none ,g         * 
+  _u1_flag_inv0_vctrlerr_adj
+                                  feef0098         0   none ,g         * 
+  _f4_rs_inv0_adj
+                                  feef009c         0   none ,g         * 
+  _u1_flag_err_enable
+                                  feef00a0         0   none ,g         * 
+  _u1_flag_inv0_sysctrl_active_discharge
+                                  feef00a1         0   none ,g         * 
+  _u1_flag_mode_inv0_idqcom
+                                  feef00a2         0   none ,g         * 
+  _f4_id_inv0_ctrl
+                                  feef00a4         0   none ,g         * 
+  _f4_iq_inv0_ctrl
+                                  feef00a8         0   none ,g         * 
+  _f4_irms_inv0_ref_tmp
+                                  feef00ac         0   none ,g         * 
+  _u1_flag_enable_inv0_wrctrl
+                                  feef00b0         0   none ,g         * 
+  _u1_flag_enable_inv0_wrlimitctrl
+                                  feef00b1         0   none ,g         * 
+  _f4_idq_inv0_max
+                                  feef00b4         0   none ,g         * 
+  _u1_flag_inv1_motctrl
+                                  feef00b8         0   none ,g         * 
+  _u1_flag_inv0_offsetadjl
+                                  feef00b9         0   none ,g         * 
+  _u4_status_can0
+                                  feef00bc         0   none ,g         * 
+  _u4_pe2_status
+                                  fef00000         0   none ,g         * 
+  _u1_status_awatcher_cpu1
+                                  fef00004         0   none ,g         * 
+  _u1_flag_awatcher_enable_cpu1
+                                  fef00008         0   none ,g         * 
+  _u1_pwm_inv1_status
+                                  fef00009         0   none ,g         * 
+  _u1_flag_pwm_inv1_source
+                                  fef0000a         0   none ,g         * 
+  _u4_fc_inv1_lsb_0
+                                  fef0000c         0   none ,g         * 
+  _f4_fs_inv1_ctrl
+                                  fef00010         0   none ,g         * 
+  _f4_ts_inv1_ctrl
+                                  fef00014         0   none ,g         * 
+  _u1_flag_inv1_offsetadj_ok
+                                  fef00018         0   none ,g         * 
+  _f4_id_inv1_ad
+                                  fef0001c         0   none ,g         * 
+  _f4_iq_inv1_ad
+                                  fef00020         0   none ,g         * 
+  _f4_id_inv1_ref
+                                  fef00024         0   none ,g         * 
+  _f4_iq_inv1_ref
+                                  fef00028         0   none ,g         * 
+  _u4_flag_inv1_error
+                                  fef0002c         0   none ,g         * 
+  _f4_tmp_inv1_igbt_up
+                                  fef00030         0   none ,g         * 
+  _f4_tmp_inv1_igbt_vp
+                                  fef00034         0   none ,g         * 
+  _f4_tmp_inv1_igbt_wp
+                                  fef00038         0   none ,g         * 
+  _f4_tmp_inv1_igbt_un
+                                  fef0003c         0   none ,g         * 
+  _f4_tmp_inv1_igbt_vn
+                                  fef00040         0   none ,g         * 
+  _f4_tmp_inv1_igbt_wn
+                                  fef00044         0   none ,g         * 
+  _f4_tmp_inv1_igbt_max
+                                  fef00048         0   none ,g         * 
+  _f4_tmp_inv1_mot1
+                                  fef0004c         0   none ,g         * 
+  _f4_tmp_inv1_mot2
+                                  fef00050         0   none ,g         * 
+  _f4_tmp_inv1_mot_max
+                                  fef00054         0   none ,g         * 
+  _f4_tmp_inv1_int
+                                  fef00058         0   none ,g         * 
+FILE=DefaultBuild_dbg\MotorDriver1.obj
+  __cstart_pm2
+                                  0080260c         0   none ,g         * 
+  _Dummy_func_pe2
+                                  00802674         0   none ,g         * 
+  _Dummy_EI_func_pe2
+                                  0080267e         0   none ,g         * 
+FILE=rlink_generates_01
+  __s.text
+                                  01000400         0   none ,g         * 
+  __e.text
+                                  010005b6         0   none ,g         * 
+  __S_text
+                                  01000400         0   none ,g         * 
+  __E_text
+                                  010005b6         0   none ,g         * 
+  __sRESET
+                                  01000000         0   none ,g         * 
+  __eRESET
+                                  010001f6         0   none ,g         * 
+  __SRESET
+                                  01000000         0   none ,g         * 
+  __ERESET
+                                  010001f6         0   none ,g         * 
+
+*** Unfilled Areas ***
+
+AREA                                START    END
+
+*** Delete Symbols ***
+
+SYMBOL                                SIZE    INFO

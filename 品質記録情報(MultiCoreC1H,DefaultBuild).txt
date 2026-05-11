@@ -1,0 +1,333 @@
+品質記録情報
+2024年8月22日 10:25:21
+
+------ ビルド開始(MultiCoreC1H, DefaultBuild) ------
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RH\V2.06.00\Bin\ccrh.exe PE1\DefaultBuild\MotorDirver0.fsy PE2\DefaultBuild\MotorDriver1.fsy Common\boot1.asm -Xobj_path=DefaultBuild -Xcpu=g3m -g -c -Xmsg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RH\V2.06.00\Bin\rlink.exe -subcommand=DefaultBuild\MultiCoreC1H.clnk
+Renesas Optimizing Linker Completed
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RH\V2.06.00\Bin\rlink.exe DefaultBuild\MultiCoreC1H.mot C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1\DefaultBuild\MotorDirver0.mot C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE2\DefaultBuild\MotorDriver1.mot -form=stype -output=DefaultBuild_merged\MultiCoreC1H.mot -list
+Renesas Optimizing Linker V3.06.00  [28 Nov 2023]
+   Copyright (C) 2011, 2023 Renesas Electronics Corporation
+Renesas Optimizing Linker Completed
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM>RammapPE1PE2_merge.exe PE1 PE2 
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1\rammap.csv
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE2\rammap.csv
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1_PE2_merge.csv
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM>RammapPE1PE2_merge2.exe PE1 PE2 
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1\rammap.csv
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE2\rammap.csv
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1_PE2_merge2.csv
+------ ビルド終了(エラー:0個, 警告:0個)(MultiCoreC1H, DefaultBuild) ------
+
+--- CommandFile 1 ---
+DefaultBuild\MultiCoreC1H.clnk :
+-input=DefaultBuild\boot1.obj
+-input=DefaultBuild\MotorDirver0.obj
+-input=DefaultBuild\MotorDriver1.obj
+-debug
+-nocompress
+-NOOPtimize
+-output=DefaultBuild\MultiCoreC1H.abs
+-library=v850e3v5\rhf8n.lib
+-library=v850e3v5\libmalloc.lib
+-list=DefaultBuild\MultiCoreC1H.map
+-show=symbol
+-start=RESET/1000000,.text/01000400
+-stack
+-nologo
+-end
+-input=DefaultBuild\MultiCoreC1H.abs
+-output=DefaultBuild\MultiCoreC1H.mot
+-form=stype
+-exit
+
+
+--- SHA1 hash value of output files ---
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\DefaultBuild\MultiCoreC1H.abs: c3e0156677287cbbb78aa598bb390e27988d350d
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\DefaultBuild\MultiCoreC1H.mot: 17f79d6e64a26d564f660b096f687bfddc396406
+
+
+--- システム情報 ---
+*OS バージョン
+ Microsoft Windows 11 Home (-, 10.0.22631, WOW64)
+*言語
+ 日本語 (日本)
+*.NET Framework バージョン
+ Microsoft .NET Framework 4 [.NET 4.8 or later] (533320)
+
+--- アプリケーション情報 ---
+*製品名
+ CS+ for CC
+*パッケージ・バージョン
+ V8.11.00  [30 Nov 2023]
+*バージョン
+ V9.11.00.04 [30 Oct 2023]
+*アセンブリ・バージョン
+ 3.12.10.1
+*拠点情報
+ Japan
+*製品ライセンス
+ Compiler Standard V2 for RX (CC-RX) ノードロック・ライセンス(permanent); Compiler Standard V2 for RH850 (CC-RH) ノードロック・ライセンス(permanent); Compiler Professional V1 for RH850 (CC-RH) ノードロック・ライセンス(permanent); Compiler Upgrade (version) Standard V3 for RX (CC-RX) ノードロック・ライセンス(permanent); 
+*実行場所
+ C:\Program Files (x86)\Renesas Electronics\CS+\CC
+*メモリ使用量
+ *プライベート・ワーキング・セット
+  251 MB
+ *GDIオブジェクト数
+  1998
+ *USERオブジェクト数
+  957
+ *開いているファイル
+  3 editors, 3 files, 54 KB
+
+--- ビルド・ツール・プラグイン情報 ---
+RH850ビルド・ツールCC-RH用プラグイン
+ *バージョン
+  V8.09.00.00 [07 Oct 2022]
+ *アセンブリ・バージョン
+  1.1.10.12
+ *DLL ファイル名
+  BuildToolCCRH.dll
+RL78ビルド・ツールCC-RL用プラグイン
+ *バージョン
+  V8.11.00.00 [29 Sep 2023]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolCCRL.dll
+RXビルド・ツールCC-RX用プラグイン
+ *バージョン
+  V8.09.00.00 [07 Oct 2022]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  BuildToolCCRX.dll
+RH850ビルド・ツールGHS CCRH850用プラグイン
+ *バージョン
+  V1.08.00.00 [03 Apr 2023]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolGHSCCRH850.dll
+
+--- デバッグ・ツール・プラグイン情報 ---
+デバッガ・コレクション・プラグイン
+ *バージョン
+  V8.11.00.03 [21 Nov 2023]
+ *アセンブリ・バージョン
+  2.12.10.1
+ *DLL ファイル名
+  DebugToolCollection.dll
+
+--- その他のプラグイン情報 ---
+RH850用コード生成
+ *バージョン
+  V1.02.02.05 [25 May 2018]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  CodeGeneratorRH850.dll
+コード生成プラグイン
+ *バージョン
+  V4.08.06.01 [28 Oct 2022]
+ *アセンブリ・バージョン
+  3.0.0.0
+ *DLL ファイル名
+  CodePart.dll
+コード生成／端子図プラグイン
+ *バージョン
+  V2.10.07.02 [08 Nov 2021]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  CodePart2.dll
+デバッグ・コンソール・プラグイン
+ *バージョン
+  V8.09.00.03 [24 Nov 2022]
+ *アセンブリ・バージョン
+  8.9.0.0
+ *DLL ファイル名
+  DebugConsole.dll
+Quick and Effective tool solution - QE
+ *バージョン
+  V9.11.00.03 [13 Oct 2023]
+ *アセンブリ・バージョン
+  1.15.10.16
+ *DLL ファイル名
+  InCarTools.dll
+端子配置プラグイン
+ *バージョン
+  V1.54.01.01 [31 Jul 2014]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PinConfig.dll
+プログラム解析プラグイン
+ *バージョン
+  V4.13.00.03 [24 May 2023]
+ *アセンブリ・バージョン
+  3.12.11.9
+ *DLL ファイル名
+  ProgramAnalyzer.dll
+IronPythonコンソール・プラグイン
+ *バージョン
+  V1.47.00.02 [01 Nov 2023]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PythonConsole.dll
+エディタ・パネル
+ *バージョン
+  V1.19.00.01 [24 Oct 2022]
+ *アセンブリ・バージョン
+  1.1.0.0
+ *DLL ファイル名
+  SEditor.dll
+スタック見積もりツール
+ *バージョン
+  V1.05.00.02 [30 Jul 2014]
+ *アセンブリ・バージョン
+  1.30.11.15
+ *DLL ファイル名
+  Stk.dll
+アップデート・マネージャ・プラグイン
+ *バージョン
+  V2.03.00.02 [29 Oct 2018]
+ *アセンブリ・バージョン
+  1.13.6.20
+ *DLL ファイル名
+  Update.dll
+
+デバッグ・ツール共通インタフェース
+ *バージョン
+  V8.11.00.03 [21 Nov 2023]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  CommonDebuggerInterface.dll
+デバイス情報共通インタフェース
+ *バージョン
+  V9.11.00.03 [13 Oct 2023]
+ *アセンブリ・バージョン
+  3.0.0.0
+ *DLL ファイル名
+  DeviceInformation.dll
+
+--- メイン・プロジェクト情報 ---
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\MultiCoreC1H.mtpj
+マイクロコントローラ情報
+ *R7F701270
+  *ファイル名: バージョン
+   RH850_Productlist.xml: V8.110100
+   R7F701270_common.xml: V1.21.00.XX.XX
+   DR7F701270.DVF: V1.21
+   -: -
+   -: -
+  
+
+ビルド・ツール情報
+ *CC-RH
+   * プラグイン(*.dll)のバージョン
+     V8.11.00.02 [27 Oct 2023]
+   * コンパイラ・パッケージのバージョン
+     V2.06.00
+  
+
+デバッグ・ツール情報
+ *RH850 E1(LPD)
+  Debugger Library V8.11.00.03 [21 Nov 2023]
+  
+
+その他のツール情報
+ *ブート・ローダ
+ *なし
+
+ *なし
+
+ *なし
+
+ *なし
+
+ *なし
+
+--- サブプロジェクト情報(1/2) ---
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1\MotorDirver0.mtsp
+マイクロコントローラ情報
+ *R7F701270
+  *ファイル名: バージョン
+   RH850_Productlist.xml: V8.110100
+   R7F701270_common.xml: V1.21.00.XX.XX
+   DR7F701270.DVF: V1.21
+   -: -
+   -: -
+  
+
+ビルド・ツール情報
+ *CC-RH
+   * プラグイン(*.dll)のバージョン
+     V8.11.00.02 [27 Oct 2023]
+   * コンパイラ・パッケージのバージョン
+     V2.06.00
+  
+
+デバッグ・ツール情報
+ *RH850 E1(LPD)
+  Debugger Library V8.11.00.03 [21 Nov 2023]
+  
+
+その他のツール情報
+ *なし
+
+ *なし
+
+ *なし
+
+ *なし
+
+ *プログラム解析
+  *バージョン
+   V4.13.00.03 [24 May 2023]
+
+ *なし
+
+--- サブプロジェクト情報(2/2) ---
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE2\MotorDriver1.mtsp
+マイクロコントローラ情報
+ *R7F701270
+  *ファイル名: バージョン
+   RH850_Productlist.xml: V8.110100
+   R7F701270_common.xml: V1.21.00.XX.XX
+   DR7F701270.DVF: V1.21
+   -: -
+   -: -
+  
+
+ビルド・ツール情報
+ *CC-RH
+   * プラグイン(*.dll)のバージョン
+     V8.11.00.02 [27 Oct 2023]
+   * コンパイラ・パッケージのバージョン
+     V2.06.00
+  
+
+デバッグ・ツール情報
+ *RH850 E1(LPD)
+  Debugger Library V8.11.00.03 [21 Nov 2023]
+  
+
+その他のツール情報
+ *なし
+
+ *なし
+
+ *なし
+
+ *なし
+
+ *プログラム解析
+  *バージョン
+   V4.13.00.03 [24 May 2023]
+
+ *なし
+
+

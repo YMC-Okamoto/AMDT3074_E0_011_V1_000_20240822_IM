@@ -1,0 +1,235 @@
+﻿<CubeSuiteProject.User>
+  <Class Guid="e4df8d71-236e-4af2-aaea-56345a08da25">
+    <Instance Guid="ba0ed618-1359-4f25-a84a-ab64c731842a">
+      <DeviceChangedCounter>0</DeviceChangedCounter>
+      <DeviceName>R7F701270</DeviceName>
+      <DebuggerProperty-OptionalProperty-Memory-UseSelectIO>False</DebuggerProperty-OptionalProperty-Memory-UseSelectIO>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-AUD>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-AUD>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-FLASH>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-FLASH>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-FACI>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-FACI>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-EINT>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-EINT>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-PORT>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-PORT>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-DNF>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-DNF>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-PBG>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-PBG>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-MGDGR>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-MGDGR>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-MISG>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-MISG>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-SYSCTRL>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-SYSCTRL>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCIC1>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCIC1>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCFLI>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCFLI>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCEEP>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCEEP>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCEEPC>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCEEPC>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCGRAM>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCGRAM>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCCPU1>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCCPU1>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCCPU2>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECCCPU2>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-APDP>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-APDP>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-E7CS0M>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-E7CS0M>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-E7CS0C>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-E7CS0C>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-E7CS1M>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-E7CS1M>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-E7CS1C>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-E7CS1C>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-E7RC0M>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-E7RC0M>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-E7RC0C>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-E7RC0C>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECMM>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECMM>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECMC>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECMC>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECM>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ECM>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RLN210>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RLN210>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RLN2100>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RLN2100>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RLN211>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RLN211>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RLN2111>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RLN2111>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RLN212>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RLN212>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RLN2122>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RLN2122>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RSCAN0>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RSCAN0>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-CSIH0>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-CSIH0>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-CSIH1>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-CSIH1>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-SCI30>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-SCI30>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-SCI31>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-SCI31>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-SCI32>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-SCI32>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-PIC1A>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-PIC1A>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-PIC2B>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-PIC2B>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAUD0>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAUD0>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAUD1>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAUD1>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAUJ0>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAUJ0>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TSG30>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TSG30>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TSG31>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TSG31>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ENCA0>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ENCA0>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ENCA1>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ENCA1>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAPA0>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAPA0>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAPA1>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAPA1>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAPA2>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAPA2>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAPA3>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TAPA3>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TPBA0>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TPBA0>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TPBA1>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TPBA1>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-OSTM0>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-OSTM0>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-OSTM1>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-OSTM1>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-OSTM2>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-OSTM2>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-WDTA0>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-WDTA0>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-WDTA1>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-WDTA1>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RDC20>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RDC20>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RDC21>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-RDC21>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ADCC0>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ADCC0>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ADCC1>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-ADCC1>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-DCRA0>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-DCRA0>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-DCRA1>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-DCRA1>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-SYS>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-SYS>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-CLMAC>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-CLMAC>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-CLMA0>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-CLMA0>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-CLMA1>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-CLMA1>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-CLMA2>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-CLMA2>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-INTIF>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-INTIF>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-EMU20>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-EMU20>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-EMU21>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-EMU21>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-IPG>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-IPG>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-IPG0>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-IPG0>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-PEG>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-PEG>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-SEG>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-SEG>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-INTC1>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-INTC1>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-MEV>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-MEV>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-IPIRSS>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-IPIRSS>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TESTCOMP>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-TESTCOMP>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-DMASS>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-DMASS>
+      <DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-INTC2>False</DebuggerProperty-OptionalProperty-Memory-SelectIOList-ModuleInformationItem-INTC2>
+    </Instance>
+  </Class>
+  <Class Guid="eeae2c1c-3b17-44ca-9a69-17638edf07a9">
+    <Instance Guid="ffd1bb0e-b707-4d38-8165-aa8629d78fcc">
+      <Name>PanelWatch1</Name>
+      <WatchExpressionColumnWidth>0</WatchExpressionColumnWidth>
+      <ValueColumnWindth>0</ValueColumnWindth>
+      <TypeColumnWidth>0</TypeColumnWidth>
+      <AddressColumnWidth>0</AddressColumnWidth>
+      <MemoColumnWidth>0</MemoColumnWidth>
+      <ArrayIndexNotation>None</ArrayIndexNotation>
+    </Instance>
+    <Instance Guid="3e85fe22-38a0-44af-bbc8-8b0507ddb643">
+      <Name>PanelWatch2</Name>
+      <WatchExpressionColumnWidth>0</WatchExpressionColumnWidth>
+      <ValueColumnWindth>0</ValueColumnWindth>
+      <TypeColumnWidth>0</TypeColumnWidth>
+      <AddressColumnWidth>0</AddressColumnWidth>
+      <MemoColumnWidth>0</MemoColumnWidth>
+      <ArrayIndexNotation>None</ArrayIndexNotation>
+    </Instance>
+    <Instance Guid="355e79de-dc0b-4fa3-84bf-ee0d9c1ba57f">
+      <Name>PanelWatch3</Name>
+      <WatchExpressionColumnWidth>0</WatchExpressionColumnWidth>
+      <ValueColumnWindth>0</ValueColumnWindth>
+      <TypeColumnWidth>0</TypeColumnWidth>
+      <AddressColumnWidth>0</AddressColumnWidth>
+      <MemoColumnWidth>0</MemoColumnWidth>
+      <ArrayIndexNotation>None</ArrayIndexNotation>
+    </Instance>
+    <Instance Guid="db34cb34-72b5-4527-9a2b-09189d05d858">
+      <Name>PanelWatch4</Name>
+      <WatchExpressionColumnWidth>0</WatchExpressionColumnWidth>
+      <ValueColumnWindth>0</ValueColumnWindth>
+      <TypeColumnWidth>0</TypeColumnWidth>
+      <AddressColumnWidth>0</AddressColumnWidth>
+      <MemoColumnWidth>0</MemoColumnWidth>
+      <ArrayIndexNotation>None</ArrayIndexNotation>
+    </Instance>
+  </Class>
+  <Class Guid="cd02d324-a75c-4e2b-b858-33bd0d529683">
+    <Instance Guid="7f99f0d7-ad41-4e24-b822-a21c2c44cb6d">
+      <Name>PanelIORegister</Name>
+      <WatchExpressionColumnWidth>0</WatchExpressionColumnWidth>
+      <ValueColumnWindth>0</ValueColumnWindth>
+      <TypeColumnWidth>0</TypeColumnWidth>
+      <AddressColumnWidth>0</AddressColumnWidth>
+      <MemoColumnWidth>0</MemoColumnWidth>
+    </Instance>
+  </Class>
+  <Class Guid="9e32877b-f8ee-49c6-a44e-88758c92bfd6">
+    <Instance Guid="5009dc39-5303-442f-bf09-6ab41105c4e4">
+      <Name>PanelCpuRegister</Name>
+      <WatchExpressionColumnWidth>0</WatchExpressionColumnWidth>
+      <ValueColumnWindth>0</ValueColumnWindth>
+      <TypeColumnWidth>0</TypeColumnWidth>
+      <AddressColumnWidth>0</AddressColumnWidth>
+      <MemoColumnWidth>0</MemoColumnWidth>
+    </Instance>
+  </Class>
+  <Class Guid="6a2b4ad0-1b10-43f2-be75-80747f093531">
+    <Instance Guid="4c4194a5-8901-49ad-9a38-fe608d2120d5">
+      <Name>PanelLocalVariable</Name>
+      <WatchExpressionColumnWidth>0</WatchExpressionColumnWidth>
+      <ValueColumnWindth>0</ValueColumnWindth>
+      <TypeColumnWidth>0</TypeColumnWidth>
+      <AddressColumnWidth>0</AddressColumnWidth>
+      <MemoColumnWidth>0</MemoColumnWidth>
+      <IncludeHexadecimalValue>False</IncludeHexadecimalValue>
+      <WatchItemNotation>Decimal</WatchItemNotation>
+      <ArrayIndexNotation>Decimal</ArrayIndexNotation>
+      <StringEncoding>20127</StringEncoding>
+    </Instance>
+  </Class>
+  <Class Guid="18ef5858-38c3-420a-be15-54d5039f280c">
+    <Instance Guid="b6138232-2142-4eeb-9dcb-55df51626454">
+      <Name>PanelCallStack</Name>
+      <WatchItemNotation>Auto</WatchItemNotation>
+      <ArrayIndexNotation>Decimal</ArrayIndexNotation>
+      <StringEncoding>20127</StringEncoding>
+      <IsModuleFileShow>True</IsModuleFileShow>
+      <IsParameterShow>True</IsParameterShow>
+      <DepthColumnWidth>50</DepthColumnWidth>
+      <CallStackColumnWidth>500</CallStackColumnWidth>
+    </Instance>
+  </Class>
+  <Class Guid="be300f29-1d30-421a-8dc0-66ed37f33d52">
+    <Instance Guid="5ebc13c5-f2c7-46ec-9f6a-42b25b2ba7e9">
+      <Name>PanelTrace</Name>
+      <ConnectDisassembleWindow>False</ConnectDisassembleWindow>
+      <ConnectSourceWindow>False</ConnectSourceWindow>
+      <PanelNotation>Decimal</PanelNotation>
+      <ViewMode>Mixed</ViewMode>
+    </Instance>
+  </Class>
+  <Class Guid="59478c88-e5ec-417f-a204-6107640bab37">
+    <Instance Guid="7bc52930-c97a-4dde-b6b9-e26c69b1a93e">
+      <Name>PanelMemory1</Name>
+      <Notation>Hexadecimal</Notation>
+      <StringEncoding>Ascii</StringEncoding>
+      <ViewBitWidth>View8bitWidth</ViewBitWidth>
+      <MemoryDataCode>None</MemoryDataCode>
+      <IsAutoEvaluation>False</IsAutoEvaluation>
+      <HighlightAccessedArea>True</HighlightAccessedArea>
+      <EvaluationText />
+      <LineByteCount>16</LineByteCount>
+      <ViewAddressOffset>0</ViewAddressOffset>
+    </Instance>
+    <Instance Guid="90a2556c-9033-4c64-a38d-abba6c142108">
+      <Name>PanelMemory2</Name>
+      <Notation>Hexadecimal</Notation>
+      <StringEncoding>Ascii</StringEncoding>
+      <ViewBitWidth>View8bitWidth</ViewBitWidth>
+      <MemoryDataCode>None</MemoryDataCode>
+      <IsAutoEvaluation>False</IsAutoEvaluation>
+      <HighlightAccessedArea>True</HighlightAccessedArea>
+      <EvaluationText />
+      <LineByteCount>16</LineByteCount>
+      <ViewAddressOffset>0</ViewAddressOffset>
+    </Instance>
+    <Instance Guid="ddd84c80-5e6f-4c6b-87e1-dc3478c58d56">
+      <Name>PanelMemory3</Name>
+      <Notation>Hexadecimal</Notation>
+      <StringEncoding>Ascii</StringEncoding>
+      <ViewBitWidth>View8bitWidth</ViewBitWidth>
+      <MemoryDataCode>None</MemoryDataCode>
+      <IsAutoEvaluation>False</IsAutoEvaluation>
+      <HighlightAccessedArea>True</HighlightAccessedArea>
+      <EvaluationText />
+      <LineByteCount>16</LineByteCount>
+      <ViewAddressOffset>0</ViewAddressOffset>
+    </Instance>
+    <Instance Guid="95c55487-eb70-4946-9ede-42e2711a47c8">
+      <Name>PanelMemory4</Name>
+      <Notation>Hexadecimal</Notation>
+      <StringEncoding>Ascii</StringEncoding>
+      <ViewBitWidth>View8bitWidth</ViewBitWidth>
+      <MemoryDataCode>None</MemoryDataCode>
+      <IsAutoEvaluation>False</IsAutoEvaluation>
+      <HighlightAccessedArea>True</HighlightAccessedArea>
+      <EvaluationText />
+      <LineByteCount>16</LineByteCount>
+      <ViewAddressOffset>0</ViewAddressOffset>
+    </Instance>
+  </Class>
+</CubeSuiteProject.User>

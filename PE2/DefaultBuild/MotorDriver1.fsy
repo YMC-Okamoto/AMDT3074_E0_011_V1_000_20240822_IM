@@ -1,0 +1,11 @@
+;RENESAS OPTIMIZING LINKER GENERATED FILE 2024.08.22
+;fsymbol = .text.cmn, com.text
+
+;SECTION NAME = .text.cmn
+ .public __cstart_pm2
+__cstart_pm2 .equ 0x801d8c
+;SECTION NAME = com.text
+ .public _Dummy_func_pe2
+_Dummy_func_pe2 .equ 0x801df4
+ .public _Dummy_EI_func_pe2
+_Dummy_EI_func_pe2 .equ 0x801dfe

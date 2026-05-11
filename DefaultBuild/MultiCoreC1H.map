@@ -1,0 +1,125 @@
+Renesas Optimizing Linker (V3.06.00 )             22-Aug-2024 10:25:20
+
+*** Options ***
+
+-subcommand=DefaultBuild\MultiCoreC1H.clnk
+-input=DefaultBuild\boot1.obj
+-input=DefaultBuild\MotorDirver0.obj
+-input=DefaultBuild\MotorDriver1.obj
+-debug
+-nocompress
+-NOOPtimize
+-output=DefaultBuild\MultiCoreC1H.abs
+-library=v850e3v5\rhf8n.lib
+-library=v850e3v5\libmalloc.lib
+-list=DefaultBuild\MultiCoreC1H.map
+-show=symbol
+-start=RESET/1000000,.text/01000400
+-stack
+-nologo
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+RESET
+                                  01000000  010001f5       1f6   200
+.text
+                                  01000400  010005b5       1b6   2
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=RESET
+FILE=DefaultBuild\boot1.obj
+                                  01000000  010001f5       1f6
+
+SECTION=.text
+FILE=DefaultBuild\boot1.obj
+                                  01000400  010005b5       1b6
+  _Dummy
+                                  01000400         0   none ,l         * 
+  _Dummy_pe2
+                                  01000426         0   none ,l         * 
+  _Dummy_not_pe
+                                  0100043e         0   none ,l         * 
+  _Dummy_EI
+                                  01000448         0   none ,l         * 
+  _Dummy_EI_pe2
+                                  0100046c         0   none ,l         * 
+  _Dummy_EI_not_pe
+                                  01000482         0   none ,l         * 
+  __start
+                                  0100048a         0   none ,l         * 
+  __exit
+                                  0100051c         0   none ,l         * 
+  _hdwinit_PE1
+                                  0100053c         0   none ,l         * 
+  _hdwinit_PE2
+                                  01000572         0   none ,l         * 
+  _wait_GRAM_PE2
+                                  0100057a         0   none ,l         * 
+  _wait_GRAM_PE2.1
+                                  01000586         0   none ,l         * 
+  _zeroclr4
+                                  010005a8         0   none ,l         * 
+
+Absolute value symbols
+FILE=DefaultBuild\MotorDirver0.obj
+  __cstart_pm1
+                                  0000d874         0   none ,g         * 
+  _Dummy_func_pe1
+                                  0000d8dc         0   none ,g         * 
+  _Dummy_EI_func_pe1
+                                  0000d8e6         0   none ,g         * 
+  _u4_pe1_status
+                                  feef0000         0   none ,g         * 
+  _u1_status_awatcher_cpu2
+                                  feef0004         0   none ,g         * 
+  _u4_flag_error_PE1
+                                  feef0008         0   none ,g         * 
+  _u1_flag_awatcher_enable_cpu2
+                                  feef000c         0   none ,g         * 
+  _u4_pe2_status
+                                  fef00000         0   none ,g         * 
+  _u1_status_awatcher_cpu1
+                                  fef00004         0   none ,g         * 
+  _u1_flag_awatcher_enable_cpu1
+                                  fef00008         0   none ,g         * 
+FILE=DefaultBuild\MotorDriver1.obj
+  __cstart_pm2
+                                  00801d8c         0   none ,g         * 
+  _Dummy_func_pe2
+                                  00801df4         0   none ,g         * 
+  _Dummy_EI_func_pe2
+                                  00801dfe         0   none ,g         * 
+FILE=rlink_generates_01
+  __s.text
+                                  01000400         0   none ,g         * 
+  __e.text
+                                  010005b6         0   none ,g         * 
+  __S_text
+                                  01000400         0   none ,g         * 
+  __E_text
+                                  010005b6         0   none ,g         * 
+  __sRESET
+                                  01000000         0   none ,g         * 
+  __eRESET
+                                  010001f6         0   none ,g         * 
+  __SRESET
+                                  01000000         0   none ,g         * 
+  __ERESET
+                                  010001f6         0   none ,g         * 
+
+*** Unfilled Areas ***
+
+AREA                                START    END
+
+*** Delete Symbols ***
+
+SYMBOL                                SIZE    INFO

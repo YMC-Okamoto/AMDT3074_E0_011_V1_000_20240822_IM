@@ -1,0 +1,3210 @@
+Renesas Optimizing Linker (V3.06.00 )             22-Aug-2024 10:25:06
+
+*** Options ***
+
+-subcommand=DefaultBuild\MotorDirver0.clnk
+-input=DefaultBuild\fi_pe1_error.obj
+-input=DefaultBuild\vecttbl_pe1.obj
+-input=DefaultBuild\commonPE1toPE2.obj
+-input=DefaultBuild\cstart1.obj
+-input=DefaultBuild\io_CPU.obj
+-input=DefaultBuild\io_ENCA0.obj
+-input=DefaultBuild\io_ENCA1.obj
+-input=DefaultBuild\io_FCAN.obj
+-input=DefaultBuild\io_RDC20.obj
+-input=DefaultBuild\io_SCI0_40MHz.obj
+-input=DefaultBuild\io_SCI1_40MHz.obj
+-input=DefaultBuild\io_SCI2_40MHz.obj
+-input=DefaultBuild\io_TAUD0.obj
+-input=DefaultBuild\io_TAUD1.obj
+-input=DefaultBuild\io_TAUJ0.obj
+-input=DefaultBuild\io_TSG30.obj
+-input=DefaultBuild\io_TSG31.obj
+-input=DefaultBuild\io_RDC21.obj
+-input=DefaultBuild\VECLIB_CMDMONI.obj
+-input=DefaultBuild\mathlib.obj
+-input=DefaultBuild\vecttbl_pe1_2.obj
+-input=DefaultBuild\io_CSIH0.obj
+-input=DefaultBuild\io_ADC.obj
+-input=DefaultBuild\io_CSIH1.obj
+-input=DefaultBuild\fb_can0_ctrl.obj
+-input=DefaultBuild\fb_hw_ctrl.obj
+-input=DefaultBuild\fb_kpwm_tbl.obj
+-input=DefaultBuild\fb_therm_calc.obj
+-input=DefaultBuild\fb_vctrlerr_tbl.obj
+-input=DefaultBuild\fi_1ms_int.obj
+-input=DefaultBuild\fi_1ms_inv0_adctrl.obj
+-input=DefaultBuild\fi_1ms_inv0_errctrl.obj
+-input=DefaultBuild\fi_1ms_inv0_idqcom.obj
+-input=DefaultBuild\fi_1ms_inv0_seqctrl.obj
+-input=DefaultBuild\fi_1ms_inv0_wrctrl.obj
+-input=DefaultBuild\fi_AWatcher.obj
+-input=DefaultBuild\fi_pwm_int.obj
+-input=DefaultBuild\fi_pwm_inv0_1pulse.obj
+-input=DefaultBuild\fi_pwm_inv0_adctrl.obj
+-input=DefaultBuild\fi_pwm_inv0_encctrl.obj
+-input=DefaultBuild\fi_pwm_inv0_errctrl.obj
+-input=DefaultBuild\fi_pwm_inv0_idqctrl.obj
+-input=DefaultBuild\fi_pwm_inv0_invadj.obj
+-input=DefaultBuild\fi_pwm_inv0_svctrl.obj
+-input=DefaultBuild\fi_pwm_inv0_vctrlerr.obj
+-input=DefaultBuild\fi_pwm_vctrlerrtbl.obj
+-input=DefaultBuild\mapdata_trq_inv0.obj
+-input=DefaultBuild\mapdata_trq_inv0_limit.obj
+-input=DefaultBuild\mapdata_trq_inv0_map.obj
+-input=DefaultBuild\mapdata_trq_inv0_map_limit.obj
+-input=DefaultBuild\fb_can1_ctrl_init.obj
+-input=DefaultBuild\fi_1ms_inv0_ifctrl.obj
+-input=DefaultBuild\fi_pwm_inv0_syncctrl.obj
+-input=DefaultBuild\mapdata_trq_inv0_map_power.obj
+-input=DefaultBuild\fb_therm_tbl_module.obj
+-input=DefaultBuild\commonPE2toPE1.obj
+-input=DefaultBuild\MotorDriver1.obj
+-input=DefaultBuild\io_PIO_amdt0530.obj
+-input=DefaultBuild\fim_main.obj
+-input=DefaultBuild\mapdata_lm_inv0_1d.obj
+-input=DefaultBuild\mapdata_lm_inv0_1d_map.obj
+-library=AWatcher\AWatcherSCI30_256.lib
+-debug
+-nocompress
+-NOOPtimize
+-output=DefaultBuild\MotorDirver0.abs
+-library=v850e3v5\rhf4n.lib
+-library=v850e3v5\libmalloc.lib
+-list=DefaultBuild\MotorDirver0.map
+-show=symbol
+-start=EIINTTBL_PE1,EIINTTBL_PE1_2/00000000,.const,.INIT_DSEC.const,.INIT_BSEC.const,.text.cmn,com.text,.text,.data,comGRAMA.data,comGRAMB.data/00001000,.data.R,.bss,.stack.bss/FEBF0000,comGRAMA.data.R,comGRAMA.bss/FEEF0000,GRAMA.bss/FEEF2000,comGRAMB.data.R,comGRAMB.bss/FEF00000,GRAMB.bss/FEF02000
+-fsymbol=.text.cmn
+-fsymbol=com.text
+-fsymbol=comGRAMA.data
+-fsymbol=comGRAMA.bss
+-fsymbol=comGRAMB.data
+-fsymbol=comGRAMB.bss
+-rom=.data=.data.R,comGRAMA.data=comGRAMA.data.R,comGRAMB.data=comGRAMB.data.R
+-stack
+-nologo
+-end
+
+*** Error information ***
+
+W0561100:Cannot find "GRAMA.bss" specified in option "start"
+W0561100:Cannot find "GRAMB.bss" specified in option "start"
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+EIINTTBL_PE1
+                                  00000000  0000007f        80   4
+EIINTTBL_PE1_2
+                                  00000080  000003ff       380   4
+.const
+                                  00001000  0000d847      c848   4
+.INIT_DSEC.const
+                                  0000d848  0000d86b        24   4
+.INIT_BSEC.const
+                                  0000d86c  0000d873         8   4
+.text.cmn
+                                  0000d874  0000d8db        68   2
+com.text
+                                  0000d8dc  0000d975        9a   2
+.text
+                                  0000d976  0002410f     1679a   2
+.data
+                                  00024110  00024136        27   4
+comGRAMA.data
+                                  00024138  0002413c         5   4
+comGRAMB.data
+                                  00024140  00024144         5   4
+.data.R
+                                  febf0000  febf0026        27   4
+.bss
+                                  febf0028  febf2e5f      2e38   4
+.stack.bss
+                                  febf2e60  febf365f       800   4
+comGRAMA.data.R
+                                  feef0000  feef0004         5   4
+comGRAMA.bss
+                                  feef0008  feef000c         5   4
+comGRAMB.data.R
+                                  fef00000  fef00004         5   4
+comGRAMB.bss
+                                  fef00008  fef00008         1   4
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=EIINTTBL_PE1
+FILE=DefaultBuild\vecttbl_pe1.obj
+                                  00000000  0000007f        80
+
+SECTION=EIINTTBL_PE1_2
+FILE=DefaultBuild\vecttbl_pe1_2.obj
+                                  00000080  000003ff       380
+
+SECTION=.const
+FILE=DefaultBuild\mathlib.obj
+                                  00001000  00002e07      1e08
+  _u16_dpsin_tbl2
+                                  00001000       804   data ,g         * 
+  _u16_dpatan_tbl2
+                                  00001804       200   data ,g         * 
+  _u16_dpsqrt_tbl2
+                                  00001a04       400   data ,g         * 
+  _f4_atan2Table
+                                  00001e04      1004   data ,g         * 
+FILE=DefaultBuild\fb_kpwm_tbl.obj
+                                  00002e08  0000360b       804
+  _f4_k_pwm_tbl
+                                  00002e08       804   data ,g         * 
+FILE=DefaultBuild\fb_vctrlerr_tbl.obj
+                                  0000360c  00003a0f       404
+  _f4_vctrlerr_tbl
+                                  0000360c       404   data ,g         * 
+FILE=DefaultBuild\mapdata_trq_inv0_map.obj
+                                  00003a10  000085cf      4bc0
+  _map_tq_to_idq
+                                  00003a10      4bc0   data ,g         * 
+FILE=DefaultBuild\mapdata_trq_inv0_map_limit.obj
+                                  000085d0  0000869b        cc
+  _map_tq_limit
+                                  000085d0        cc   data ,g         * 
+FILE=DefaultBuild\mapdata_trq_inv0_map_power.obj
+                                  0000869c  0000d25b      4bc0
+  _map_tq_to_power
+                                  0000869c      4bc0   data ,g         * 
+FILE=DefaultBuild\fb_therm_tbl_module.obj
+                                  0000d25c  0000d35b       100
+  _S2_THERM_MODULE_TBL0
+                                  0000d25c       100   data ,g         * 
+FILE=DefaultBuild\mapdata_lm_inv0_1d_map.obj
+                                  0000d35c  0000d75f       404
+  _map_lm_1d
+                                  0000d35c       404   data ,g         * 
+FILE=cmdmoni_wt
+                                  0000d760  0000d76f        10
+  _LengthMask.1
+                                  0000d760        10   data ,l         * 
+FILE=logf
+                                  0000d770  0000d7cf        60
+  _log_coeff_l.1
+                                  0000d770         0   none ,l         * 
+  _log_coeff_r.2
+                                  0000d7a0         0   none ,l         * 
+FILE=consts
+                                  0000d7d0  0000d82f        60
+  __IFZEROS
+                                  0000d7d0         0   none ,g         * 
+  __IFINFS
+                                  0000d7d4         0   none ,g         * 
+  __IFONES
+                                  0000d7d8         0   none ,g         * 
+  __HALFS
+                                  0000d7dc         0   none ,g         * 
+  __QUOTS
+                                  0000d7e0         0   none ,g         * 
+  __TWOS
+                                  0000d7e4         0   none ,g         * 
+  __FOURS
+                                  0000d7e8         0   none ,g         * 
+  __PAIS
+                                  0000d7ec         0   none ,g         * 
+  __2PAIS
+                                  0000d7f0         0   none ,g         * 
+  __HLFPAIS
+                                  0000d7f4         0   none ,g         * 
+  __QUOPAIS
+                                  0000d7f8         0   none ,g         * 
+  __LOGE2S
+                                  0000d7fc         0   none ,g         * 
+  __NIFZEROS
+                                  0000d800         0   none ,g         * 
+  __NIFINFS
+                                  0000d804         0   none ,g         * 
+  __NIFONES
+                                  0000d808         0   none ,g         * 
+  __NHALFS
+                                  0000d80c         0   none ,g         * 
+  __NQUOTS
+                                  0000d810         0   none ,g         * 
+  __NTWOS
+                                  0000d814         0   none ,g         * 
+  __NFOURS
+                                  0000d818         0   none ,g         * 
+  __NPAIS
+                                  0000d81c         0   none ,g         * 
+  __N2PAIS
+                                  0000d820         0   none ,g         * 
+  __NHLFPAIS
+                                  0000d824         0   none ,g         * 
+  __NQUOPAIS
+                                  0000d828         0   none ,g         * 
+  __NLOGE2S
+                                  0000d82c         0   none ,g         * 
+FILE=_a_atans
+                                  0000d830  0000d847        18
+  _atan_coef.1._app_atans
+                                  0000d830         0   none ,l         * 
+
+SECTION=.INIT_DSEC.const
+FILE=DefaultBuild\cstart1.obj
+                                  0000d848  0000d86b        24
+
+SECTION=.INIT_BSEC.const
+FILE=DefaultBuild\cstart1.obj
+                                  0000d86c  0000d873         8
+
+SECTION=.text.cmn
+FILE=DefaultBuild\cstart1.obj
+                                  0000d874  0000d8db        68
+  __cstart_pm1
+                                  0000d874         0   none ,g         * 
+  _exit
+                                  0000d8da         0   none ,l         * 
+
+SECTION=com.text
+FILE=DefaultBuild\fi_pe1_error.obj
+                                  0000d8dc  0000d975        9a
+  _Dummy_func_pe1
+                                  0000d8dc         a   func ,g         * 
+  _Dummy_EI_func_pe1
+                                  0000d8e6        90   func ,g         * 
+
+SECTION=.text
+FILE=DefaultBuild\fi_pe1_error.obj
+                                  0000d976  0000da95       120
+  _Dummy_EI_PE1
+                                  0000d976        90   func ,g         * 
+  _Dummy_EI_PE12
+                                  0000da06        90   func ,g         * 
+FILE=DefaultBuild\cstart1.obj
+                                  0000da96  0000daa1         c
+  _set_table_reference_method
+                                  0000da96         0   none ,l         * 
+FILE=DefaultBuild\io_CPU.obj
+                                  0000daa2  0000e155       6b4
+  _cpu_init
+                                  0000daa2        36   func ,g         * 
+  _ecm2_init
+                                  0000dad8       29a   func ,g         * 
+  _clock_init
+                                  0000dd72        e0   func ,g         * 
+  _errout_set
+                                  0000de52        2a   func ,g         * 
+  _u4_emc_status
+                                  0000de7c        64   func ,g         * 
+  _pbg_prot_clr
+                                  0000dee0       1fe   func ,g         * 
+  _core0_peg_init
+                                  0000e0de        3c   func ,g         * 
+  _core1_peg_init
+                                  0000e11a        3c   func ,g         * 
+FILE=DefaultBuild\io_ENCA0.obj
+                                  0000e156  0000e421       2cc
+  _enca0_init
+                                  0000e156       1d0   func ,g         * 
+  _u2_enca0_cnt_read
+                                  0000e326        24   func ,g         * 
+  _enca0_stop
+                                  0000e34a         a   func ,g         * 
+  _enca0_start
+                                  0000e354         a   func ,g         * 
+  _enca0_cnt_set
+                                  0000e35e        30   func ,g         * 
+  _enca0_ccr1_set
+                                  0000e38e        26   func ,g         * 
+  _enca0_init_interrupt
+                                  0000e3b4        6e   func ,g         * 
+FILE=DefaultBuild\io_ENCA1.obj
+                                  0000e422  0000e71f       2fe
+  _enca1_init
+                                  0000e422       202   func ,g         * 
+  _u2_enca1_cnt_read
+                                  0000e624        24   func ,g         * 
+  _enca1_stop
+                                  0000e648         a   func ,g         * 
+  _enca1_start
+                                  0000e652         a   func ,g         * 
+  _enca1_cnt_set
+                                  0000e65c        30   func ,g         * 
+  _enca1_ccr1_set
+                                  0000e68c        26   func ,g         * 
+  _enca1_init_interrupt
+                                  0000e6b2        6e   func ,g         * 
+FILE=DefaultBuild\io_FCAN.obj
+                                  0000e720  0000fbc1      14a2
+  _can_init
+                                  0000e720       b2e   func ,g         * 
+  _can_setup_rx_mbox
+                                  0000f24e        b4   func ,g         * 
+  _can_setup_tx_mbox
+                                  0000f302        ac   func ,g         * 
+  _can_tx_data
+                                  0000f3ae        ea   func ,g         * 
+  _can0_init
+                                  0000f498        5a   func ,g         * 
+  _can1_init
+                                  0000f4f2        5a   func ,g         * 
+  _can2_init
+                                  0000f54c        5a   func ,g         * 
+  _can3_init
+                                  0000f5a6        5a   func ,g         * 
+  _can_rx_data
+                                  0000f600        5c   func ,g         * 
+  _u4_rx_fifo_chk
+                                  0000f65c        12   func ,g         * 
+  _can_module_busoffchk
+                                  0000f66e        20   func ,g         * 
+  _can_module_chk
+                                  0000f68e         e   func ,g         * 
+  _can_chint_init
+                                  0000f69c       468   func ,g         * 
+  _can_gint_init
+                                  0000fb04        be   func ,g         * 
+FILE=DefaultBuild\io_RDC20.obj
+                                  0000fbc2  0001041f       85e
+  _rdc20_init
+                                  0000fbc2       506   func ,g         * 
+  _u2_rdc20str_read
+                                  000100c8        44   func ,g         * 
+  _u2_rdc20_cnt_read
+                                  0001010c         e   func ,g         * 
+  _rdc20_init_interrupt
+                                  0001011a       184   func ,g         * 
+  _rdc20_cmp0_set
+                                  0001029e        18   func ,g         * 
+  _rdc20_cmp1_set
+                                  000102b6        18   func ,g         * 
+  _rdc20_cmp2_set
+                                  000102ce        18   func ,g         * 
+  _s4_rdc20_rpm
+                                  000102e6       108   func ,g         * 
+  _u2_read_rdc20_status
+                                  000103ee        1c   func ,g         * 
+  _rdc20_ABZ_Terminal_output
+                                  0001040a        16   func ,g         * 
+FILE=DefaultBuild\io_SCI0_40MHz.obj
+                                  00010420  000107af       390
+  _sci0_init
+                                  00010420       33c   func ,g         * 
+  _sci0_start
+                                  0001075c        12   func ,g         * 
+  _sci0_stop
+                                  0001076e         e   func ,g         * 
+  _u1_SO30_1byte
+                                  0001077c        18   func ,g         * 
+  _u1_SI30_1byte
+                                  00010794        1c   func ,g         * 
+FILE=DefaultBuild\io_SCI1_40MHz.obj
+                                  000107b0  000109b9       20a
+  _sci1_init
+                                  000107b0       1ee   func ,g         * 
+  _sci1_start
+                                  0001099e         e   func ,g         * 
+  _sci1_stop
+                                  000109ac         e   func ,g         * 
+FILE=DefaultBuild\io_SCI2_40MHz.obj
+                                  000109ba  00010bc5       20c
+  _sci2_init
+                                  000109ba       1f0   func ,g         * 
+  _sci2_start
+                                  00010baa         e   func ,g         * 
+  _sci2_stop
+                                  00010bb8         e   func ,g         * 
+FILE=DefaultBuild\io_TAUD0.obj
+                                  00010bc6  00011c59      1094
+  _taud0prescale_0_2_8_0_init
+                                  00010bc6        16   func ,g         * 
+  _taud0prescale_0_2_64_0_init
+                                  00010bdc        16   func ,g         * 
+  _taud0_stop
+                                  00010bf2         a   func ,g         * 
+  _interval00_init
+                                  00010bfc       116   func ,g         * 
+  _interval00_start
+                                  00010d12         a   func ,g         * 
+  _interval00_stop
+                                  00010d1c         a   func ,g         * 
+  _interval01_init
+                                  00010d26       118   func ,g         * 
+  _interval01_start
+                                  00010e3e         a   func ,g         * 
+  _interval01_stop
+                                  00010e48         a   func ,g         * 
+  _interval02_init
+                                  00010e52       118   func ,g         * 
+  _interval02_start
+                                  00010f6a         a   func ,g         * 
+  _interval02_stop
+                                  00010f74         a   func ,g         * 
+  _interval03_init
+                                  00010f7e       118   func ,g         * 
+  _interval03_start
+                                  00011096         a   func ,g         * 
+  _interval03_stop
+                                  000110a0         a   func ,g         * 
+  _interval04_init
+                                  000110aa       11a   func ,g         * 
+  _interval04_start
+                                  000111c4         c   func ,g         * 
+  _interval04_stop
+                                  000111d0         c   func ,g         * 
+  _stopwatch0_init
+                                  000111dc        b2   func ,g         * 
+  _stopwatch0_start
+                                  0001128e        10   func ,g         * 
+  _stopwatch0_stop
+                                  0001129e        1e   func ,g         * 
+  _freq_capture5_init
+                                  000112bc       126   func ,g         * 
+  _freq_capture5_start
+                                  000113e2         c   func ,g         * 
+  _freq_capture5_flag_read
+                                  000113ee        12   func ,g         * 
+  _freq_capture6_11_init
+                                  00011400       32c   func ,g         * 
+  _freq_capture6_11_start
+                                  0001172c         c   func ,g         * 
+  _freq_capture6_11_stop
+                                  00011738         c   func ,g         * 
+  _temp_capture6_read
+                                  00011744        5a   func ,g         * 
+  _temp_capture7_read
+                                  0001179e        5a   func ,g         * 
+  _temp_capture8_read
+                                  000117f8        5a   func ,g         * 
+  _temp_capture9_read
+                                  00011852        5a   func ,g         * 
+  _temp_capture10_read
+                                  000118ac        5a   func ,g         * 
+  _temp_capture11_read
+                                  00011906        5a   func ,g         * 
+  _temp_capture6_11_ovfclr
+                                  00011960        38   func ,g         * 
+  _freq_capture6_flag_read
+                                  00011998        12   func ,g         * 
+  _freq_capture7_flag_read
+                                  000119aa        12   func ,g         * 
+  _freq_capture8_flag_read
+                                  000119bc        12   func ,g         * 
+  _freq_capture9_flag_read
+                                  000119ce        12   func ,g         * 
+  _freq_capture10_flag_read
+                                  000119e0        12   func ,g         * 
+  _freq_capture11_flag_read
+                                  000119f2        12   func ,g         * 
+  _pwm0_7_init
+                                  00011a04       1da   func ,g         * 
+  _pwm0_7_tim_start
+                                  00011bde         c   func ,g         * 
+  _pwm0_7_tim_stop
+                                  00011bea         c   func ,g         * 
+  _pwm0_7_start
+                                  00011bf6         c   func ,g         * 
+  _pwm0_7_stop
+                                  00011c02         c   func ,g         * 
+  _pwm0_7_setm_f
+                                  00011c0e        4c   func ,g         * 
+FILE=DefaultBuild\io_TAUD1.obj
+                                  00011c5a  00012975       d1c
+  _taud1prescale_0_2_8_0_init
+                                  00011c5a        16   func ,g         * 
+  _taud1prescale_0_2_32_0_init
+                                  00011c70        16   func ,g         * 
+  _taud1prescale_0_2_64_0_init
+                                  00011c86        16   func ,g         * 
+  _taud1_stop
+                                  00011c9c         a   func ,g         * 
+  _interval10_init
+                                  00011ca6       116   func ,g         * 
+  _interval10_start
+                                  00011dbc         a   func ,g         * 
+  _interval10_stop
+                                  00011dc6         a   func ,g         * 
+  _interval12_init
+                                  00011dd0       118   func ,g         * 
+  _interval12_start
+                                  00011ee8         a   func ,g         * 
+  _interval12_stop
+                                  00011ef2         a   func ,g         * 
+  _interval13_init
+                                  00011efc       118   func ,g         * 
+  _interval13_start
+                                  00012014         a   func ,g         * 
+  _interval13_stop
+                                  0001201e         a   func ,g         * 
+  _interval14_init
+                                  00012028       11a   func ,g         * 
+  _interval14_start
+                                  00012142         c   func ,g         * 
+  _interval14_stop
+                                  0001214e         c   func ,g         * 
+  _stopwatch1_init
+                                  0001215a        b2   func ,g         * 
+  _stopwatch1_start
+                                  0001220c        10   func ,g         * 
+  _stopwatch1_stop
+                                  0001221c        1e   func ,g         * 
+  _level_capture6_11_init
+                                  0001223a       1f4   func ,g         * 
+  _level_capture6_11_start
+                                  0001242e         c   func ,g         * 
+  _levelcapture6_11_stop
+                                  0001243a         c   func ,g         * 
+  _level_capture6_flag_read
+                                  00012446        12   func ,g         * 
+  _level_capture7_flag_read
+                                  00012458        12   func ,g         * 
+  _level_capture8_flag_read
+                                  0001246a        12   func ,g         * 
+  _level_capture9_flag_read
+                                  0001247c        12   func ,g         * 
+  _level_capture10_flag_read
+                                  0001248e        12   func ,g         * 
+  _level_capture11_flag_read
+                                  000124a0        12   func ,g         * 
+  _pwm1_15_init
+                                  000124b2       1da   func ,g         * 
+  _pwm1_15_tim_start
+                                  0001268c         c   func ,g         * 
+  _pwm1_15_tim_stop
+                                  00012698         c   func ,g         * 
+  _pwm1_15_start
+                                  000126a4         c   func ,g         * 
+  _pwm1_15_stop
+                                  000126b0         c   func ,g         * 
+  _pwm1_15_setm_f
+                                  000126bc        4c   func ,g         * 
+  _phase_capture1_1_init
+                                  00012708        ec   func ,g         * 
+  _phase_capture1_1_start
+                                  000127f4         a   func ,g         * 
+  _phase_capture1_1_stop
+                                  000127fe         a   func ,g         * 
+  _phase_capture1_1_cnt_read
+                                  00012808        1c   func ,g         * 
+  _phase_capture1_1_flag_read
+                                  00012824        12   func ,g         * 
+  _phase_capture1_15_init
+                                  00012836        ee   func ,g         * 
+  _phase_capture1_15_start
+                                  00012924         c   func ,g         * 
+  _phase_capture1_15_stop
+                                  00012930         c   func ,g         * 
+  _phase_capture1_15_cnt_read
+                                  0001293c        1c   func ,g         * 
+  _phase_capture1_15_flag_read
+                                  00012958        12   func ,g         * 
+  _phase_capture1_1_1_15_start
+                                  0001296a         c   func ,g         * 
+FILE=DefaultBuild\io_TAUJ0.obj
+                                  00012976  00013279       904
+  _tauj0prescale0_2_8_0_init
+                                  00012976        16   func ,g         * 
+  _tauj0_stop
+                                  0001298c         a   func ,g         * 
+  _pwm0_2_init
+                                  00012996       178   func ,g         * 
+  _pwm0_2_tim_start
+                                  00012b0e        12   func ,g         * 
+  _pwm0_2_tim_stop
+                                  00012b20        12   func ,g         * 
+  _pwm0_2_start
+                                  00012b32        18   func ,g         * 
+  _pwm0_2_stop
+                                  00012b4a        18   func ,g         * 
+  _set_pwm0_2_m
+                                  00012b62        4a   func ,g         * 
+  _set_pwm0_2_mf
+                                  00012bac        8c   func ,g         * 
+  _pwm0_3_init
+                                  00012c38       178   func ,g         * 
+  _pwm0_3_tim_start
+                                  00012db0        12   func ,g         * 
+  _pwm0_3_tim_stop
+                                  00012dc2        12   func ,g         * 
+  _pwm0_3_start
+                                  00012dd4        18   func ,g         * 
+  _pwm0_3_stop
+                                  00012dec        18   func ,g         * 
+  _set_pwm0_3_m
+                                  00012e04        4a   func ,g         * 
+  _set_pwm0_3_mf
+                                  00012e4e        8c   func ,g         * 
+  _freq_capture0_init
+                                  00012eda        ea   func ,g         * 
+  _freq_capture0_start
+                                  00012fc4         a   func ,g         * 
+  _freq_capture0_stop
+                                  00012fce         a   func ,g         * 
+  _freq_capture0_cnt_read
+                                  00012fd8        24   func ,g         * 
+  _freq_capture0_flag_read
+                                  00012ffc        12   func ,g         * 
+  _freq_capture1_init
+                                  0001300e        ec   func ,g         * 
+  _freq_capture1_start
+                                  000130fa         a   func ,g         * 
+  _freq_capture1_stop
+                                  00013104         a   func ,g         * 
+  _freq_capture1_cnt_read
+                                  0001310e        24   func ,g         * 
+  _freq_capture1_flag_read
+                                  00013132        12   func ,g         * 
+  _freq_capture2_init
+                                  00013144        ec   func ,g         * 
+  _freq_capture2_start
+                                  00013230         a   func ,g         * 
+  _freq_capture2_stop
+                                  0001323a         a   func ,g         * 
+  _freq_capture2_cnt_read
+                                  00013244        24   func ,g         * 
+  _freq_capture2_flag_read
+                                  00013268        12   func ,g         * 
+FILE=DefaultBuild\io_TSG30.obj
+                                  0001327a  00014045       dcc
+  _tsg30_init
+                                  0001327a       400   func ,g         * 
+  _tsg30_start
+                                  0001367a         a   func ,g         * 
+  _tsg30_stop
+                                  00013684         a   func ,g         * 
+  _dpinv0_start
+                                  0001368e        18   func ,g         * 
+  _dpinv0_stop
+                                  000136a6        18   func ,g         * 
+  _dpinv0_set_addelay
+                                  000136be        20   func ,g         * 
+  _dpinv0_setuvwf_f_V1
+                                  000136de       188   func ,g         * 
+  _dpinv0_setuvwf_f_V2
+                                  00013866       194   func ,g         * 
+  _dpinv0_setuvwf_f_V3
+                                  000139fa       270   func ,g         * 
+  _dpinv0_extgb_init
+                                  00013c6a        82   func ,g         * 
+  _dpinv0_extgb_status
+                                  00013cec        10   func ,g         * 
+  _dpinv0_extgb_clr
+                                  00013cfc         a   func ,g         * 
+  _tsg30_111int_stop
+                                  00013d06        3a   func ,g         * 
+  _dpinv0_setuvw_1pulse
+                                  00013d40        16   func ,g         * 
+  _dpinv0_gatectrl
+                                  00013d56        8a   func ,g         * 
+  _tsg30_31_start
+                                  00013de0        22   func ,g         * 
+  _tsg30_TSG30O0_out
+                                  00013e02         c   func ,g         * 
+  _dpinv01_setuvw_1pulse
+                                  00013e0e        22   func ,g         * 
+  _dpinv0_set_freq
+                                  00013e30       216   func ,g         * 
+FILE=DefaultBuild\io_TSG31.obj
+                                  00014046  00014df7       db2
+  _tsg31_init
+                                  00014046       400   func ,g         * 
+  _tsg31_start
+                                  00014446         a   func ,g         * 
+  _tsg31_stop
+                                  00014450         a   func ,g         * 
+  _dpinv1_start
+                                  0001445a        18   func ,g         * 
+  _dpinv1_stop
+                                  00014472        18   func ,g         * 
+  _dpinv1_set_addelay
+                                  0001448a        20   func ,g         * 
+  _dpinv1_setuvwf_f_V1
+                                  000144aa       188   func ,g         * 
+  _dpinv1_setuvwf_f_V2
+                                  00014632       194   func ,g         * 
+  _dpinv1_setuvwf_f_V3
+                                  000147c6       270   func ,g         * 
+  _dpinv1_extgb_init
+                                  00014a36        82   func ,g         * 
+  _dpinv1_extgb_status
+                                  00014ab8        10   func ,g         * 
+  _dpinv1_extgb_clr
+                                  00014ac8         a   func ,g         * 
+  _tsg31_111int_stop
+                                  00014ad2        3a   func ,g         * 
+  _dpinv1_setuvw_1pulse
+                                  00014b0c        16   func ,g         * 
+  _dpinv1_gatectrl
+                                  00014b22        5c   func ,g         * 
+  _re_set_port_for_conv
+                                  00014b7e        28   func ,g         * 
+  _dpconv1_start
+                                  00014ba6        18   func ,g         * 
+  _dpconv1_stop
+                                  00014bbe        18   func ,g         * 
+  _tsg31_TSG31O0_out
+                                  00014bd6         c   func ,g         * 
+  _dpinv1_set_freq
+                                  00014be2       216   func ,g         * 
+FILE=DefaultBuild\io_RDC21.obj
+                                  00014df8  00015637       840
+  _rdc21_init
+                                  00014df8       506   func ,g         * 
+  _u2_rdc21str_read
+                                  000152fe        44   func ,g         * 
+  _u2_rdc21_cnt_read
+                                  00015342         e   func ,g         * 
+  _rdc21_init_interrupt
+                                  00015350       166   func ,g         * 
+  _rdc21_cmp0_set
+                                  000154b6        18   func ,g         * 
+  _rdc21_cmp1_set
+                                  000154ce        18   func ,g         * 
+  _rdc21_cmp2_set
+                                  000154e6        18   func ,g         * 
+  _s4_rdc21_rpm
+                                  000154fe       108   func ,g         * 
+  _u2_read_rdc21_status
+                                  00015606        1c   func ,g         * 
+  _rdc21_ABZ_Terminal_output
+                                  00015622        16   func ,g         * 
+FILE=DefaultBuild\VECLIB_CMDMONI.obj
+                                  00015638  0001565b        24
+  _VECLIB_CMDMONI_INIT
+                                  00015638         4   func ,g         * 
+  _VECLIB_CMDMONI_MAIN
+                                  0001563c        10   func ,g         * 
+  _VECLIB_CMDMONI_1MS
+                                  0001564c         4   func ,g         * 
+  _VECLIB_CMDMONI_PWM
+                                  00015650         4   func ,g         * 
+  _VECLIB_CMDMONI_INTR
+                                  00015654         4   func ,g         * 
+  _VECLIB_CMDMONI_INTRE
+                                  00015658         4   func ,g         * 
+FILE=DefaultBuild\mathlib.obj
+                                  0001565c  00015adf       484
+  _dpcos
+                                  0001565c        aa   func ,g         * 
+  _dpsin
+                                  00015706        aa   func ,g         * 
+  _dpatan
+                                  000157b0        f4   func ,g         * 
+  _dpsqrt
+                                  000158a4        a4   func ,g         * 
+  _Table_atan2Lookup
+                                  00015948        1c   func ,g         * 
+  _dpatan2_f
+                                  00015964       17c   func ,g         * 
+FILE=DefaultBuild\io_CSIH0.obj
+                                  00015ae0  00015cad       1ce
+  _csih0_init
+                                  00015ae0        d0   func ,g         * 
+  _u1_CSIH0_SO_1byte
+                                  00015bb0        20   func ,g         * 
+  _u1_CSIH0_SO_2byte
+                                  00015bd0        20   func ,g         * 
+  _u1_CSIH0_SI_1byte
+                                  00015bf0        26   func ,g         * 
+  _u1_CSIH0_SI_2byte
+                                  00015c16        2a   func ,g         * 
+  _csih0_tx_intlv_init
+                                  00015c40        6e   func ,g         * 
+FILE=DefaultBuild\io_ADC.obj
+                                  00015cae  00016d5f      10b2
+  _adcc0_init
+                                  00015cae       774   func ,g         * 
+  _adcc1_init
+                                  00016422       772   func ,g         * 
+  _adcc0_sg4_trig_set
+                                  00016b94        6c   func ,g         * 
+  _adcc1_sg4_trig_set
+                                  00016c00        6c   func ,g         * 
+  _adcc0_sg4_int_init
+                                  00016c6c        7a   func ,g         * 
+  _adcc1_sg4_int_init
+                                  00016ce6        7a   func ,g         * 
+FILE=DefaultBuild\io_CSIH1.obj
+                                  00016d60  000171ff       4a0
+  _csih1_init
+                                  00016d60        d0   func ,g         * 
+  _csih1_RA270000_init
+                                  00016e30        c0   func ,g         * 
+  _u1_CSIH1_SO_1byte
+                                  00016ef0        20   func ,g         * 
+  _u1_CSIH1_SO_2byte
+                                  00016f10        20   func ,g         * 
+  _u1_CSIH1_SI_1byte
+                                  00016f30        26   func ,g         * 
+  _u1_CSIH1_SI_2byte
+                                  00016f56        26   func ,g         * 
+  _csih1_tx_intlv_init
+                                  00016f7c        6e   func ,g         * 
+  _u1_TX1_RA270000
+                                  00016fea        34   func ,g         * 
+  _u1_RX1_RA270000
+                                  0001701e        26   func ,g         * 
+  _csih1_eeprom_init
+                                  00017044        dc   func ,g         * 
+  _u1_CSIH1_EPIF_TX_2byte
+                                  00017120        28   func ,g         * 
+  _u1_CSIH1_EPIF_TX_1byte
+                                  00017148        28   func ,g         * 
+  _u1_CSIH1_EPIF_RX_2byte
+                                  00017170        26   func ,g         * 
+  _u1_CSIH1_EPIF_RX_1byte
+                                  00017196        26   func ,g         * 
+  _eprom_cs
+                                  000171bc        44   func ,g         * 
+FILE=DefaultBuild\fb_can0_ctrl.obj
+                                  00017200  00018b77      1978
+  _fb_can0_ctrl
+                                  00017200      1402   func ,g         * 
+  _fb_can0_rx_data
+                                  00018602        c2   func ,g         * 
+  _fb_can0_ctrl_init
+                                  000186c4       2bc   func ,g         * 
+  _fb_can0_driver_init
+                                  00018980       1f8   func ,g         * 
+FILE=DefaultBuild\fb_hw_ctrl.obj
+                                  00018b78  00018d5b       1e4
+  _fb_hw_ctrl_init
+                                  00018b78       1e4   func ,g         * 
+FILE=DefaultBuild\fb_therm_calc.obj
+                                  00018d5c  00018e3b        e0
+  _f4_thermister_calc_2_8
+                                  00018d5c        e0   func ,g         * 
+FILE=DefaultBuild\fi_1ms_int.obj
+                                  00018e3c  0001900d       1d2
+  _fi_1ms_int
+                                  00018e3c       19e   func ,g         * 
+  _fb_1ms_int_init
+                                  00018fda        34   func ,g         * 
+FILE=DefaultBuild\fi_1ms_inv0_adctrl.obj
+                                  0001900e  000197fd       7f0
+  _fi_1ms_inv0_adctrl
+                                  0001900e       51a   func ,g         * 
+  _fb_1ms_inv0_adctrl_init
+                                  00019528       2d6   func ,g         * 
+FILE=DefaultBuild\fi_1ms_inv0_errctrl.obj
+                                  000197fe  0001a12d       930
+  _fi_1ms_inv0_errctrl
+                                  000197fe       720   func ,g         * 
+  _fb_1ms_inv0_errctrl_init
+                                  00019f1e       210   func ,g         * 
+FILE=DefaultBuild\fi_1ms_inv0_idqcom.obj
+                                  0001a12e  0001aae5       9b8
+  _fi_1ms_inv0_idqcom
+                                  0001a12e       826   func ,g         * 
+  _fb_1ms_inv0_idqcom_init
+                                  0001a954       192   func ,g         * 
+FILE=DefaultBuild\fi_1ms_inv0_seqctrl.obj
+                                  0001aae6  0001ae07       322
+  _fi_1ms_inv0_seqctrl
+                                  0001aae6       1dc   func ,g         * 
+  _u1_fi_1ms_inv0_seq_runctrl
+                                  0001acc2        7e   func ,g         * 
+  _u1_fi_1ms_inv0_seq_stopctrl
+                                  0001ad40        42   func ,g         * 
+  _u1_fi_1ms_inv0_seq_errctrl
+                                  0001ad82        42   func ,g         * 
+  _fb_1ms_inv0_seq_flaginit
+                                  0001adc4        2a   func ,g         * 
+  _fb_1ms_inv0_seq_modeinit
+                                  0001adee        1a   func ,g         * 
+FILE=DefaultBuild\fi_1ms_inv0_wrctrl.obj
+                                  0001ae08  0001b39b       594
+  _fi_1ms_inv0_wrctrl
+                                  0001ae08       492   func ,g         * 
+  _fb_1ms_inv0_wrctrl_init
+                                  0001b29a       102   func ,g         * 
+FILE=DefaultBuild\fi_AWatcher.obj
+                                  0001b39c  0001b58b       1f0
+  _fi_awc_rx
+                                  0001b39c        e0   func ,g         * 
+  _fi_awc_re
+                                  0001b47c       110   func ,g         * 
+FILE=DefaultBuild\fi_pwm_int.obj
+                                  0001b58c  0001b7b5       22a
+  _fi_pwm_int
+                                  0001b58c       1c0   func ,g         * 
+  _fb_pwm_int_init
+                                  0001b74c        6a   func ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_1pulse.obj
+                                  0001b7b6  0001b911       15c
+  _fi_pwm_inv0_1pulse
+                                  0001b7b6       142   func ,g         * 
+  _fb_pwm_inv0_1pulse_init
+                                  0001b8f8        1a   func ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_adctrl.obj
+                                  0001b912  0001c39f       a8e
+  _fi_pwm_inv0_adctrl
+                                  0001b912       6b4   func ,g         * 
+  _fb_pwm_inv0_adctrl_init
+                                  0001bfc6       3da   func ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_encctrl.obj
+                                  0001c3a0  0001c7d3       434
+  _fi_pwm_inv0_encctrl
+                                  0001c3a0       35a   func ,g         * 
+  _fb_pwm_inv0_encctrl_init
+                                  0001c6fa        da   func ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_errctrl.obj
+                                  0001c7d4  0001c9c5       1f2
+  _fi_pwm_inv0_errctrl
+                                  0001c7d4       18e   func ,g         * 
+  _fb_pwm_inv0_errctrl_init
+                                  0001c962        64   func ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_idqctrl.obj
+                                  0001c9c6  0001e4dd      1b18
+  _fi_pwm_inv0_idqctrl
+                                  0001c9c6      1688   func ,g         * 
+  _fb_pwm_inv0_idqctrl_init
+                                  0001e04e       490   func ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_invadj.obj
+                                  0001e4de  0001f069       b8c
+  _fi_pwm_inv0_invadj
+                                  0001e4de       9d8   func ,g         * 
+  _fb_pwm_inv0_invadj_init
+                                  0001eeb6       1b4   func ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_svctrl.obj
+                                  0001f06a  0001f27b       212
+  _fi_pwm_inv0_svctrl
+                                  0001f06a       1d2   func ,g         * 
+  _fb_pwm_inv0_svctrl_init
+                                  0001f23c        40   func ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_vctrlerr.obj
+                                  0001f27c  0001f477       1fc
+  _fi_pwm_inv0_vctrlerr
+                                  0001f27c       19c   func ,g         * 
+  _fb_pwm_inv0_vctrlerr_init
+                                  0001f418        60   func ,g         * 
+FILE=DefaultBuild\fi_pwm_vctrlerrtbl.obj
+                                  0001f478  0001f511        9a
+  _fi_pwm_vctrlerrtbl
+                                  0001f478        90   func ,g         * 
+  _fb_pwm_vctrlerr_init
+                                  0001f508         a   func ,g         * 
+FILE=DefaultBuild\mapdata_trq_inv0.obj
+                                  0001f512  0001fead       99c
+  _u1_tq_map_get
+                                  0001f512       99c   func ,g         * 
+FILE=DefaultBuild\mapdata_trq_inv0_limit.obj
+                                  0001feae  000203e9       53c
+  _u1_tq_map_limit
+                                  0001feae       53c   func ,g         * 
+FILE=DefaultBuild\fb_can1_ctrl_init.obj
+                                  000203ea  00020571       188
+  _fb_can1_driver_init
+                                  000203ea       188   func ,g         * 
+FILE=DefaultBuild\fi_1ms_inv0_ifctrl.obj
+                                  00020572  000207f9       288
+  _fi_1ms_inv0_ifctrl
+                                  00020572       286   func ,g         * 
+  _fb_1ms_inv0_ifctrl_init
+                                  000207f8         2   func ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_syncctrl.obj
+                                  000207fa  00020cd5       4dc
+  _fi_pwm_inv0_syncctrl
+                                  000207fa       3de   func ,g         * 
+  _fb_pwm_inv0_syncctrl_init
+                                  00020bd8        fe   func ,g         * 
+FILE=DefaultBuild\fb_therm_tbl_module.obj
+                                  00020cd6  00020d15        40
+  _s2_therm_module_calc_lsb2
+                                  00020cd6        40   func ,g         * 
+FILE=DefaultBuild\io_PIO_amdt0530.obj
+                                  00020d16  000213ab       696
+  _pio_init
+                                  00020d16       168   func ,g         * 
+  _ex_intpx_init
+                                  00020e7e       484   func ,g         * 
+  _intpx_status_read
+                                  00021302        aa   func ,g         * 
+FILE=DefaultBuild\fim_main.obj
+                                  000213ac  0002169b       2f0
+  _main
+                                  000213ac       1d8   func ,g         * 
+  _fb_main_start_init
+                                  00021584        b0   func ,g         * 
+  _fb_main_error_init
+                                  00021634        68   func ,g         * 
+FILE=DefaultBuild\mapdata_lm_inv0_1d.obj
+                                  0002169c  00021783        e8
+  _u1_lm_map_1d_get
+                                  0002169c        e8   func ,g         * 
+FILE=cmdmoni_wt
+                                  00021784  00022e2b      16a8
+  _MD_WT_INTRE
+                                  00021784        28   func ,g         * 
+  _MD_WT_INTR
+                                  000217ac       89e   func ,g         * 
+  _CMDMONI_WT_INIT
+                                  0002204a        be   func ,g         * 
+  _CMDMONI_WT_TRACEHALT.1
+                                  00022108        24   func ,l         * 
+  _CMDMONI_WT_TRACEWATCH
+                                  0002212c       580   func ,g         * 
+  _CMDMONI_WT_CHECKCMD
+                                  000226ac       57e   func ,g         * 
+  _CMDMONI_WT_SENDCMD
+                                  00022c2a        c8   func ,g         * 
+  _CMDMONI_WT_1MS
+                                  00022cf2        26   func ,g         * 
+  _zop_CalcCheckSum.1
+                                  00022d18        56   func ,l         * 
+  _zop_PressSend.1
+                                  00022d6e        be   func ,l         * 
+FILE=initsct_rh
+                                  00022e2c  00022edb        b0
+  __INITSCT_RH
+                                  00022e2c         0   none ,g         * 
+FILE=atan2f
+                                  00022edc  00022fb9        de
+  _atan2f
+                                  00022edc         0   none ,g         * 
+FILE=atanf
+                                  00022fba  000231a5       1ec
+  _near_zero.1
+                                  00022fba         0   none ,l         * 
+  _atanf_special_case.1
+                                  00022fe2         0   none ,l         * 
+  _atanf
+                                  00023008         0   none ,g         * 
+FILE=cosf
+                                  000231a6  0002341b       276
+  _sincosf_special.1
+                                  000231a6         0   none ,l         * 
+  _cosf
+                                  000232c4         0   none ,g         * 
+FILE=logf
+                                  0002341c  00023655       23a
+  _logf
+                                  0002341c         0   none ,g         * 
+  _poly_logf.1
+                                  000235c0         0   none ,l         * 
+FILE=modff
+                                  00023656  0002368f        3a
+  _modff
+                                  00023656         0   none ,g         * 
+FILE=sinf
+                                  00023690  00023a37       3a8
+  _sincosf_special.1
+                                  00023690         0   none ,l         * 
+  _sinf
+                                  000237bc         0   none ,g         * 
+FILE=sqrtf
+                                  00023a38  00023a6f        38
+  _sqrtf
+                                  00023a38         0   none ,g         * 
+FILE=com7d
+                                  00023a70  00023a77         8
+  __REL_errno
+                                  00023a70         0   none ,g         * 
+FILE=_i_atn2s
+                                  00023a78  00023abb        44
+  __in_atan2s
+                                  00023a78         0   none ,g         * 
+FILE=_i_modfs
+                                  00023abc  00023b45        8a
+  __in_modfs
+                                  00023abc         0   none ,g         * 
+FILE=_wrap_matherrf
+                                  00023b46  00023b63        1e
+  .wrap_matherrf
+                                  00023b46         0   none ,g         * 
+FILE=domerrf
+                                  00023b64  00023b85        22
+  __REL_domerrf
+                                  00023b64         0   none ,g         * 
+FILE=fmodf
+                                  00023b86  00023bf3        6e
+  _fmodf
+                                  00023b86         0   none ,g         * 
+FILE=frexpf
+                                  00023bf4  00023c81        8e
+  _frexpf
+                                  00023bf4         0   none ,g         * 
+FILE=logfspecial
+                                  00023c82  00023cb1        30
+  __REL_logf_special
+                                  00023c82         0   none ,g         * 
+FILE=nanf
+                                  00023cb2  00023cb7         6
+  __REL_nanf_value
+                                  00023cb2         0   none ,g         * 
+FILE=neginff
+                                  00023cb8  00023cbd         6
+  __REL_neginff_value
+                                  00023cb8         0   none ,g         * 
+FILE=rngerrf
+                                  00023cbe  00023ce5        28
+  __REL_rngerrf
+                                  00023cbe         0   none ,g         * 
+FILE=_i_atans
+                                  00023ce6  00023ebf       1da
+  __in_atans
+                                  00023ce6         0   none ,g         * 
+FILE=_i_fmds
+                                  00023ec0  00024009       14a
+  __in_fmods
+                                  00023ec0         0   none ,g         * 
+FILE=posinff
+                                  0002400a  0002400f         6
+  __REL_posinff_value
+                                  0002400a         0   none ,g         * 
+FILE=_a_atans
+                                  00024010  00024075        66
+  __app_atans
+                                  00024010         0   none ,g         * 
+FILE=_i_ldes
+                                  00024076  0002410f        9a
+  __in_ldexps
+                                  00024076         0   none ,g         * 
+
+SECTION=.data
+FILE=DefaultBuild\io_TSG30.obj
+                                  00024110  00024113         4
+FILE=DefaultBuild\io_TSG31.obj
+                                  00024114  00024117         4
+FILE=DefaultBuild\fi_1ms_inv0_ifctrl.obj
+                                  00024118  00024136        1f
+
+SECTION=comGRAMA.data
+FILE=DefaultBuild\commonPE1toPE2.obj
+                                  00024138  0002413c         5
+
+SECTION=comGRAMB.data
+FILE=DefaultBuild\commonPE2toPE1.obj
+                                  00024140  00024144         5
+
+SECTION=.data.R
+FILE=DefaultBuild\io_TSG30.obj
+                                  febf0000  febf0003         4
+  ___u4_cnt_tsg30_1puls_offset
+                                  febf0000         4   data ,g         * 
+FILE=DefaultBuild\io_TSG31.obj
+                                  febf0004  febf0007         4
+  ___u4_cnt_tsg31_1puls_offset
+                                  febf0004         4   data ,g         * 
+FILE=DefaultBuild\fi_1ms_inv0_ifctrl.obj
+                                  febf0008  febf0026        1f
+  _u1_set_rly1
+                                  febf0008         1   data ,g         * 
+  _u1_set_rly2
+                                  febf0009         1   data ,g         * 
+  _u1_set_rly3
+                                  febf000a         1   data ,g         * 
+  _u1_set_rly4
+                                  febf000b         1   data ,g         * 
+  _u1_set_rly5
+                                  febf000c         1   data ,g         * 
+  _u1_set_rly6
+                                  febf000d         1   data ,g         * 
+  _u1_set_rly7
+                                  febf000e         1   data ,g         * 
+  _u1_set_rly8
+                                  febf000f         1   data ,g         * 
+  _u1_set_do0
+                                  febf0010         1   data ,g         * 
+  _u1_set_do1
+                                  febf0011         1   data ,g         * 
+  _u1_set_do2
+                                  febf0012         1   data ,g         * 
+  _u1_set_do3
+                                  febf0013         1   data ,g         * 
+  _u1_set_do4
+                                  febf0014         1   data ,g         * 
+  _u1_set_do5
+                                  febf0015         1   data ,g         * 
+  _u1_set_do6
+                                  febf0016         1   data ,g         * 
+  _u1_set_udo0
+                                  febf0017         1   data ,g         * 
+  _u1_set_udo1
+                                  febf0018         1   data ,g         * 
+  _u1_set_udo2
+                                  febf0019         1   data ,g         * 
+  _u1_set_udo3
+                                  febf001a         1   data ,g         * 
+  _u1_get_udi0
+                                  febf001b         1   data ,g         * 
+  _u1_get_udi1
+                                  febf001c         1   data ,g         * 
+  _u1_get_udi2
+                                  febf001d         1   data ,g         * 
+  _u1_get_udi3
+                                  febf001e         1   data ,g         * 
+  _u1_get_di0
+                                  febf001f         1   data ,g         * 
+  _u1_get_di1
+                                  febf0020         1   data ,g         * 
+  _u1_get_di2
+                                  febf0021         1   data ,g         * 
+  _u1_get_di3
+                                  febf0022         1   data ,g         * 
+  _u1_get_di4
+                                  febf0023         1   data ,g         * 
+  _u1_get_di5
+                                  febf0024         1   data ,g         * 
+  _u1_get_di6
+                                  febf0025         1   data ,g         * 
+  _u1_get_di7
+                                  febf0026         1   data ,g         * 
+
+SECTION=.bss
+FILE=DefaultBuild\io_ENCA0.obj
+                                  febf0028  febf0029         2
+  ___u2_enca0_cnt_max
+                                  febf0028         2   data ,g         * 
+FILE=DefaultBuild\io_ENCA1.obj
+                                  febf002c  febf002d         2
+  ___u2_enca1_cnt_max
+                                  febf002c         2   data ,g         * 
+FILE=DefaultBuild\io_FCAN.obj
+                                  febf0030  febf1097      1068
+  _can0
+                                  febf0030        10   data ,g         * 
+  _can1
+                                  febf0040        10   data ,g         * 
+  _can2
+                                  febf0050        10   data ,g         * 
+  _can3
+                                  febf0060        10   data ,g         * 
+  _rx_mbox_no
+                                  febf0070         4   data ,g         * 
+  _rx_mbox_id
+                                  febf0074       200   data ,g         * 
+  _rx_mbox_dlc
+                                  febf0274       200   data ,g         * 
+  _rx_mbox_length
+                                  febf0474       200   data ,g         * 
+  _rx_mbox_extened
+                                  febf0674       200   data ,g         * 
+  _rx_mbox_cnt
+                                  febf0874        10   data ,g         * 
+  _tx_mbox_no
+                                  febf0884         4   data ,g         * 
+  _tx_mbox_id
+                                  febf0888       200   data ,g         * 
+  _tx_mbox_dlc
+                                  febf0a88       200   data ,g         * 
+  _tx_mbox_length
+                                  febf0c88       200   data ,g         * 
+  _tx_mbox_extened
+                                  febf0e88       200   data ,g         * 
+  _tx_mbox_cnt
+                                  febf1088        10   data ,g         * 
+FILE=DefaultBuild\io_RDC20.obj
+                                  febf1098  febf1098         1
+  ___u1_rdc20str_sel
+                                  febf1098         1   data ,g         * 
+FILE=DefaultBuild\io_TAUD0.obj
+                                  febf109c  febf109f         4
+  ___u2_stopwatch_cnt_start
+                                  febf109c         2   data ,g         * 
+  ___u2_stopwatch_cnt_stop
+                                  febf109e         2   data ,g         * 
+FILE=DefaultBuild\io_TAUD1.obj
+                                  febf10a0  febf10a3         4
+  ___u2_stopwatch1_cnt_start
+                                  febf10a0         2   data ,g         * 
+  ___u2_stopwatch1_cnt_stop
+                                  febf10a2         2   data ,g         * 
+FILE=DefaultBuild\io_TSG30.obj
+                                  febf10a4  febf10b7        14
+  ___u1_tsg30_logic
+                                  febf10a4         1   data ,g         * 
+  __S2_DPINV0_ADDLAY
+                                  febf10a6         2   data ,g         * 
+  ___u1_read_tsg30_opt0
+                                  febf10a8         1   data ,g         * 
+  _f_mu_old
+                                  febf10ac         4   data ,g         * 
+  _f_mv_old
+                                  febf10b0         4   data ,g         * 
+  _f_mw_old
+                                  febf10b4         4   data ,g         * 
+FILE=DefaultBuild\io_TSG31.obj
+                                  febf10b8  febf10cb        14
+  ___u1_tsg31_logic
+                                  febf10b8         1   data ,g         * 
+  __S2_DPINV1_ADDLAY
+                                  febf10ba         2   data ,g         * 
+  ___u1_read_tsg31_opt0
+                                  febf10bc         1   data ,g         * 
+  _f_mu_old2
+                                  febf10c0         4   data ,g         * 
+  _f_mv_old2
+                                  febf10c4         4   data ,g         * 
+  _f_mw_old2
+                                  febf10c8         4   data ,g         * 
+FILE=DefaultBuild\io_RDC21.obj
+                                  febf10cc  febf10cc         1
+  ___u1_rdc21str_sel
+                                  febf10cc         1   data ,g         * 
+FILE=DefaultBuild\mathlib.obj
+                                  febf10d0  febf10df        10
+  _testrt0
+                                  febf10d0         4   data ,g         * 
+  _testrt1
+                                  febf10d4         4   data ,g         * 
+  _testrt2
+                                  febf10d8         4   data ,g         * 
+  _testrt3
+                                  febf10dc         4   data ,g         * 
+FILE=DefaultBuild\fb_can0_ctrl.obj
+                                  febf10e0  febf12c3       1e4
+  _u4_flag_rx0_flag
+                                  febf10e0         4   data ,g         * 
+  _RX_DATA_0x010
+                                  febf10e4         8   data ,g         * 
+  _RX_DATA_0x011
+                                  febf10ec         8   data ,g         * 
+  _TX_DATA_0x030
+                                  febf10f4         8   data ,g         * 
+  _CAN_MBOX_TX_ID0x030
+                                  febf10fc        10   data ,g         * 
+  _TX_DATA_0x031
+                                  febf110c         8   data ,g         * 
+  _CAN_MBOX_TX_ID0x031
+                                  febf1114        10   data ,g         * 
+  _TX_DATA_0x032
+                                  febf1124         8   data ,g         * 
+  _CAN_MBOX_TX_ID0x032
+                                  febf112c        10   data ,g         * 
+  _TX_DATA_0x033
+                                  febf113c         8   data ,g         * 
+  _CAN_MBOX_TX_ID0x033
+                                  febf1144        10   data ,g         * 
+  _TX_DATA_0x034
+                                  febf1154         8   data ,g         * 
+  _CAN_MBOX_TX_ID0x034
+                                  febf115c        10   data ,g         * 
+  _TX_DATA_0x035
+                                  febf116c         8   data ,g         * 
+  _CAN_MBOX_TX_ID0x035
+                                  febf1174        10   data ,g         * 
+  _TX_DATA_0x036
+                                  febf1184         8   data ,g         * 
+  _CAN_MBOX_TX_ID0x036
+                                  febf118c        10   data ,g         * 
+  _TX_DATA_0x037
+                                  febf119c         8   data ,g         * 
+  _CAN_MBOX_TX_ID0x037
+                                  febf11a4        10   data ,g         * 
+  _TX_DATA_0x038
+                                  febf11b4         8   data ,g         * 
+  _CAN_MBOX_TX_ID0x038
+                                  febf11bc        10   data ,g         * 
+  _u1_flag_can0_initerr
+                                  febf11cc         1   data ,g         * 
+  _u1_flag_can0_debug
+                                  febf11cd         1   data ,g         * 
+  _u1_com_state_ref_rx
+                                  febf11ce         1   data ,g         * 
+  _u1_com_state_ref_rx_tmp
+                                  febf11cf         1   data ,g         * 
+  _u2_com_tq_ref_rate_rx
+                                  febf11d0         2   data ,g         * 
+  _u2_com_irms_ref_rate_rx
+                                  febf11d2         2   data ,g         * 
+  _u2_com_speed_ref_rate_rx
+                                  febf11d4         2   data ,g         * 
+  _s2_com_tq_ref_rx
+                                  febf11d6         2   data ,g         * 
+  _s2_com_irms_ref_rx
+                                  febf11d8         2   data ,g         * 
+  _s2_com_f_slip_ref_rx
+                                  febf11da         2   data ,g         * 
+  _s2_com_speed_ref_rx
+                                  febf11dc         2   data ,g         * 
+  _f4_com_tq_ref_rate_rx
+                                  febf11e0         4   data ,g         * 
+  _f4_com_irms_ref_rate_rx
+                                  febf11e4         4   data ,g         * 
+  _f4_com_speed_ref_rate_rx
+                                  febf11e8         4   data ,g         * 
+  _f4_com_tq_ref_rx
+                                  febf11ec         4   data ,g         * 
+  _f4_com_irms_ref_rx
+                                  febf11f0         4   data ,g         * 
+  _f4_com_f_slip_ref_rx
+                                  febf11f4         4   data ,g         * 
+  _f4_com_speed_ref_rx
+                                  febf11f8         4   data ,g         * 
+  _u1_flag_inv0_state_start
+                                  febf11fc         1   data ,g         * 
+  _u1_com_actual_state_tx
+                                  febf11fd         1   data ,g         * 
+  _u1_com_drive_state_tx
+                                  febf11fe         1   data ,g         * 
+  _s2_com_tq_ref_tx
+                                  febf1200         2   data ,g         * 
+  _s2_com_irms_ad_tx
+                                  febf1202         2   data ,g         * 
+  _s2_com_speed_lpf_tx
+                                  febf1204         2   data ,g         * 
+  _s2_com_id_ref_tx
+                                  febf1206         2   data ,g         * 
+  _s2_com_iq_ref_tx
+                                  febf1208         2   data ,g         * 
+  _u2_com_irms_ref_tx
+                                  febf120a         2   data ,g         * 
+  _s2_com_f_slip_ref_tx
+                                  febf120c         2   data ,g         * 
+  _s2_com_id_ad_tx
+                                  febf120e         2   data ,g         * 
+  _s2_com_iq_ad_tx
+                                  febf1210         2   data ,g         * 
+  _s2_com_idc_est_tx
+                                  febf1212         2   data ,g         * 
+  _s2_com_speed_ref_tx
+                                  febf1214         2   data ,g         * 
+  _s2_com_vd_ref_tx
+                                  febf1216         2   data ,g         * 
+  _s2_com_vq_ref_tx
+                                  febf1218         2   data ,g         * 
+  _u2_com_vdc_ad_tx
+                                  febf121a         2   data ,g         * 
+  _u2_com_vrms_ref_tx
+                                  febf121c         2   data ,g         * 
+  _s2_com_tq_limit_p_tx
+                                  febf121e         2   data ,g         * 
+  _s2_com_tq_limit_n_tx
+                                  febf1220         2   data ,g         * 
+  _u1_com_tmp_mot1_tx
+                                  febf1222         1   data ,g         * 
+  _u1_com_tmp_mot2_tx
+                                  febf1223         1   data ,g         * 
+  _u1_com_tmp_int_tx
+                                  febf1224         1   data ,g         * 
+  _u1_com_tmp_igbt1_tx
+                                  febf1225         1   data ,g         * 
+  _u1_com_tmp_igbt2_tx
+                                  febf1226         1   data ,g         * 
+  _u1_com_tmp_igbt3_tx
+                                  febf1227         1   data ,g         * 
+  _u1_com_tmp_igbt4_tx
+                                  febf1228         1   data ,g         * 
+  _u1_com_tmp_igbt5_tx
+                                  febf1229         1   data ,g         * 
+  _u1_com_tmp_igbt6_tx
+                                  febf122a         1   data ,g         * 
+  _u4_com_flag_error1_tx
+                                  febf122c         4   data ,g         * 
+  _u4_com_flag_error2_tx
+                                  febf1230         4   data ,g         * 
+  _u4_com_flag_error_hw_tx
+                                  febf1234         4   data ,g         * 
+  _u4_com_flag_error_hw_lev_tx
+                                  febf1238         4   data ,g         * 
+  _f4_com_tq_ref_tx
+                                  febf123c         4   data ,g         * 
+  _f4_com_irms_ad_tx
+                                  febf1240         4   data ,g         * 
+  _f4_com_speed_lpf_tx
+                                  febf1244         4   data ,g         * 
+  _f4_com_id_ref_tx
+                                  febf1248         4   data ,g         * 
+  _f4_com_iq_ref_tx
+                                  febf124c         4   data ,g         * 
+  _f4_com_irms_ref_tx
+                                  febf1250         4   data ,g         * 
+  _f4_com_f_slip_ref_tx
+                                  febf1254         4   data ,g         * 
+  _f4_com_id_ad_tx
+                                  febf1258         4   data ,g         * 
+  _f4_com_iq_ad_tx
+                                  febf125c         4   data ,g         * 
+  _f4_com_idc_est_tx
+                                  febf1260         4   data ,g         * 
+  _f4_com_speed_ref_tx
+                                  febf1264         4   data ,g         * 
+  _f4_com_vd_ref_tx
+                                  febf1268         4   data ,g         * 
+  _f4_com_vq_ref_tx
+                                  febf126c         4   data ,g         * 
+  _f4_com_vdc_ad_tx
+                                  febf1270         4   data ,g         * 
+  _f4_com_vrms_ref_tx
+                                  febf1274         4   data ,g         * 
+  _f4_com_tq_limit_p_tx
+                                  febf1278         4   data ,g         * 
+  _f4_com_tq_limit_n_tx
+                                  febf127c         4   data ,g         * 
+  _f4_com_tmp_mot1_tx
+                                  febf1280         4   data ,g         * 
+  _f4_com_tmp_mot2_tx
+                                  febf1284         4   data ,g         * 
+  _f4_com_tmp_int_tx
+                                  febf1288         4   data ,g         * 
+  _f4_com_tmp_igbt1_tx
+                                  febf128c         4   data ,g         * 
+  _f4_com_tmp_igbt2_tx
+                                  febf1290         4   data ,g         * 
+  _f4_com_tmp_igbt3_tx
+                                  febf1294         4   data ,g         * 
+  _f4_com_tmp_igbt4_tx
+                                  febf1298         4   data ,g         * 
+  _f4_com_tmp_igbt5_tx
+                                  febf129c         4   data ,g         * 
+  _f4_com_tmp_igbt6_tx
+                                  febf12a0         4   data ,g         * 
+  _u2_cnt_10ms_tx0
+                                  febf12a4         2   data ,g         * 
+  _u4_status_can0
+                                  febf12a8         4   data ,g         * 
+  _u4_status_can0_tmp
+                                  febf12ac         4   data ,g         * 
+  _u1_flag_can0_com_id0x010_startchk
+                                  febf12b0         1   data ,g         * 
+  _u2_cnt_can0_1ms_id0x010_comchk
+                                  febf12b2         2   data ,g         * 
+  _u2_cnt_can0_1ms_id0x010_comchk_max
+                                  febf12b4         2   data ,g         * 
+  _u1_flag_can0_com_id0x011_startchk
+                                  febf12b6         1   data ,g         * 
+  _u2_cnt_can0_1ms_id0x011_comchk
+                                  febf12b8         2   data ,g         * 
+  _u2_cnt_can0_1ms_id0x011_comchk_max
+                                  febf12ba         2   data ,g         * 
+  _u4_chk
+                                  febf12bc         4   data ,g         * 
+  _u4_chk_id
+                                  febf12c0         4   data ,g         * 
+FILE=DefaultBuild\fi_1ms_int.obj
+                                  febf12c4  febf12cb         8
+  _u2_cnt_err_enable
+                                  febf12c4         2   data ,g         * 
+  _u1_flag_err_enable
+                                  febf12c6         1   data ,g         * 
+  _u4_cnt_1ms
+                                  febf12c8         4   data ,g         * 
+FILE=DefaultBuild\fi_1ms_inv0_adctrl.obj
+                                  febf12cc  febf149b       1d0
+  _th_IGBT
+                                  febf12cc        24   data ,g         * 
+  _th_103JT
+                                  febf12f0        24   data ,g         * 
+  _th_MOTOR1_INV0
+                                  febf1314        24   data ,g         * 
+  _th_MOTOR2_INV0
+                                  febf1338        24   data ,g         * 
+  _th_493HT
+                                  febf135c        24   data ,g         * 
+  _th_AL03006_1753K_98_G1
+                                  febf1380        24   data ,g         * 
+  _th_PSB_S3
+                                  febf13a4        24   data ,g         * 
+  _th_NCP18XH103
+                                  febf13c8        24   data ,g         * 
+  _th_NCU18WB473F6SRB_10k
+                                  febf13ec        24   data ,g         * 
+  _th_FMF800DX_24B
+                                  febf1410        24   data ,g         * 
+  _th_NTCALUG01T103G
+                                  febf1434        24   data ,g         * 
+  _f4_tmp_inv0_igbt_up
+                                  febf1458         4   data ,g         * 
+  _f4_tmp_inv0_igbt_vp
+                                  febf145c         4   data ,g         * 
+  _f4_tmp_inv0_igbt_wp
+                                  febf1460         4   data ,g         * 
+  _f4_tmp_inv0_igbt_un
+                                  febf1464         4   data ,g         * 
+  _f4_tmp_inv0_igbt_vn
+                                  febf1468         4   data ,g         * 
+  _f4_tmp_inv0_igbt_wn
+                                  febf146c         4   data ,g         * 
+  _f4_tmp_inv0_igbtp_max
+                                  febf1470         4   data ,g         * 
+  _f4_tmp_inv0_igbtn_max
+                                  febf1474         4   data ,g         * 
+  _f4_tmp_inv0_igbt_max
+                                  febf1478         4   data ,g         * 
+  _f4_tmp_inv0_mot1
+                                  febf147c         4   data ,g         * 
+  _f4_tmp_inv0_mot2
+                                  febf1480         4   data ,g         * 
+  _f4_tmp_inv0_mot_max
+                                  febf1484         4   data ,g         * 
+  _f4_tmp_inv0_int
+                                  febf1488         4   data ,g         * 
+  _f4_tmp_inv0_busbar_p
+                                  febf148c         4   data ,g         * 
+  _f4_tmp_inv0_busbar_w
+                                  febf1490         4   data ,g         * 
+  _f4_tmp_inv0_film_cap
+                                  febf1494         4   data ,g         * 
+  _f4_wclpf_inv0_tmp
+                                  febf1498         4   data ,g         * 
+FILE=DefaultBuild\fi_1ms_inv0_errctrl.obj
+                                  febf149c  febf1535        9a
+  _f4_lev_uv_inv0_vdc
+                                  febf149c         4   data ,g         * 
+  _f4_lev_oh_inv0_igbt
+                                  febf14a0         4   data ,g         * 
+  _f4_lev_oh_inv0_mot1
+                                  febf14a4         4   data ,g         * 
+  _f4_lev_oh_inv0_mot2
+                                  febf14a8         4   data ,g         * 
+  _f4_lev_os_inv0_speed
+                                  febf14ac         4   data ,g         * 
+  _f4_lev_oh_inv0_int
+                                  febf14b0         4   data ,g         * 
+  _f4_lev_ov_inv0_ctrlbd
+                                  febf14b4         4   data ,g         * 
+  _f4_lev_uv_inv0_ctrlbd
+                                  febf14b8         4   data ,g         * 
+  _s4_lev_snsr_inv0_iinv
+                                  febf14bc         4   data ,g         * 
+  _s4_lev_snsr_inv0_tmp_igbt
+                                  febf14c0         4   data ,g         * 
+  _s4_lev_snsr_inv0_tmp_int
+                                  febf14c4         4   data ,g         * 
+  _s4_lev_snsr_inv0_tmp_mot1
+                                  febf14c8         4   data ,g         * 
+  _s4_lev_snsr_inv0_tmp_mot2
+                                  febf14cc         4   data ,g         * 
+  _u2_cnt_uv_inv0_vdc_1ms_max
+                                  febf14d0         2   data ,g         * 
+  _u2_cnt_oh_inv0_igbt_1ms_max
+                                  febf14d2         2   data ,g         * 
+  _u2_cnt_oh_inv0_mot1_1ms_max
+                                  febf14d4         2   data ,g         * 
+  _u2_cnt_oh_inv0_mot2_1ms_max
+                                  febf14d6         2   data ,g         * 
+  _u2_cnt_os_inv0_speed_1ms_max
+                                  febf14d8         2   data ,g         * 
+  _u2_cnt_oh_inv0_int_1ms_max
+                                  febf14da         2   data ,g         * 
+  _u2_cnt_ov_inv0_ctrlbd_1ms_max
+                                  febf14dc         2   data ,g         * 
+  _u2_cnt_uv_inv0_ctrlbd_1ms_max
+                                  febf14de         2   data ,g         * 
+  _u2_cnt_snsr_inv0_tmp_int_1ms_max
+                                  febf14e0         2   data ,g         * 
+  _u2_cnt_snsr_inv0_tmp_igbt_1ms_max
+                                  febf14e2         2   data ,g         * 
+  _u2_cnt_snsr_inv0_tmp_mot1_1ms_max
+                                  febf14e4         2   data ,g         * 
+  _u2_cnt_snsr_inv0_tmp_mot2_1ms_max
+                                  febf14e6         2   data ,g         * 
+  _u2_cnt_uv_inv0_vdc_1ms
+                                  febf14e8         2   data ,g         * 
+  _u2_cnt_oh_inv0_igbt_up_1ms
+                                  febf14ea         2   data ,g         * 
+  _u2_cnt_oh_inv0_igbt_vp_1ms
+                                  febf14ec         2   data ,g         * 
+  _u2_cnt_oh_inv0_igbt_wp_1ms
+                                  febf14ee         2   data ,g         * 
+  _u2_cnt_oh_inv0_igbt_un_1ms
+                                  febf14f0         2   data ,g         * 
+  _u2_cnt_oh_inv0_igbt_vn_1ms
+                                  febf14f2         2   data ,g         * 
+  _u2_cnt_oh_inv0_igbt_wn_1ms
+                                  febf14f4         2   data ,g         * 
+  _u2_cnt_oh_inv0_mot1_1ms
+                                  febf14f6         2   data ,g         * 
+  _u2_cnt_oh_inv0_mot2_1ms
+                                  febf14f8         2   data ,g         * 
+  _u2_cnt_os_inv0_speed_1ms
+                                  febf14fa         2   data ,g         * 
+  _u2_cnt_oh_inv0_int_1ms
+                                  febf14fc         2   data ,g         * 
+  _u2_cnt_ov_inv0_ctrlbd_1ms
+                                  febf14fe         2   data ,g         * 
+  _u2_cnt_uv_inv0_ctrlbd_1ms
+                                  febf1500         2   data ,g         * 
+  _u2_cnt_snsr_inv0_tmp_int_1ms
+                                  febf1502         2   data ,g         * 
+  _u2_cnt_snsr_inv0_tmp_igbt_up_1ms
+                                  febf1504         2   data ,g         * 
+  _u2_cnt_snsr_inv0_tmp_igbt_vp_1ms
+                                  febf1506         2   data ,g         * 
+  _u2_cnt_snsr_inv0_tmp_igbt_wp_1ms
+                                  febf1508         2   data ,g         * 
+  _u2_cnt_snsr_inv0_tmp_igbt_un_1ms
+                                  febf150a         2   data ,g         * 
+  _u2_cnt_snsr_inv0_tmp_igbt_vn_1ms
+                                  febf150c         2   data ,g         * 
+  _u2_cnt_snsr_inv0_tmp_igbt_wn_1ms
+                                  febf150e         2   data ,g         * 
+  _u2_cnt_snsr_inv0_tmp_mot1_1ms
+                                  febf1510         2   data ,g         * 
+  _u2_cnt_snsr_inv0_tmp_mot2_1ms
+                                  febf1512         2   data ,g         * 
+  _u4_flag_inv0_error_hw
+                                  febf1514         4   data ,g         * 
+  _u1_flag_can0_err_enable
+                                  febf1518         1   data ,g         * 
+  _u4_flag_inv0_error_hw_lev
+                                  febf151c         4   data ,g         * 
+  _u2_cnt_di_inv0_safty
+                                  febf1520         2   data ,g         * 
+  _u2_cnt_di_inv0_safty_max
+                                  febf1522         2   data ,g         * 
+  _u2_cnt_di_inv0_gb
+                                  febf1524         2   data ,g         * 
+  _u2_cnt_di_inv0_gb_max
+                                  febf1526         2   data ,g         * 
+  _u1_cpldspi_cs
+                                  febf1528         1   data ,g         * 
+  _u1_cpldspi_clk
+                                  febf1529         1   data ,g         * 
+  _u1_cpldspi_in
+                                  febf152a         1   data ,g         * 
+  _u1_cpldspi_out
+                                  febf152b         1   data ,g         * 
+  _u4_cpldspi_indata
+                                  febf152c         4   data ,g         * 
+  _u4_cpldspi_indata_tmp
+                                  febf1530         4   data ,g         * 
+  _u1_cpldspi_cnt
+                                  febf1534         1   data ,g         * 
+  _u1_err_MCU
+                                  febf1535         1   data ,g         * 
+FILE=DefaultBuild\fi_1ms_inv0_idqcom.obj
+                                  febf1538  febf15e3        ac
+  _u1_flag_inv0_derating_status
+                                  febf1538         1   data ,g         * 
+  _f4_k_inv0_tmp_igbt_limit
+                                  febf153c         4   data ,g         * 
+  _f4_tmp_inv0_igbt_limit_start
+                                  febf1540         4   data ,g         * 
+  _f4_tmp_inv0_igbt_limit_fin
+                                  febf1544         4   data ,g         * 
+  _f4_k_inv0_tmp_mot1_limit
+                                  febf1548         4   data ,g         * 
+  _f4_tmp_inv0_mot1_limit_start
+                                  febf154c         4   data ,g         * 
+  _f4_tmp_inv0_mot1_limit_fin
+                                  febf1550         4   data ,g         * 
+  _f4_k_inv0_tmp_mot2_limit
+                                  febf1554         4   data ,g         * 
+  _f4_tmp_inv0_mot2_limit_start
+                                  febf1558         4   data ,g         * 
+  _f4_tmp_inv0_mot2_limit_fin
+                                  febf155c         4   data ,g         * 
+  _f4_k_inv0_tq_limit
+                                  febf1560         4   data ,g         * 
+  _f4_speed_inv0_enable_active_discharge
+                                  febf1564         4   data ,g         * 
+  _f4_irms_inv0_ref_active_discharge
+                                  febf1568         4   data ,g         * 
+  _u1_flag_inv0_sysctrl_active_discharge
+                                  febf156c         1   data ,g         * 
+  _u1_flag_inv0_sysctrl_active_discharge_tmp
+                                  febf156d         1   data ,g         * 
+  _u1_flag_mode_inv0_idqcom
+                                  febf156e         1   data ,g         * 
+  _f4_id_inv0_ctrl
+                                  febf1570         4   data ,g         * 
+  _f4_iq_inv0_ctrl
+                                  febf1574         4   data ,g         * 
+  _f4_irms_inv0_ref
+                                  febf1578         4   data ,g         * 
+  _f4_theta_inv0_ref
+                                  febf157c         4   data ,g         * 
+  _f4_irms_inv0_ref_tmp
+                                  febf1580         4   data ,g         * 
+  _f4_dirms_inv0_ref_up
+                                  febf1584         4   data ,g         * 
+  _f4_theta_inv0_ref_tmp
+                                  febf1588         4   data ,g         * 
+  _f4_dtheta_inv0_ref_up
+                                  febf158c         4   data ,g         * 
+  _f4_idq_inv0_ctrl
+                                  febf1590         4   data ,g         * 
+  _f4_irms_inv0_ref_ctrl
+                                  febf1594         4   data ,g         * 
+  _f4_theta_inv0_ref_ctrl
+                                  febf1598         4   data ,g         * 
+  _f4_irms_inv0_ad_lpf
+                                  febf159c         4   data ,g         * 
+  _f4_theta_inv0_ad_lpf
+                                  febf15a0         4   data ,g         * 
+  _f4_tq_inv0_ref
+                                  febf15a4         4   data ,g         * 
+  _f4_tq_inv0_ref_tmp
+                                  febf15a8         4   data ,g         * 
+  _f4_dtq_inv0_ref_up
+                                  febf15ac         4   data ,g         * 
+  _f4_tq_inv0_ref_max
+                                  febf15b0         4   data ,g         * 
+  _f4_tq_inv0_ref_min
+                                  febf15b4         4   data ,g         * 
+  _f4_tq_inv0_ref_max_tmp
+                                  febf15b8         4   data ,g         * 
+  _f4_tq_inv0_ref_min_tmp
+                                  febf15bc         4   data ,g         * 
+  _f4_speed_inv0_abs
+                                  febf15c0         4   data ,g         * 
+  _f4_power_inv0_mot_loss
+                                  febf15c4         4   data ,g         * 
+  _f4_power_inv0_inv_loss
+                                  febf15c8         4   data ,g         * 
+  _f4_wclpf_inv0_p123
+                                  febf15cc         4   data ,g         * 
+  _f4_power_inv0_p123
+                                  febf15d0         4   data ,g         * 
+  _f4_power_inv0_p123_lpf
+                                  febf15d4         4   data ,g         * 
+  _f4_tq_inv0_est
+                                  febf15d8         4   data ,g         * 
+  _f4_idc_inv0_est
+                                  febf15dc         4   data ,g         * 
+  _f4_lev_inv0_speed_tq_est_ctrl
+                                  febf15e0         4   data ,g         * 
+FILE=DefaultBuild\fi_1ms_inv0_seqctrl.obj
+                                  febf15e4  febf15eb         8
+  _u1_mode_inv0_main
+                                  febf15e4         1   data ,g         * 
+  _u1_mode_inv0_main_tmp
+                                  febf15e5         1   data ,g         * 
+  _u1_seq_inv0_runctrl
+                                  febf15e6         1   data ,g         * 
+  _u1_seq_inv0_stopctrl
+                                  febf15e7         1   data ,g         * 
+  _u1_seq_inv0_errctrl
+                                  febf15e8         1   data ,g         * 
+  _u1_flag_inv0_sysctrl
+                                  febf15e9         1   data ,g         * 
+  _u1_flag_inv0_motctrl
+                                  febf15ea         1   data ,g         * 
+  _u1_flag_inv0_offsetadjl
+                                  febf15eb         1   data ,g         * 
+FILE=DefaultBuild\fi_1ms_inv0_wrctrl.obj
+                                  febf15ec  febf164f        64
+  _u1_flag_enable_inv0_wrctrl
+                                  febf15ec         1   data ,g         * 
+  _u1_flag_enable_inv0_wrlimitctrl
+                                  febf15ed         1   data ,g         * 
+  _f4_speed_inv0_ref
+                                  febf15f0         4   data ,g         * 
+  _f4_wr_inv0_ref
+                                  febf15f4         4   data ,g         * 
+  _f4_dspeed_inv0_ref_up
+                                  febf15f8         4   data ,g         * 
+  _f4_dwr_inv0_ref_up
+                                  febf15fc         4   data ,g         * 
+  _u1_flag_wr_inv0_ref_check
+                                  febf1600         1   data ,g         * 
+  _f4_speed_inv0_limit_ref
+                                  febf1604         4   data ,g         * 
+  _f4_wr_inv0_limit_ref
+                                  febf1608         4   data ,g         * 
+  _f4_kp_inv0_wrctrl
+                                  febf160c         4   data ,g         * 
+  _f4_ki_inv0_wrctrl
+                                  febf1610         4   data ,g         * 
+  _f4_wr_inv0_ctrlerr
+                                  febf1614         4   data ,g         * 
+  _f4_tq_inv0_wrctrlp
+                                  febf1618         4   data ,g         * 
+  _f4_tq_inv0_wrctrli
+                                  febf161c         4   data ,g         * 
+  _f4_tq_inv0_wrctrl
+                                  febf1620         4   data ,g         * 
+  _f4_iq_inv0_wrctrlp
+                                  febf1624         4   data ,g         * 
+  _f4_iq_inv0_wrctrli
+                                  febf1628         4   data ,g         * 
+  _f4_iq_inv0_wrctrl
+                                  febf162c         4   data ,g         * 
+  _f4_kp_inv0_wrlimitctrl
+                                  febf1630         4   data ,g         * 
+  _f4_ki_inv0_wrlimitctrl
+                                  febf1634         4   data ,g         * 
+  _f4_wr_inv0_limitctrlerr
+                                  febf1638         4   data ,g         * 
+  _f4_tq_inv0_wrlimitctrlp
+                                  febf163c         4   data ,g         * 
+  _f4_tq_inv0_wrlimitctrli
+                                  febf1640         4   data ,g         * 
+  _f4_tq_inv0_wrlimitctrl
+                                  febf1644         4   data ,g         * 
+  _f4_iq_inv0_wrlimitctrl
+                                  febf1648         4   data ,g         * 
+  _f4_idq_inv0_max
+                                  febf164c         4   data ,g         * 
+FILE=DefaultBuild\fi_AWatcher.obj
+                                  febf1650  febf1657         8
+  _u4_cnt_re_oer
+                                  febf1650         4   data ,g         * 
+  _u4_cnt_re_fer
+                                  febf1654         4   data ,g         * 
+FILE=DefaultBuild\fi_pwm_int.obj
+                                  febf1658  febf166b        14
+  _u1_pwm_inv0_status
+                                  febf1658         1   data ,g         * 
+  _u1_flag_pwm_inv0_source
+                                  febf1659         1   data ,g         * 
+  _u4_fc_inv0_lsb_0
+                                  febf165c         4   data ,g         * 
+  _f4_fs_inv0_ctrl
+                                  febf1660         4   data ,g         * 
+  _f4_ts_inv0_ctrl
+                                  febf1664         4   data ,g         * 
+  _u4_cnt_pwm
+                                  febf1668         4   data ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_1pulse.obj
+                                  febf166c  febf1677         c
+  _f4_mu_inv0_1pulse
+                                  febf166c         4   data ,g         * 
+  _f4_mv_inv0_1pulse
+                                  febf1670         4   data ,g         * 
+  _f4_mw_inv0_1pulse
+                                  febf1674         4   data ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_adctrl.obj
+                                  febf1678  febf180e       197
+  _s2_ad000
+                                  febf1678         2   data ,g         * 
+  _s2_ad001
+                                  febf167a         2   data ,g         * 
+  _s2_ad002
+                                  febf167c         2   data ,g         * 
+  _s2_ad003
+                                  febf167e         2   data ,g         * 
+  _s2_ad010
+                                  febf1680         2   data ,g         * 
+  _s2_ad011
+                                  febf1682         2   data ,g         * 
+  _s2_ad012
+                                  febf1684         2   data ,g         * 
+  _s2_ad013
+                                  febf1686         2   data ,g         * 
+  _s2_ad020
+                                  febf1688         2   data ,g         * 
+  _s2_ad021
+                                  febf168a         2   data ,g         * 
+  _s2_ad022
+                                  febf168c         2   data ,g         * 
+  _s2_ad023
+                                  febf168e         2   data ,g         * 
+  _s2_ad030
+                                  febf1690         2   data ,g         * 
+  _s2_ad031
+                                  febf1692         2   data ,g         * 
+  _s2_ad032
+                                  febf1694         2   data ,g         * 
+  _s2_ad033
+                                  febf1696         2   data ,g         * 
+  _s2_ad100
+                                  febf1698         2   data ,g         * 
+  _s2_ad101
+                                  febf169a         2   data ,g         * 
+  _s2_ad102
+                                  febf169c         2   data ,g         * 
+  _s2_ad110
+                                  febf169e         2   data ,g         * 
+  _s2_ad111
+                                  febf16a0         2   data ,g         * 
+  _s2_ad112
+                                  febf16a2         2   data ,g         * 
+  _s2_ad120
+                                  febf16a4         2   data ,g         * 
+  _s2_ad121
+                                  febf16a6         2   data ,g         * 
+  _s2_ad122
+                                  febf16a8         2   data ,g         * 
+  _s2_ad130
+                                  febf16aa         2   data ,g         * 
+  _s2_ad131
+                                  febf16ac         2   data ,g         * 
+  _s2_ad132
+                                  febf16ae         2   data ,g         * 
+  _s2_ad140
+                                  febf16b0         2   data ,g         * 
+  _s2_ad141
+                                  febf16b2         2   data ,g         * 
+  _s2_ad142
+                                  febf16b4         2   data ,g         * 
+  _s2_ad150
+                                  febf16b6         2   data ,g         * 
+  _s2_ad151
+                                  febf16b8         2   data ,g         * 
+  _s2_ad152
+                                  febf16ba         2   data ,g         * 
+  _s2_ad160
+                                  febf16bc         2   data ,g         * 
+  _s2_ad161
+                                  febf16be         2   data ,g         * 
+  _s2_ad162
+                                  febf16c0         2   data ,g         * 
+  _s2_ad_inv0_vdc
+                                  febf16c2         2   data ,g         * 
+  _s2_ad_inv0_vdc_tmp
+                                  febf16c4         2   data ,g         * 
+  _s2_ad_inv0_idc
+                                  febf16c6         2   data ,g         * 
+  _s2_ad_inv0_iu
+                                  febf16c8         2   data ,g         * 
+  _s2_ad_inv0_iv
+                                  febf16ca         2   data ,g         * 
+  _s2_ad_inv0_iw
+                                  febf16cc         2   data ,g         * 
+  _s2_ad_inv0_vuv
+                                  febf16ce         2   data ,g         * 
+  _s2_ad_inv0_vwv
+                                  febf16d0         2   data ,g         * 
+  _s2_ad_inv0_tmp_igbt_up
+                                  febf16d2         2   data ,g         * 
+  _s2_ad_inv0_tmp_igbt_un
+                                  febf16d4         2   data ,g         * 
+  _s2_ad_inv0_tmp_igbt_vp
+                                  febf16d6         2   data ,g         * 
+  _s2_ad_inv0_tmp_igbt_vn
+                                  febf16d8         2   data ,g         * 
+  _s2_ad_inv0_tmp_igbt_wp
+                                  febf16da         2   data ,g         * 
+  _s2_ad_inv0_tmp_igbt_wn
+                                  febf16dc         2   data ,g         * 
+  _s2_ad_inv0_tmp_mot1
+                                  febf16de         2   data ,g         * 
+  _s2_ad_inv0_tmp_mot2
+                                  febf16e0         2   data ,g         * 
+  _s2_ad_inv0_tmp_int
+                                  febf16e2         2   data ,g         * 
+  _s2_ad_inv0_vctrlbd
+                                  febf16e4         2   data ,g         * 
+  _s2_ad_inv0_tmp_ai0
+                                  febf16e6         2   data ,g         * 
+  _s2_ad_inv0_tmp_ai1
+                                  febf16e8         2   data ,g         * 
+  _s2_ad_inv0_tmp_ai2
+                                  febf16ea         2   data ,g         * 
+  _s2_ad_inv0_tmp_ai3
+                                  febf16ec         2   data ,g         * 
+  _s2_ad_inv0_tmp_ai4
+                                  febf16ee         2   data ,g         * 
+  _s2_ad_inv0_tmp_th1
+                                  febf16f0         2   data ,g         * 
+  _s2_ad_inv0_tmp_th2
+                                  febf16f2         2   data ,g         * 
+  _s2_ad_inv0_tmp_th3
+                                  febf16f4         2   data ,g         * 
+  _s2_ad_inv0_tmp_th4
+                                  febf16f6         2   data ,g         * 
+  _s2_ad_inv0_tmp_th5
+                                  febf16f8         2   data ,g         * 
+  _s2_ad_inv0_tmp_th6
+                                  febf16fa         2   data ,g         * 
+  _s2_ad_inv0_tmp_th7
+                                  febf16fc         2   data ,g         * 
+  _s2_ad_inv0_tmp_th8
+                                  febf16fe         2   data ,g         * 
+  _s2_AD0_cnt
+                                  febf1700         2   data ,g         * 
+  _s2_AD0_wait_warning
+                                  febf1702         2   data ,g         * 
+  _s4_adtrig_inv0_delay_ns
+                                  febf1704         4   data ,g         * 
+  _f4_k_iu_inv0_adscale
+                                  febf1708         4   data ,g         * 
+  _f4_k_iv_inv0_adscale
+                                  febf170c         4   data ,g         * 
+  _f4_k_iw_inv0_adscale
+                                  febf1710         4   data ,g         * 
+  _f4_k_vdc_inv0_adscale
+                                  febf1714         4   data ,g         * 
+  _f4_k_idc_inv0_adscale
+                                  febf1718         4   data ,g         * 
+  _f4_k_vuvw_inv0_adscale
+                                  febf171c         4   data ,g         * 
+  _s4_iu_inv0_adfs
+                                  febf1720         4   data ,g         * 
+  _s4_iv_inv0_adfs
+                                  febf1724         4   data ,g         * 
+  _s4_iw_inv0_adfs
+                                  febf1728         4   data ,g         * 
+  _f4_iu_inv0_ad
+                                  febf172c         4   data ,g         * 
+  _f4_iv_inv0_ad
+                                  febf1730         4   data ,g         * 
+  _f4_iw_inv0_ad
+                                  febf1734         4   data ,g         * 
+  _f4_iu_inv0_tmp_ad
+                                  febf1738         4   data ,g         * 
+  _f4_iv_inv0_tmp_ad
+                                  febf173c         4   data ,g         * 
+  _f4_iw_inv0_tmp_ad
+                                  febf1740         4   data ,g         * 
+  _u1_flag_ictrl_inv0_select
+                                  febf1744         1   data ,g         * 
+  _u1_flag_iad_inv0_avg
+                                  febf1745         1   data ,g         * 
+  _f4_iu_inv0_ctrl
+                                  febf1748         4   data ,g         * 
+  _f4_iv_inv0_ctrl
+                                  febf174c         4   data ,g         * 
+  _f4_iw_inv0_ctrl
+                                  febf1750         4   data ,g         * 
+  _f4_vdc_inv0_ad
+                                  febf1754         4   data ,g         * 
+  _f4_vdc_inv0_ad_offset
+                                  febf1758         4   data ,g         * 
+  _f4_vuv_inv0_ad
+                                  febf175c         4   data ,g         * 
+  _f4_vwv_inv0_ad
+                                  febf1760         4   data ,g         * 
+  _f4_vu_inv0_ad
+                                  febf1764         4   data ,g         * 
+  _f4_vv_inv0_ad
+                                  febf1768         4   data ,g         * 
+  _f4_vw_inv0_ad
+                                  febf176c         4   data ,g         * 
+  _f4_vvw_inv0_ad
+                                  febf1770         4   data ,g         * 
+  _f4_vwu_inv0_ad
+                                  febf1774         4   data ,g         * 
+  _f4_vu_inv0_ad_tmp
+                                  febf1778         4   data ,g         * 
+  _f4_vv_inv0_ad_tmp
+                                  febf177c         4   data ,g         * 
+  _f4_vw_inv0_ad_tmp
+                                  febf1780         4   data ,g         * 
+  _f4_vuvw_inv0_ad_offset
+                                  febf1784         4   data ,g         * 
+  _f4_va_inv0_ad
+                                  febf1788         4   data ,g         * 
+  _f4_vb_inv0_ad
+                                  febf178c         4   data ,g         * 
+  _f4_vdq_inv0_ad
+                                  febf1790         4   data ,g         * 
+  _f4_wt_inv0_vuvw_ad
+                                  febf1794         4   data ,g         * 
+  _f4_wt_inv0_pll_vuvw_ad
+                                  febf1798         4   data ,g         * 
+  _f4_wt_inv0_pll_vuvw_ad_err
+                                  febf179c         4   data ,g         * 
+  _f4_kp_inv0_wrpll_vuvw_ad
+                                  febf17a0         4   data ,g         * 
+  _f4_ki_inv0_wrpll_vuvw_ad
+                                  febf17a4         4   data ,g         * 
+  _f4_wr_inv0_pll_vuvw_ad_p
+                                  febf17a8         4   data ,g         * 
+  _f4_wr_inv0_pll_vuvw_ad_i
+                                  febf17ac         4   data ,g         * 
+  _f4_wr_inv0_pll_vuvw_ad
+                                  febf17b0         4   data ,g         * 
+  _f4_wclpf_inv0_wrpll_vuvw_ad
+                                  febf17b4         4   data ,g         * 
+  _f4_wr_inv0_pll_vuvw_ad_lpf
+                                  febf17b8         4   data ,g         * 
+  _s4_idc_inv0_adfs
+                                  febf17bc         4   data ,g         * 
+  _f4_idc_inv0_ad
+                                  febf17c0         4   data ,g         * 
+  _f4_idc_inv0_tmp_ad
+                                  febf17c4         4   data ,g         * 
+  _f4_vctrlbd_inv0_ad
+                                  febf17c8         4   data ,g         * 
+  _f4_k_vctrlbd_inv0_adscale
+                                  febf17cc         4   data ,g         * 
+  _f4_wclpf_inv0_vdc
+                                  febf17d0         4   data ,g         * 
+  _f4_vdc_inv0_lpf
+                                  febf17d4         4   data ,g         * 
+  _f4_wclpf_inv0_idc
+                                  febf17d8         4   data ,g         * 
+  _f4_idc_inv0_lpf
+                                  febf17dc         4   data ,g         * 
+  _f4_wclpf_inv0_v_ai
+                                  febf17e0         4   data ,g         * 
+  _f4_v_ai_inv0_lpf
+                                  febf17e4         4   data ,g         * 
+  _f4_dvdc_inv0_ad
+                                  febf17e8         4   data ,g         * 
+  _s4_offset_iu_inv0_adfs
+                                  febf17ec         4   data ,g         * 
+  _s4_offset_iv_inv0_adfs
+                                  febf17f0         4   data ,g         * 
+  _s4_offset_iw_inv0_adfs
+                                  febf17f4         4   data ,g         * 
+  _s4_offset_idc_inv0_adfs
+                                  febf17f8         4   data ,g         * 
+  _s4_offset_iu_inv0_adfs_sum
+                                  febf17fc         4   data ,g         * 
+  _s4_offset_iv_inv0_adfs_sum
+                                  febf1800         4   data ,g         * 
+  _s4_offset_iw_inv0_adfs_sum
+                                  febf1804         4   data ,g         * 
+  _s4_offset_idc_inv0_adfs_sum
+                                  febf1808         4   data ,g         * 
+  _u2_cnt_inv0_offsetadj
+                                  febf180c         2   data ,g         * 
+  _u1_flag_inv0_offsetadj_ok
+                                  febf180e         1   data ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_encctrl.obj
+                                  febf1810  febf1877        68
+  _u2_cnt_inv0_ecd_get
+                                  febf1810         2   data ,g         * 
+  _f4_wt_inv0_dq
+                                  febf1814         4   data ,g         * 
+  _f4_wt_inv0_dq_tmp
+                                  febf1818         4   data ,g         * 
+  _f4_sin_inv0_wtdq
+                                  febf181c         4   data ,g         * 
+  _f4_cos_inv0_wtdq
+                                  febf1820         4   data ,g         * 
+  _u4_flag_dir_inv0_enc
+                                  febf1824         4   data ,g         * 
+  _f4_wt_inv0_pll
+                                  febf1828         4   data ,g         * 
+  _f4_wt_inv0_pll_err
+                                  febf182c         4   data ,g         * 
+  _f4_wr_inv0_pll_max
+                                  febf1830         4   data ,g         * 
+  _f4_kp_inv0_wrpll
+                                  febf1834         4   data ,g         * 
+  _f4_ki_inv0_wrpll
+                                  febf1838         4   data ,g         * 
+  _f4_wr_inv0_enc_pllp
+                                  febf183c         4   data ,g         * 
+  _f4_wr_inv0_enc_plli
+                                  febf1840         4   data ,g         * 
+  _f4_wr_inv0_enc_pll
+                                  febf1844         4   data ,g         * 
+  _f4_wr_inv0_pll
+                                  febf1848         4   data ,g         * 
+  _f4_wclpf_inv0_wrpll
+                                  febf184c         4   data ,g         * 
+  _f4_wr_inv0_pll_lpf
+                                  febf1850         4   data ,g         * 
+  _f4_wr_inv0_pll_lpf_abs
+                                  febf1854         4   data ,g         * 
+  _f4_speed_inv0_lpf
+                                  febf1858         4   data ,g         * 
+  _f4_winv_inv0_ref
+                                  febf185c         4   data ,g         * 
+  _f4_winv_inv0_ref_abs
+                                  febf1860         4   data ,g         * 
+  _f4_wsl_inv0_ref
+                                  febf1864         4   data ,g         * 
+  _f4_fsl_inv0_ref
+                                  febf1868         4   data ,g         * 
+  _f4_wt_inv0_wsl_ref
+                                  febf186c         4   data ,g         * 
+  _f4_wsl_inv0_ref_max
+                                  febf1870         4   data ,g         * 
+  _f4_fsl_inv0_ref_max
+                                  febf1874         4   data ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_errctrl.obj
+                                  febf1878  febf1897        20
+  _u4_flag_inv0_error
+                                  febf1878         4   data ,g         * 
+  _u4_flag_inv0_error1
+                                  febf187c         4   data ,g         * 
+  _u4_flag_inv0_error2
+                                  febf1880         4   data ,g         * 
+  _f4_lev_oc_inv0_iac
+                                  febf1884         4   data ,g         * 
+  _f4_lev_ov_inv0_vdc
+                                  febf1888         4   data ,g         * 
+  _u2_cnt_oc_inv0_iac_pwm_max
+                                  febf188c         2   data ,g         * 
+  _u2_cnt_ov_inv0_vdc_pwm_max
+                                  febf188e         2   data ,g         * 
+  _u2_cnt_oc_inv0_iu_pwm
+                                  febf1890         2   data ,g         * 
+  _u2_cnt_oc_inv0_iv_pwm
+                                  febf1892         2   data ,g         * 
+  _u2_cnt_oc_inv0_iw_pwm
+                                  febf1894         2   data ,g         * 
+  _u2_cnt_ov_inv0_vdc_pwm
+                                  febf1896         2   data ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_idqctrl.obj
+                                  febf1898  febf1a83       1ec
+  _f4_pf_inv0
+                                  febf1898         4   data ,g         * 
+  _f4_dpf_inv0
+                                  febf189c         4   data ,g         * 
+  _f4_r1_inv0
+                                  febf18a0         4   data ,g         * 
+  _f4_r2_inv0
+                                  febf18a4         4   data ,g         * 
+  _f4_lm_inv0
+                                  febf18a8         4   data ,g         * 
+  _f4_lm_inv0_const
+                                  febf18ac         4   data ,g         * 
+  _f4_ls_inv0
+                                  febf18b0         4   data ,g         * 
+  _f4_rm_inv0
+                                  febf18b4         4   data ,g         * 
+  _u1_flag_lm_inv0_mode
+                                  febf18b8         1   data ,g         * 
+  _u1_flag_enable_inv0_r2_cmp
+                                  febf18b9         1   data ,g         * 
+  _u1_flag_enable_inv0_r1_cmp
+                                  febf18ba         1   data ,g         * 
+  _f4_tmp_inv0_r1
+                                  febf18bc         4   data ,g         * 
+  _f4_tmp_inv0_r2
+                                  febf18c0         4   data ,g         * 
+  _f4_r1_inv0_cmp
+                                  febf18c4         4   data ,g         * 
+  _f4_r2_inv0_cmp
+                                  febf18c8         4   data ,g         * 
+  _f4_kp_inv0_vdqctrl
+                                  febf18cc         4   data ,g         * 
+  _f4_ki_inv0_vdqctrl
+                                  febf18d0         4   data ,g         * 
+  _f4_k_inv0_vdq_vctrl
+                                  febf18d4         4   data ,g         * 
+  _f4_vdq_inv0_vctrl
+                                  febf18d8         4   data ,g         * 
+  _f4_vdqctrl_inv0_err
+                                  febf18dc         4   data ,g         * 
+  _f4_idq_inv0_vdqctrlp
+                                  febf18e0         4   data ,g         * 
+  _f4_idq_inv0_vdqctrli
+                                  febf18e4         4   data ,g         * 
+  _f4_idq_inv0_vdqctrl
+                                  febf18e8         4   data ,g         * 
+  _f4_id_inv0_vdqctrl
+                                  febf18ec         4   data ,g         * 
+  _f4_iq_inv0_vdqctrl
+                                  febf18f0         4   data ,g         * 
+  _f4_idq_inv0_vdqctrl_max
+                                  febf18f4         4   data ,g         * 
+  _f4_fd_inv0_ref
+                                  febf18f8         4   data ,g         * 
+  _f4_fq_inv0_ref
+                                  febf18fc         4   data ,g         * 
+  _f4_id_inv0_ad
+                                  febf1900         4   data ,g         * 
+  _f4_iq_inv0_ad
+                                  febf1904         4   data ,g         * 
+  _f4_id_inv0_ref
+                                  febf1908         4   data ,g         * 
+  _f4_iq_inv0_ref
+                                  febf190c         4   data ,g         * 
+  _f4_id_inv0_ref_min
+                                  febf1910         4   data ,g         * 
+  _f4_id_inv0_ref_max
+                                  febf1914         4   data ,g         * 
+  _f4_idq_inv0_ref
+                                  febf1918         4   data ,g         * 
+  _f4_k_inv0_idq_cmp
+                                  febf191c         4   data ,g         * 
+  _f4_wt_inv0_idq_cmp
+                                  febf1920         4   data ,g         * 
+  _f4_sin_inv0_wtidq_cmp
+                                  febf1924         4   data ,g         * 
+  _f4_cos_inv0_wtidq_cmp
+                                  febf1928         4   data ,g         * 
+  _f4_id_inv0_ad_cmp
+                                  febf192c         4   data ,g         * 
+  _f4_iq_inv0_ad_cmp
+                                  febf1930         4   data ,g         * 
+  _u1_flag_enable_inv0_kictrl
+                                  febf1934         1   data ,g         * 
+  _f4_kp_inv0_idq_cmp
+                                  febf1938         4   data ,g         * 
+  _f4_ki_inv0_idq_cmp
+                                  febf193c         4   data ,g         * 
+  _f4_vdq_inv0_ctrl_max
+                                  febf1940         4   data ,g         * 
+  _f4_vdq_inv0_ctrl_max_adj
+                                  febf1944         4   data ,g         * 
+  _f4_kp_inv0_idq_ctrl_max
+                                  febf1948         4   data ,g         * 
+  _f4_kp_inv0_idq_ctrl_min
+                                  febf194c         4   data ,g         * 
+  _f4_lev_m_kp_inv0_idq_ctrl_max
+                                  febf1950         4   data ,g         * 
+  _f4_lev_m_kp_inv0_idq_ctrl_min
+                                  febf1954         4   data ,g         * 
+  _f4_a_kp_inv0_idq_cmp
+                                  febf1958         4   data ,g         * 
+  _f4_b_kp_inv0_idq_cmp
+                                  febf195c         4   data ,g         * 
+  _f4_ki_inv0_idq_ctrl_max
+                                  febf1960         4   data ,g         * 
+  _f4_ki_inv0_idq_ctrl_min
+                                  febf1964         4   data ,g         * 
+  _f4_lev_m_ki_inv0_idq_ctrl_max
+                                  febf1968         4   data ,g         * 
+  _f4_lev_m_ki_inv0_idq_ctrl_min
+                                  febf196c         4   data ,g         * 
+  _f4_a_ki_inv0_idq_cmp
+                                  febf1970         4   data ,g         * 
+  _f4_b_ki_inv0_idq_cmp
+                                  febf1974         4   data ,g         * 
+  _u1_cnt_idq_inv0_ctrli_delay
+                                  febf1978         1   data ,g         * 
+  _u1_cnt_idq_inv0_ctrli_delay_max
+                                  febf1979         1   data ,g         * 
+  _f4_kp_inv0_idctrl
+                                  febf197c         4   data ,g         * 
+  _f4_ki_inv0_idctrl
+                                  febf1980         4   data ,g         * 
+  _f4_id_inv0_ctrlperr
+                                  febf1984         4   data ,g         * 
+  _f4_id_inv0_ctrlierr
+                                  febf1988         4   data ,g         * 
+  _f4_id_inv0_ctrliref
+                                  febf198c         4   data ,g         * 
+  _f4_id_inv0_ctrliref_array
+                                  febf1990        14   data ,g         * 
+  _f4_vd_inv0_ctrl
+                                  febf19a4         4   data ,g         * 
+  _f4_vd_inv0_ctrlp
+                                  febf19a8         4   data ,g         * 
+  _f4_vd_inv0_ctrli
+                                  febf19ac         4   data ,g         * 
+  _f4_kp_inv0_iqctrl
+                                  febf19b0         4   data ,g         * 
+  _f4_ki_inv0_iqctrl
+                                  febf19b4         4   data ,g         * 
+  _f4_iq_inv0_ctrlperr
+                                  febf19b8         4   data ,g         * 
+  _f4_iq_inv0_ctrlierr
+                                  febf19bc         4   data ,g         * 
+  _f4_iq_inv0_ctrliref
+                                  febf19c0         4   data ,g         * 
+  _f4_iq_inv0_ctrliref_array
+                                  febf19c4        14   data ,g         * 
+  _f4_vq_inv0_ctrl
+                                  febf19d8         4   data ,g         * 
+  _f4_vq_inv0_ctrlp
+                                  febf19dc         4   data ,g         * 
+  _f4_vq_inv0_ctrli
+                                  febf19e0         4   data ,g         * 
+  _u1_flag_inv0_status_idqctrl
+                                  febf19e4         1   data ,g         * 
+  _f4_vd_inv0_emf
+                                  febf19e8         4   data ,g         * 
+  _f4_vq_inv0_emf
+                                  febf19ec         4   data ,g         * 
+  _f4_vd_inv0_rs
+                                  febf19f0         4   data ,g         * 
+  _f4_vq_inv0_rs
+                                  febf19f4         4   data ,g         * 
+  _f4_vd_inv0_ref_tmp
+                                  febf19f8         4   data ,g         * 
+  _f4_vq_inv0_ref_tmp
+                                  febf19fc         4   data ,g         * 
+  _u1_flag_inv0_status_vdq_max
+                                  febf1a00         1   data ,g         * 
+  _f4_k_inv0_vdq_max
+                                  febf1a04         4   data ,g         * 
+  _f4_vdq_inv0_ref
+                                  febf1a08         4   data ,g         * 
+  _f4_vdq_inv0_max
+                                  febf1a0c         4   data ,g         * 
+  _f4_vd_inv0_ref
+                                  febf1a10         4   data ,g         * 
+  _f4_vq_inv0_ref
+                                  febf1a14         4   data ,g         * 
+  _f4_wt_inv0_vdq
+                                  febf1a18         4   data ,g         * 
+  _f4_wt_inv0_vdq_tmp
+                                  febf1a1c         4   data ,g         * 
+  _f4_m_inv0_ref
+                                  febf1a20         4   data ,g         * 
+  _f4_k_inv0_modu
+                                  febf1a24         4   data ,g         * 
+  _f4_k_inv0_modu_max
+                                  febf1a28         4   data ,g         * 
+  _u1_flag_enable_inv0_dk_modu
+                                  febf1a2c         1   data ,g         * 
+  _f4_dk_inv0_modu_kp
+                                  febf1a30         4   data ,g         * 
+  _f4_dk_inv0_modu_ki
+                                  febf1a34         4   data ,g         * 
+  _f4_dk_inv0_modu_kicmp
+                                  febf1a38         4   data ,g         * 
+  _u4_n_k_inv0_modu
+                                  febf1a3c         4   data ,g         * 
+  _f4_m_inv0_lpf
+                                  febf1a40         4   data ,g         * 
+  _f4_wclpf_inv0_m
+                                  febf1a44         4   data ,g         * 
+  _u1_flag_inv0_modevctrl
+                                  febf1a48         1   data ,g         * 
+  _u1_flag_inv0_modevctrl_tmp
+                                  febf1a49         1   data ,g         * 
+  _u2_cnt_inv0_vctrlmode
+                                  febf1a4a         2   data ,g         * 
+  _u2_cnt_inv0_1pulsemode
+                                  febf1a4c         2   data ,g         * 
+  _u2_cnt_inv0_svpwmmode
+                                  febf1a4e         2   data ,g         * 
+  _u1_flag_enable_inv0_1pulse
+                                  febf1a50         1   data ,g         * 
+  _f4_lev_m_inv0_1pulse
+                                  febf1a54         4   data ,g         * 
+  _f4_lev_m_inv0_svpwm
+                                  febf1a58         4   data ,g         * 
+  _u1_flag_inv0_modetiming
+                                  febf1a5c         1   data ,g         * 
+  _f4_wt_inv0_delay
+                                  febf1a60         4   data ,g         * 
+  _f4_wt_inv0_svctrl
+                                  febf1a64         4   data ,g         * 
+  _f4_sin_inv0_wtsvctrl
+                                  febf1a68         4   data ,g         * 
+  _f4_cos_inv0_wtsvctrl
+                                  febf1a6c         4   data ,g         * 
+  _s4_wt_inv0_dq_2pi_2_31
+                                  febf1a70         4   data ,g         * 
+  _s4_wt_inv0_delay_2pi_2_31
+                                  febf1a74         4   data ,g         * 
+  _s4_wt_inv0_vdq_2pi_2_31
+                                  febf1a78         4   data ,g         * 
+  _f4_wt_inv0_1pulse_pwm
+                                  febf1a7c         4   data ,g         * 
+  _s4_wt_inv0_1pulse_pwm_2pi_2_31
+                                  febf1a80         4   data ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_invadj.obj
+                                  febf1a84  febf1b47        c4
+  _u1_flag_inv0_adj
+                                  febf1a84         1   data ,g         * 
+  _f4_f_inv0_adj
+                                  febf1a88         4   data ,g         * 
+  _f4_f_inv0_adj_tmp
+                                  febf1a8c         4   data ,g         * 
+  _f4_df_inv0_adj
+                                  febf1a90         4   data ,g         * 
+  _f4_wr_inv0_adj
+                                  febf1a94         4   data ,g         * 
+  _f4_wt_inv0_adj
+                                  febf1a98         4   data ,g         * 
+  _f4_sin_inv0_wtadj
+                                  febf1a9c         4   data ,g         * 
+  _f4_cos_inv0_wtadj
+                                  febf1aa0         4   data ,g         * 
+  _f4_id_inv0_adj
+                                  febf1aa4         4   data ,g         * 
+  _f4_iq_inv0_adj
+                                  febf1aa8         4   data ,g         * 
+  _f4_id_inv0_dc_adj
+                                  febf1aac         4   data ,g         * 
+  _f4_id_inv0_ac_adj
+                                  febf1ab0         4   data ,g         * 
+  _f4_iq_inv0_dc_adj
+                                  febf1ab4         4   data ,g         * 
+  _f4_iq_inv0_ac_adj
+                                  febf1ab8         4   data ,g         * 
+  _f4_id_inv0_dc_adj_tmp
+                                  febf1abc         4   data ,g         * 
+  _f4_id_inv0_ac_adj_tmp
+                                  febf1ac0         4   data ,g         * 
+  _f4_iq_inv0_dc_adj_tmp
+                                  febf1ac4         4   data ,g         * 
+  _f4_iq_inv0_ac_adj_tmp
+                                  febf1ac8         4   data ,g         * 
+  _f4_didq_inv0_adj
+                                  febf1acc         4   data ,g         * 
+  _f4_vd_inv0_adj_ref
+                                  febf1ad0         4   data ,g         * 
+  _f4_vd_inv0_adj_ref_tmp
+                                  febf1ad4         4   data ,g         * 
+  _f4_vq_inv0_adj_ref
+                                  febf1ad8         4   data ,g         * 
+  _f4_dvd_inv0_adj_ref
+                                  febf1adc         4   data ,g         * 
+  _f4_wtdq_inv0_adj
+                                  febf1ae0         4   data ,g         * 
+  _f4_f_inv0_slip_ref
+                                  febf1ae4         4   data ,g         * 
+  _f4_f_inv0_slip_ref_diff
+                                  febf1ae8         4   data ,g         * 
+  _f4_vd_inv0_adj_ad
+                                  febf1aec         4   data ,g         * 
+  _f4_vq_inv0_adj_ad
+                                  febf1af0         4   data ,g         * 
+  _u1_flag_inv0_vctrlerr_adj
+                                  febf1af4         1   data ,g         * 
+  _f4_vctrlerr_inv0_adj
+                                  febf1af8         4   data ,g         * 
+  _f4_rs_inv0_adj
+                                  febf1afc         4   data ,g         * 
+  _f4_wt_inv0_offset_adj
+                                  febf1b00         4   data ,g         * 
+  _f4_wt_inv0_dq_offset_err_adj
+                                  febf1b04         4   data ,g         * 
+  _f4_sin_inv0_wtdq_offset_adj
+                                  febf1b08         4   data ,g         * 
+  _f4_cos_inv0_wtdq_offset_adj
+                                  febf1b0c         4   data ,g         * 
+  _f4_vd_inv0_wtdq_offset_adj
+                                  febf1b10         4   data ,g         * 
+  _f4_vq_inv0_wtdq_offset_adj
+                                  febf1b14         4   data ,g         * 
+  _f4_time_inv0_enc_delay_us_adj
+                                  febf1b18         4   data ,g         * 
+  _f4_ki_inv0_wtdq_offset_adj
+                                  febf1b1c         4   data ,g         * 
+  _f4_vd_inv0_plid
+                                  febf1b20         4   data ,g         * 
+  _f4_vq_inv0_plid
+                                  febf1b24         4   data ,g         * 
+  _f4_id_inv0_adj_lpf
+                                  febf1b28         4   data ,g         * 
+  _f4_iq_inv0_adj_lpf
+                                  febf1b2c         4   data ,g         * 
+  _f4_vd_inv0_adj_ad_lpf
+                                  febf1b30         4   data ,g         * 
+  _f4_vq_inv0_adj_ad_lpf
+                                  febf1b34         4   data ,g         * 
+  _f4_wr_inv0_pll_lpf_adj_lpf
+                                  febf1b38         4   data ,g         * 
+  _f4_id_inv0_ad_adj_lpf
+                                  febf1b3c         4   data ,g         * 
+  _f4_iq_inv0_ad_adj_lpf
+                                  febf1b40         4   data ,g         * 
+  _f4_wclpf_inv0_adj
+                                  febf1b44         4   data ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_svctrl.obj
+                                  febf1b48  febf1b6b        24
+  _f4_va_inv0_ref
+                                  febf1b48         4   data ,g         * 
+  _f4_vb_inv0_ref
+                                  febf1b4c         4   data ,g         * 
+  _f4_vu_inv0_svctrl
+                                  febf1b50         4   data ,g         * 
+  _f4_vv_inv0_svctrl
+                                  febf1b54         4   data ,g         * 
+  _f4_vw_inv0_svctrl
+                                  febf1b58         4   data ,g         * 
+  _f4_mu_inv0_svctrl
+                                  febf1b5c         4   data ,g         * 
+  _f4_mv_inv0_svctrl
+                                  febf1b60         4   data ,g         * 
+  _f4_mw_inv0_svctrl
+                                  febf1b64         4   data ,g         * 
+  _f4_m_inv0_max
+                                  febf1b68         4   data ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_vctrlerr.obj
+                                  febf1b6c  febf1b8f        24
+  _f4_v_vctrlerr_inv0_max
+                                  febf1b6c         4   data ,g         * 
+  _f4_i_vctrlerr_inv0_max
+                                  febf1b70         4   data ,g         * 
+  _f4_dfc_inv0_vctrl
+                                  febf1b74         4   data ,g         * 
+  _f4_k_dfc_inv0_vctrl
+                                  febf1b78         4   data ,g         * 
+  _f4_dvdc_inv0_vctrl
+                                  febf1b7c         4   data ,g         * 
+  _f4_k_dvdc_inv0_vctrl
+                                  febf1b80         4   data ,g         * 
+  _f4_vuctrl_inv0_err
+                                  febf1b84         4   data ,g         * 
+  _f4_vvctrl_inv0_err
+                                  febf1b88         4   data ,g         * 
+  _f4_vwctrl_inv0_err
+                                  febf1b8c         4   data ,g         * 
+FILE=DefaultBuild\fi_pwm_vctrlerrtbl.obj
+                                  febf1b90  febf1b91         2
+  _u2_cnt_vctrltbl
+                                  febf1b90         2   data ,g         * 
+FILE=DefaultBuild\mapdata_trq_inv0.obj
+                                  febf1b94  febf1c23        90
+  _f4_x_nom
+                                  febf1b94         4   data ,g         * 
+  _f4_y_nom
+                                  febf1b98         4   data ,g         * 
+  _f4_z_nom
+                                  febf1b9c         4   data ,g         * 
+  _s4_x_id
+                                  febf1ba0         4   data ,g         * 
+  _s4_y_id
+                                  febf1ba4         4   data ,g         * 
+  _s4_z_id
+                                  febf1ba8         4   data ,g         * 
+  _s4_x_id_p1
+                                  febf1bac         4   data ,g         * 
+  _s4_y_id_p1
+                                  febf1bb0         4   data ,g         * 
+  _s4_z_id_p1
+                                  febf1bb4         4   data ,g         * 
+  _f4_kw_x
+                                  febf1bb8         4   data ,g         * 
+  _f4_kw_y
+                                  febf1bbc         4   data ,g         * 
+  _f4_kw_z
+                                  febf1bc0         4   data ,g         * 
+  _f4_x_add1
+                                  febf1bc4         4   data ,g         * 
+  _f4_x_add1_int
+                                  febf1bc8         4   data ,g         * 
+  _f4_x_add2
+                                  febf1bcc         4   data ,g         * 
+  _f4_x_add2_int
+                                  febf1bd0         4   data ,g         * 
+  _f4_x_nom_temp
+                                  febf1bd4         4   data ,g         * 
+  _f4_kw_x_temp
+                                  febf1bd8         4   data ,g         * 
+  _f4_kw_x_add
+                                  febf1bdc         4   data ,g         * 
+  _f4_z_add
+                                  febf1be0         4   data ,g         * 
+  _f4_z_add_int
+                                  febf1be4         4   data ,g         * 
+  _f4_z_nom_temp
+                                  febf1be8         4   data ,g         * 
+  _f4_kw_z_temp
+                                  febf1bec         4   data ,g         * 
+  _f4_kw_z_add
+                                  febf1bf0         4   data ,g         * 
+  _C000
+                                  febf1bf4         4   data ,g         * 
+  _C001
+                                  febf1bf8         4   data ,g         * 
+  _C010
+                                  febf1bfc         4   data ,g         * 
+  _C011
+                                  febf1c00         4   data ,g         * 
+  _C100
+                                  febf1c04         4   data ,g         * 
+  _C101
+                                  febf1c08         4   data ,g         * 
+  _C110
+                                  febf1c0c         4   data ,g         * 
+  _C111
+                                  febf1c10         4   data ,g         * 
+  _c000
+                                  febf1c14         2   data ,g         * 
+  _c001
+                                  febf1c16         2   data ,g         * 
+  _c010
+                                  febf1c18         2   data ,g         * 
+  _c011
+                                  febf1c1a         2   data ,g         * 
+  _c100
+                                  febf1c1c         2   data ,g         * 
+  _c101
+                                  febf1c1e         2   data ,g         * 
+  _c110
+                                  febf1c20         2   data ,g         * 
+  _c111
+                                  febf1c22         2   data ,g         * 
+FILE=DefaultBuild\mapdata_trq_inv0_limit.obj
+                                  febf1c24  febf1c8b        68
+  _f4_x_nom_2d
+                                  febf1c24         4   data ,g         * 
+  _f4_z_nom_2d
+                                  febf1c28         4   data ,g         * 
+  _s4_x_id_2d
+                                  febf1c2c         4   data ,g         * 
+  _s4_z_id_2d
+                                  febf1c30         4   data ,g         * 
+  _s4_x_id_p1_2d
+                                  febf1c34         4   data ,g         * 
+  _s4_z_id_p1_2d
+                                  febf1c38         4   data ,g         * 
+  _f4_kw_x_2d
+                                  febf1c3c         4   data ,g         * 
+  _f4_kw_z_2d
+                                  febf1c40         4   data ,g         * 
+  _f4_x_add1_2d
+                                  febf1c44         4   data ,g         * 
+  _f4_x_add1_int_2d
+                                  febf1c48         4   data ,g         * 
+  _f4_x_add2_2d
+                                  febf1c4c         4   data ,g         * 
+  _f4_x_add2_int_2d
+                                  febf1c50         4   data ,g         * 
+  _f4_x_nom_temp_2d
+                                  febf1c54         4   data ,g         * 
+  _f4_kw_x_temp_2d
+                                  febf1c58         4   data ,g         * 
+  _f4_kw_x_add_2d
+                                  febf1c5c         4   data ,g         * 
+  _f4_z_add_2d
+                                  febf1c60         4   data ,g         * 
+  _f4_z_add_int_2d
+                                  febf1c64         4   data ,g         * 
+  _f4_z_nom_temp_2d
+                                  febf1c68         4   data ,g         * 
+  _f4_kw_z_temp_2d
+                                  febf1c6c         4   data ,g         * 
+  _f4_kw_z_add_2d
+                                  febf1c70         4   data ,g         * 
+  _C00_2d
+                                  febf1c74         4   data ,g         * 
+  _C01_2d
+                                  febf1c78         4   data ,g         * 
+  _C10_2d
+                                  febf1c7c         4   data ,g         * 
+  _C11_2d
+                                  febf1c80         4   data ,g         * 
+  _c00_2d
+                                  febf1c84         2   data ,g         * 
+  _c01_2d
+                                  febf1c86         2   data ,g         * 
+  _c10_2d
+                                  febf1c88         2   data ,g         * 
+  _c11_2d
+                                  febf1c8a         2   data ,g         * 
+FILE=DefaultBuild\fb_can1_ctrl_init.obj
+                                  febf1c8c  febf1c8d         2
+  _u1_flag_rx1_flag
+                                  febf1c8c         1   data ,g         * 
+  _u1_flag_can1_initerr
+                                  febf1c8d         1   data ,g         * 
+FILE=DefaultBuild\fi_pwm_inv0_syncctrl.obj
+                                  febf1c90  febf1cf5        66
+  _u1_flag_enable_inv0_pwm_sync
+                                  febf1c90         1   data ,g         * 
+  _u1_flag_enable_inv0_pwm_sync_tmp
+                                  febf1c91         1   data ,g         * 
+  _s4_cnt_inv0_pwm_sync
+                                  febf1c94         4   data ,g         * 
+  _u4_cnt_inv0_pwm_sync_max
+                                  febf1c98         4   data ,g         * 
+  _f4_k_inv0_pwm_sync
+                                  febf1c9c         4   data ,g         * 
+  _u1_flag_select_inv0_pwm_sync_mode
+                                  febf1ca0         1   data ,g         * 
+  _u4_k_inv0_pwm_sync
+                                  febf1ca4         4   data ,g         * 
+  _u4_k_inv0_pwm_sync_tmp
+                                  febf1ca8         4   data ,g         * 
+  _u4_k_inv0_pwm_sync_new
+                                  febf1cac         4   data ,g         * 
+  _u4_k_inv0_pwm_sync_max
+                                  febf1cb0         4   data ,g         * 
+  _u4_k_inv0_pwm_sync_min
+                                  febf1cb4         4   data ,g         * 
+  _u4_fc_inv0_max_lsb_0
+                                  febf1cb8         4   data ,g         * 
+  _u4_fc_inv0_min_lsb_0
+                                  febf1cbc         4   data ,g         * 
+  _f4_fmot_inv0_lpf
+                                  febf1cc0         4   data ,g         * 
+  _f4_fmot_inv0_lpf_tmp
+                                  febf1cc4         4   data ,g         * 
+  _f4_dfmot_inv0_lpf
+                                  febf1cc8         4   data ,g         * 
+  _f4_lev_dfmot_inv0_fc_hys
+                                  febf1ccc         4   data ,g         * 
+  _f4_wclpf_inv0_fmot
+                                  febf1cd0         4   data ,g         * 
+  _f4_wt_inv0_sync_ref
+                                  febf1cd4         4   data ,g         * 
+  _f4_wt_inv0_sync_err
+                                  febf1cd8         4   data ,g         * 
+  _f4_fc_inv0_sync_max
+                                  febf1cdc         4   data ,g         * 
+  _f4_kp_inv0_fc_sync
+                                  febf1ce0         4   data ,g         * 
+  _f4_ki_inv0_fc_sync
+                                  febf1ce4         4   data ,g         * 
+  _f4_fc_inv0_syncp
+                                  febf1ce8         4   data ,g         * 
+  _f4_fc_inv0_synci
+                                  febf1cec         4   data ,g         * 
+  _f4_fc_inv0_sync
+                                  febf1cf0         4   data ,g         * 
+  _u1_flag_inv0_status_pwm_sync_limit
+                                  febf1cf4         1   data ,g         * 
+  _u1_flag_inv0_status_pwm_sync_change
+                                  febf1cf5         1   data ,g         * 
+FILE=DefaultBuild\fim_main.obj
+                                  febf1cf8  febf1d0f        18
+  _u4_RESF_reg
+                                  febf1cf8         4   data ,g         * 
+  _u4_ecm_mstatus0_init
+                                  febf1cfc         4   data ,g         * 
+  _u4_ecm_cstatus0_init
+                                  febf1d00         4   data ,g         * 
+  _u4_ecm_mstatus1_init
+                                  febf1d04         4   data ,g         * 
+  _u4_ecm_cstatus1_init
+                                  febf1d08         4   data ,g         * 
+  _u1_flag_awatcher_use_cpu2
+                                  febf1d0c         1   data ,g         * 
+  _u1_cnt_main
+                                  febf1d0d         1   data ,g         * 
+  _u1_flag_emc
+                                  febf1d0e         1   data ,g         * 
+  _u1_flag_gate_ok
+                                  febf1d0f         1   data ,g         * 
+FILE=DefaultBuild\mapdata_lm_inv0_1d.obj
+                                  febf1d10  febf1d3f        30
+  _f4_x_2_nom_1d
+                                  febf1d10         4   data ,g         * 
+  _f4_z_2_nom_1d
+                                  febf1d14         4   data ,g         * 
+  _s4_x_2_id_1d
+                                  febf1d18         4   data ,g         * 
+  _s4_z_2_id_1d
+                                  febf1d1c         4   data ,g         * 
+  _s4_x_2_id_p1_1d
+                                  febf1d20         4   data ,g         * 
+  _s4_z_2_id_p1_1d
+                                  febf1d24         4   data ,g         * 
+  _f4_kw_x_2_1d
+                                  febf1d28         4   data ,g         * 
+  _f4_kw_z_2_1d
+                                  febf1d2c         4   data ,g         * 
+  _C00_2_1d
+                                  febf1d30         4   data ,g         * 
+  _C01_2_1d
+                                  febf1d34         4   data ,g         * 
+  _C10_2_1d
+                                  febf1d38         4   data ,g         * 
+  _C11_2_1d
+                                  febf1d3c         4   data ,g         * 
+FILE=cmdmoni_wt
+                                  febf1d40  febf2e5b      111c
+  _snd_ringbuf.5
+                                  febf1d40        80   data ,l         * 
+  _iRd.6
+                                  febf1dc0         4   data ,l         * 
+  _iWr.7
+                                  febf1dc4         4   data ,l         * 
+  _rcv_cmdbuf.8
+                                  febf1dc8        18   data ,l         * 
+  _snd_cmdbuf.9
+                                  febf1de0        20   data ,l         * 
+  _buf_trace.10
+                                  febf1e00      1000   data ,l         * 
+  _idy_trace.11
+                                  febf2e00         4   data ,l         * 
+  _idy_copy_trace.12
+                                  febf2e04         4   data ,l         * 
+  _iTraceCount.13
+                                  febf2e08         4   data ,l         * 
+  _iTraceCntMax.14
+                                  febf2e0c         4   data ,l         * 
+  _iIntervalCount.15
+                                  febf2e10         4   data ,l         * 
+  _iTraceID.16
+                                  febf2e14         4   data ,l         * 
+  _iReceiveCount.17
+                                  febf2e18         4   data ,l         * 
+  _ptr_adrs.18
+                                  febf2e1c        10   data ,l         * 
+  _adrs_size.19
+                                  febf2e2c        10   data ,l         * 
+  _iTrigLevel
+                                  febf2e3c         4   data ,g         * 
+  _iTrigDelay
+                                  febf2e40         4   data ,g         * 
+  _itrig_cnt_delay
+                                  febf2e44         4   data ,g         * 
+  _itrig_cnt_wait
+                                  febf2e48         4   data ,g         * 
+  _itrig_data_old
+                                  febf2e4c         4   data ,g         * 
+  _ubf_status.20
+                                  febf2e50         4   data ,l         * 
+  _cnt_wt_timeout.21
+                                  febf2e54         4   data ,l         * 
+  _u4_monitor_status
+                                  febf2e58         4   data ,g         * 
+FILE=com7d
+                                  febf2e5c  febf2e5f         4
+  __REL_errno_obj
+                                  febf2e5c         0   none ,l         * 
+
+SECTION=.stack.bss
+FILE=DefaultBuild\cstart1.obj
+                                  febf2e60  febf365f       800
+  _stacktop
+                                  febf3660         0   none ,l         * 
+
+SECTION=comGRAMA.data.R
+FILE=DefaultBuild\commonPE1toPE2.obj
+                                  feef0000  feef0004         5
+  _u4_pe1_status
+                                  feef0000         4   data ,g         * 
+  _u1_status_awatcher_cpu2
+                                  feef0004         1   data ,g         * 
+
+SECTION=comGRAMA.bss
+FILE=DefaultBuild\fi_pe1_error.obj
+                                  feef0008  feef000b         4
+  _u4_flag_error_PE1
+                                  feef0008         4   data ,g         * 
+FILE=DefaultBuild\commonPE1toPE2.obj
+                                  feef000c  feef000c         1
+  _u1_flag_awatcher_enable_cpu2
+                                  feef000c         1   data ,g         * 
+
+SECTION=comGRAMB.data.R
+FILE=DefaultBuild\commonPE2toPE1.obj
+                                  fef00000  fef00004         5
+  _u4_pe2_status
+                                  fef00000         4   data ,g         * 
+  _u1_status_awatcher_cpu1
+                                  fef00004         1   data ,g         * 
+
+SECTION=comGRAMB.bss
+FILE=DefaultBuild\commonPE2toPE1.obj
+                                  fef00008  fef00008         1
+  _u1_flag_awatcher_enable_cpu1
+                                  fef00008         1   data ,g         * 
+
+Absolute value symbols
+FILE=DefaultBuild\MotorDriver1.obj
+  __cstart_pm2
+                                  00801d8c         0   none ,g         * 
+  _Dummy_func_pe2
+                                  00801df4         0   none ,g         * 
+  _Dummy_EI_func_pe2
+                                  00801dfe         0   none ,g         * 
+FILE=rlink_generates_01
+  __gp_data
+                                  00000000         0   none ,g         * 
+  __ep_data
+                                  00000000         0   none ,g         * 
+FILE=rlink_generates_02
+  __s.text
+                                  0000d976         0   none ,g         * 
+  __e.text
+                                  00024110         0   none ,g         * 
+  __S_text
+                                  0000d976         0   none ,g         * 
+  __E_text
+                                  00024110         0   none ,g         * 
+  __scom.text
+                                  0000d8dc         0   none ,g         * 
+  __ecom.text
+                                  0000d976         0   none ,g         * 
+  __Scom_text
+                                  0000d8dc         0   none ,g         * 
+  __Ecom_text
+                                  0000d976         0   none ,g         * 
+  __scomGRAMA.bss
+                                  feef0008         0   none ,g         * 
+  __ecomGRAMA.bss
+                                  feef000d         0   none ,g         * 
+  __ScomGRAMA_bss
+                                  feef0008         0   none ,g         * 
+  __EcomGRAMA_bss
+                                  feef000d         0   none ,g         * 
+  __sEIINTTBL_PE1
+                                  00000000         0   none ,g         * 
+  __eEIINTTBL_PE1
+                                  00000080         0   none ,g         * 
+  __SEIINTTBL_PE1
+                                  00000000         0   none ,g         * 
+  __EEIINTTBL_PE1
+                                  00000080         0   none ,g         * 
+  __scomGRAMA.data
+                                  00024138         0   none ,g         * 
+  __ecomGRAMA.data
+                                  0002413d         0   none ,g         * 
+  __scomGRAMA.data.R
+                                  feef0000         0   none ,g         * 
+  __ecomGRAMA.data.R
+                                  feef0005         0   none ,g         * 
+  __ScomGRAMA_data
+                                  00024138         0   none ,g         * 
+  __EcomGRAMA_data
+                                  0002413d         0   none ,g         * 
+  __ScomGRAMA_data_R
+                                  feef0000         0   none ,g         * 
+  __EcomGRAMA_data_R
+                                  feef0005         0   none ,g         * 
+  __s.data
+                                  00024110         0   none ,g         * 
+  __e.data
+                                  00024137         0   none ,g         * 
+  __s.data.R
+                                  febf0000         0   none ,g         * 
+  __e.data.R
+                                  febf0027         0   none ,g         * 
+  __S_data
+                                  00024110         0   none ,g         * 
+  __E_data
+                                  00024137         0   none ,g         * 
+  __S_data_R
+                                  febf0000         0   none ,g         * 
+  __E_data_R
+                                  febf0027         0   none ,g         * 
+  __s.bss
+                                  febf0028         0   none ,g         * 
+  __e.bss
+                                  febf2e60         0   none ,g         * 
+  __S_bss
+                                  febf0028         0   none ,g         * 
+  __E_bss
+                                  febf2e60         0   none ,g         * 
+  __s.const
+                                  00001000         0   none ,g         * 
+  __e.const
+                                  0000d848         0   none ,g         * 
+  __S_const
+                                  00001000         0   none ,g         * 
+  __E_const
+                                  0000d848         0   none ,g         * 
+  __s.stack.bss
+                                  febf2e60         0   none ,g         * 
+  __e.stack.bss
+                                  febf3660         0   none ,g         * 
+  __S_stack_bss
+                                  febf2e60         0   none ,g         * 
+  __E_stack_bss
+                                  febf3660         0   none ,g         * 
+  __s.INIT_DSEC.const
+                                  0000d848         0   none ,g         * 
+  __e.INIT_DSEC.const
+                                  0000d86c         0   none ,g         * 
+  __S_INIT_DSEC_const
+                                  0000d848         0   none ,g         * 
+  __E_INIT_DSEC_const
+                                  0000d86c         0   none ,g         * 
+  __s.INIT_BSEC.const
+                                  0000d86c         0   none ,g         * 
+  __e.INIT_BSEC.const
+                                  0000d874         0   none ,g         * 
+  __S_INIT_BSEC_const
+                                  0000d86c         0   none ,g         * 
+  __E_INIT_BSEC_const
+                                  0000d874         0   none ,g         * 
+  __s.text.cmn
+                                  0000d874         0   none ,g         * 
+  __e.text.cmn
+                                  0000d8dc         0   none ,g         * 
+  __S_text_cmn
+                                  0000d874         0   none ,g         * 
+  __E_text_cmn
+                                  0000d8dc         0   none ,g         * 
+  __sEIINTTBL_PE1_2
+                                  00000080         0   none ,g         * 
+  __eEIINTTBL_PE1_2
+                                  00000400         0   none ,g         * 
+  __SEIINTTBL_PE1_2
+                                  00000080         0   none ,g         * 
+  __EEIINTTBL_PE1_2
+                                  00000400         0   none ,g         * 
+  __scomGRAMB.data
+                                  00024140         0   none ,g         * 
+  __ecomGRAMB.data
+                                  00024145         0   none ,g         * 
+  __scomGRAMB.data.R
+                                  fef00000         0   none ,g         * 
+  __ecomGRAMB.data.R
+                                  fef00005         0   none ,g         * 
+  __ScomGRAMB_data
+                                  00024140         0   none ,g         * 
+  __EcomGRAMB_data
+                                  00024145         0   none ,g         * 
+  __ScomGRAMB_data_R
+                                  fef00000         0   none ,g         * 
+  __EcomGRAMB_data_R
+                                  fef00005         0   none ,g         * 
+  __scomGRAMB.bss
+                                  fef00008         0   none ,g         * 
+  __ecomGRAMB.bss
+                                  fef00009         0   none ,g         * 
+  __ScomGRAMB_bss
+                                  fef00008         0   none ,g         * 
+  __EcomGRAMB_bss
+                                  fef00009         0   none ,g         * 
+
+*** Unfilled Areas ***
+
+AREA                                START    END
+
+*** Delete Symbols ***
+
+SYMBOL                                SIZE    INFO

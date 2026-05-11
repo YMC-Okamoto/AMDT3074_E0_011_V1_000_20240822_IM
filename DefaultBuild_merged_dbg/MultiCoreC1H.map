@@ -1,0 +1,34 @@
+Renesas Optimizing Linker (V3.05.00 )             29-Feb-2024 13:30:13
+
+*** Options ***
+
+DefaultBuild\MultiCoreC1H.mot
+C:\Users\basa2\Documents\AMDT_NPC\AMDT3120_【伊丹】_本田技研工業（本田技術研究所）様向け_二重三相モータ用インバータ(AMDTINV-SH400A2／SiC-2INV)製作費\E_制御関係\20240229\PE1\DefaultBuild\MotorDirver0.mot
+C:\Users\basa2\Documents\AMDT_NPC\AMDT3120_【伊丹】_本田技研工業（本田技術研究所）様向け_二重三相モータ用インバータ(AMDTINV-SH400A2／SiC-2INV)製作費\E_制御関係\20240229\PE2\DefaultBuild\MotorDriver1.mot
+-form=stype
+-output=DefaultBuild_merged_dbg\MultiCoreC1H.mot
+-list
+
+*** Error information ***
+
+*** Entry address ***
+
+*** Combine information ***
+FILE               START            END              SIZE
+C:\Users\basa2\Documents\AMDT_NPC\AMDT3120_【伊丹】_本田技研工業（本田技術研究所）様向け_二重三相モータ用インバータ(AMDTINV-SH400A2／SiC-2INV)製作費\E_制御関係\20240229\PE1\DefaultBuild\MotorDirver0.mot
+                   00000000         000003ff         400
+C:\Users\basa2\Documents\AMDT_NPC\AMDT3120_【伊丹】_本田技研工業（本田技術研究所）様向け_二重三相モータ用インバータ(AMDTINV-SH400A2／SiC-2INV)製作費\E_制御関係\20240229\PE1\DefaultBuild\MotorDirver0.mot
+                   00001000         00025b58         24b59
+C:\Users\basa2\Documents\AMDT_NPC\AMDT3120_【伊丹】_本田技研工業（本田技術研究所）様向け_二重三相モータ用インバータ(AMDTINV-SH400A2／SiC-2INV)製作費\E_制御関係\20240229\PE1\DefaultBuild\MotorDirver0.mot
+                   00025b5c         00025b60         5
+C:\Users\basa2\Documents\AMDT_NPC\AMDT3120_【伊丹】_本田技研工業（本田技術研究所）様向け_二重三相モータ用インバータ(AMDTINV-SH400A2／SiC-2INV)製作費\E_制御関係\20240229\PE2\DefaultBuild\MotorDriver1.mot
+                   00800000         008003ff         400
+C:\Users\basa2\Documents\AMDT_NPC\AMDT3120_【伊丹】_本田技研工業（本田技術研究所）様向け_二重三相モータ用インバータ(AMDTINV-SH400A2／SiC-2INV)製作費\E_制御関係\20240229\PE2\DefaultBuild\MotorDriver1.mot
+                   00801000         00815f2b         14f2c
+DefaultBuild\MultiCoreC1H.mot
+                   01000000         010001f5         1f6
+DefaultBuild\MultiCoreC1H.mot
+                   01000400         010005b5         1b6
+
+*** Conflict information ***
+

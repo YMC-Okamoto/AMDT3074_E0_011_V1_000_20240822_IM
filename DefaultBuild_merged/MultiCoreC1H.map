@@ -1,0 +1,36 @@
+Renesas Optimizing Linker (V3.06.00 )             22-Aug-2024 10:25:20
+
+*** Options ***
+
+DefaultBuild\MultiCoreC1H.mot
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1\DefaultBuild\MotorDirver0.mot
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE2\DefaultBuild\MotorDriver1.mot
+-form=stype
+-output=DefaultBuild_merged\MultiCoreC1H.mot
+-list
+
+*** Error information ***
+
+*** Entry address ***
+
+*** Combine information ***
+FILE               START            END              SIZE
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1\DefaultBuild\MotorDirver0.mot
+                   00000000         000003ff         400
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1\DefaultBuild\MotorDirver0.mot
+                   00001000         00024136         23137
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1\DefaultBuild\MotorDirver0.mot
+                   00024138         0002413c         5
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1\DefaultBuild\MotorDirver0.mot
+                   00024140         00024144         5
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE2\DefaultBuild\MotorDriver1.mot
+                   00800000         008003ff         400
+C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE2\DefaultBuild\MotorDriver1.mot
+                   00801000         0080dc03         cc04
+DefaultBuild\MultiCoreC1H.mot
+                   01000000         010001f5         1f6
+DefaultBuild\MultiCoreC1H.mot
+                   01000400         010005b5         1b6
+
+*** Conflict information ***
+
