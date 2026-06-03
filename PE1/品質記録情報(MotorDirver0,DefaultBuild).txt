@@ -1,29 +1,8 @@
 品質記録情報
-2024年8月22日 10:25:22
+2026年6月3日 16:59:27
 
 ------ ビルド開始(MotorDirver0, DefaultBuild) ------
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RH\V2.06.00\Bin\ccrh.exe Common\fi_pe1_error.c ..\Common\commonPE1toPE2.c ..\Common\iolib\io_CPU.c ..\Common\iolib\io_ENCA0.c ..\Common\iolib\io_ENCA1.c ..\Common\iolib\io_FCAN.c ..\Common\iolib\io_RDC20.c ..\Common\iolib\io_SCI0_40MHz.c ..\Common\iolib\io_SCI1_40MHz.c ..\Common\iolib\io_SCI2_40MHz.c ..\Common\iolib\io_TAUD0.c ..\Common\iolib\io_TAUD1.c ..\Common\iolib\io_TAUJ0.c ..\Common\iolib\io_TSG30.c ..\Common\iolib\io_TSG31.c ..\Common\iolib\io_RDC21.c AWatcher\VECLIB_CMDMONI.c ..\Common\mathlib.c ..\Common\iolib\io_CSIH0.c ..\Common\iolib\io_ADC.c ..\Common\iolib\io_CSIH1.c src\fb_can0_ctrl.c src\fb_hw_ctrl.c src\fb_kpwm_tbl.c src\fb_therm_calc.c src\fb_vctrlerr_tbl.c src\fi_1ms_int.c src\fi_1ms_inv0_adctrl.c src\fi_1ms_inv0_errctrl.c src\fi_1ms_inv0_idqcom.c src\fi_1ms_inv0_seqctrl.c src\fi_1ms_inv0_wrctrl.c src\fi_AWatcher.c src\fi_pwm_int.c src\fi_pwm_inv0_1pulse.c src\fi_pwm_inv0_adctrl.c src\fi_pwm_inv0_encctrl.c src\fi_pwm_inv0_errctrl.c src\fi_pwm_inv0_idqctrl.c src\fi_pwm_inv0_invadj.c src\fi_pwm_inv0_svctrl.c src\fi_pwm_inv0_vctrlerr.c src\fi_pwm_vctrlerrtbl.c src\mapdata_trq_inv0.c src\mapdata_trq_inv0_limit.c src\mapdata_trq_inv0_map.c src\mapdata_trq_inv0_map_limit.c src\fb_can1_ctrl_init.c src\fi_1ms_inv0_ifctrl.c src\fi_pwm_inv0_syncctrl.c src\mapdata_trq_inv0_map_power.c src\fb_therm_tbl_module.c ..\Common\commonPE2toPE1.c ..\Common\iolib\io_PIO_amdt0530.c src\fim_main.c src\mapdata_lm_inv0_1d.c src\mapdata_lm_inv0_1d_map.c -Xobj_path=DefaultBuild -Xcpu=g3m -g -g_line -Ospeed -Oinline_size -I..\PE2\src -Isrc -I..\Common -D__CLK_HSB=80,__CLK_LSB=40,__CLKC_HSB=80,__CLK_CLSB=40 -Xdbl_size=4 -use_recipf -c -Xmsg_lang=japanese
-..\Common\iolib\io_FCAN.c(184):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(191):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(198):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(205):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(732):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(733):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(734):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(735):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(775):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(776):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(777):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(778):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(803):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(804):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(805):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_FCAN.c(806):W0520186:符号なし整数と 0 の比較は無意味です。
-..\Common\iolib\io_SCI0_40MHz.c(37):W0520550:変数 "u1_temp_1" は設定されていますが利用されていません。
-..\Common\iolib\io_SCI0_40MHz.c(252):W0520177:変数 "u4_tx0w" は宣言されましたが参照されていません。
-..\Common\iolib\io_TSG30.c(864):W0520111:文は実行されません。
-..\Common\iolib\io_TSG31.c(856):W0520111:文は実行されません。
-..\Common\mathlib.c(882):W0520111:文は実行されません。
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RH\V2.06.00\Bin\ccrh.exe ..\Common\iolib\io_ENCA0.c src\fb_can0_ctrl.c src\fb_hw_ctrl.c src\fi_1ms_int.c src\fi_1ms_inv0_adctrl.c src\fi_1ms_inv0_errctrl.c src\fi_1ms_inv0_idqcom.c src\fi_1ms_inv0_seqctrl.c src\fi_1ms_inv0_wrctrl.c src\fi_pwm_int.c src\fi_pwm_inv0_1pulse.c src\fi_pwm_inv0_adctrl.c src\fi_pwm_inv0_encctrl.c src\fi_pwm_inv0_errctrl.c src\fi_pwm_inv0_idqctrl.c src\fi_pwm_inv0_invadj.c src\fi_pwm_inv0_svctrl.c src\fi_pwm_inv0_vctrlerr.c src\fi_pwm_vctrlerrtbl.c src\mapdata_trq_inv0.c src\mapdata_trq_inv0_limit.c src\mapdata_trq_inv0_map.c src\mapdata_trq_inv0_map_limit.c src\fb_can1_ctrl_init.c src\fi_1ms_inv0_ifctrl.c src\fi_pwm_inv0_syncctrl.c src\mapdata_trq_inv0_map_power.c src\fb_therm_tbl_module.c src\fim_main.c src\mapdata_lm_inv0_1d.c src\mapdata_lm_inv0_1d_map.c -Xobj_path=DefaultBuild -Xcpu=g3m -g -g_line -Ospeed -Oinline_size -I..\PE2\src -Isrc -I..\Common -D__CLK_HSB=80,__CLK_LSB=40,__CLKC_HSB=80,__CLK_CLSB=40 -Xdbl_size=4 -use_recipf -c -Xmsg_lang=japanese
 src\fb_can0_ctrl.c(300):W0520186:符号なし整数と 0 の比較は無意味です。
 src\fb_can0_ctrl.c(303):W0520186:符号なし整数と 0 の比較は無意味です。
 src\fb_can0_ctrl.c(306):W0520186:符号なし整数と 0 の比較は無意味です。
@@ -63,15 +42,17 @@ src\fi_1ms_inv0_ifctrl.c(90):W0520177:変数 "f4_temp_2" は宣言されまし�
 src\fi_1ms_inv0_ifctrl.c(90):W0520177:変数 "f4_temp_3" は宣言されましたが参照されていません。
 src\fi_pwm_inv0_syncctrl.c(92):W0520177:変数 "u4_temp_1" は宣言されましたが参照されていません。
 src\mapdata_lm_inv0_1d.c(34):W0520177:変数 "s4_temp0" は宣言されましたが参照されていません。
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RH\V2.06.00\Bin\ccrh.exe Common\vecttbl_pe1.asm Common\cstart1.asm Common\vecttbl_pe1_2.asm ..\PE2\DefaultBuild\MotorDriver1.fsy -Xobj_path=DefaultBuild -Xcpu=g3m -g -c -Xmsg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RH\V2.06.00\Bin\ccrh.exe ..\PE2\DefaultBuild\MotorDriver1.fsy -Xobj_path=DefaultBuild -Xcpu=g3m -g -c -Xmsg_lang=japanese
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RH\V2.06.00\Bin\rlink.exe -subcommand=DefaultBuild\MotorDirver0.clnk
+W0561016:The evaluation version of CC-RH V2 is valid for the remaining 41 days. After that, link size limit (256 Kbyte) will be applied. Please consider purchasing the product.
 W0561100:Cannot find "GRAMA.bss" specified in option "start"
 W0561100:Cannot find "GRAMB.bss" specified in option "start"
+W0561016:The evaluation version of CC-RH V2 is valid for the remaining 41 days. After that, link size limit (256 Kbyte) will be applied. Please consider purchasing the product.
 Renesas Optimizing Linker Completed
-C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1>rammap -all DefaultBuild/MotorDirver0.abs 
+C:\Users\0488813\Documents\GitHub\AMDT3074_E0_011_V1_000_20240822_IM\PE1>rammap -all DefaultBuild/MotorDirver0.abs 
 writing rammap.txt file
 writing rammap.csv file
------- ビルド終了(エラー:0個, 警告:62個)(MotorDirver0, DefaultBuild) ------
+------ ビルド終了(エラー:0個, 警告:43個)(MotorDirver0, DefaultBuild) ------
 
 --- CommandFile 1 ---
 DefaultBuild\MotorDirver0.clnk :
@@ -163,13 +144,13 @@ DefaultBuild\MotorDirver0.clnk :
 
 
 --- SHA1 hash value of output files ---
-C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1\DefaultBuild\MotorDirver0.abs: d18d1ab3301509f666f12b6203f00f1c308801ae
-C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1\DefaultBuild\MotorDirver0.mot: 895ac3b86f45ca326f98a31f50f202311542582e
+C:\Users\0488813\Documents\GitHub\AMDT3074_E0_011_V1_000_20240822_IM\PE1\DefaultBuild\MotorDirver0.abs: bc50365af3cc796c6db34f737dd468a90bbd05e9
+C:\Users\0488813\Documents\GitHub\AMDT3074_E0_011_V1_000_20240822_IM\PE1\DefaultBuild\MotorDirver0.mot: 4cf19b598c757ccc3106eb6c5db0995e05bbdfee
 
 
 --- システム情報 ---
 *OS バージョン
- Microsoft Windows 11 Home (-, 10.0.22631, WOW64)
+ Microsoft Windows 11 Enterprise (-, 10.0.26100, WOW64)
 *言語
  日本語 (日本)
 *.NET Framework バージョン
@@ -179,26 +160,26 @@ C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポー
 *製品名
  CS+ for CC
 *パッケージ・バージョン
- V8.11.00  [30 Nov 2023]
+ V8.12.00  [06 Jun 2024]
 *バージョン
- V9.11.00.04 [30 Oct 2023]
+ V9.12.00.03 [17 May 2024]
 *アセンブリ・バージョン
  3.12.10.1
 *拠点情報
  Japan
 *製品ライセンス
- Compiler Standard V2 for RX (CC-RX) ノードロック・ライセンス(permanent); Compiler Standard V2 for RH850 (CC-RH) ノードロック・ライセンス(permanent); Compiler Professional V1 for RH850 (CC-RH) ノードロック・ライセンス(permanent); Compiler Upgrade (version) Standard V3 for RX (CC-RX) ノードロック・ライセンス(permanent); 
+ 
 *実行場所
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *メモリ使用量
  *プライベート・ワーキング・セット
-  253 MB
+  435 MB
  *GDIオブジェクト数
-  1998
+  2111
  *USERオブジェクト数
-  957
+  1061
  *開いているファイル
-  3 editors, 3 files, 54 KB
+  3 editors, 3 files, 44 KB
 
 --- ビルド・ツール・プラグイン情報 ---
 RH850ビルド・ツールCC-RH用プラグイン
@@ -224,7 +205,7 @@ RXビルド・ツールCC-RX用プラグイン
   BuildToolCCRX.dll
 RH850ビルド・ツールGHS CCRH850用プラグイン
  *バージョン
-  V1.08.00.00 [03 Apr 2023]
+  V1.09.00.00 [27 Mar 2024]
  *アセンブリ・バージョン
   1.0.0.0
  *DLL ファイル名
@@ -233,7 +214,7 @@ RH850ビルド・ツールGHS CCRH850用プラグイン
 --- デバッグ・ツール・プラグイン情報 ---
 デバッガ・コレクション・プラグイン
  *バージョン
-  V8.11.00.03 [21 Nov 2023]
+  V8.12.00.03 [23 May 2024]
  *アセンブリ・バージョン
   2.12.10.1
  *DLL ファイル名
@@ -270,7 +251,7 @@ RH850用コード生成
   DebugConsole.dll
 Quick and Effective tool solution - QE
  *バージョン
-  V9.11.00.03 [13 Oct 2023]
+  V9.12.00.01 [08 Apr 2024]
  *アセンブリ・バージョン
   1.15.10.16
  *DLL ファイル名
@@ -291,18 +272,25 @@ Quick and Effective tool solution - QE
   ProgramAnalyzer.dll
 IronPythonコンソール・プラグイン
  *バージョン
-  V1.47.00.02 [01 Nov 2023]
+  V1.48.00.05 [23 May 2024]
  *アセンブリ・バージョン
   1.6.10.23
  *DLL ファイル名
   PythonConsole.dll
 エディタ・パネル
  *バージョン
-  V1.19.00.01 [24 Oct 2022]
+  V1.20.00.03 [20 May 2024]
  *アセンブリ・バージョン
   1.1.0.0
  *DLL ファイル名
   SEditor.dll
+RX用スマート・コンフィグレータ通信プラグイン
+ *バージョン
+  V1.02.23.01 [08 Apr 2024]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  SmcCodePartRX.dll
 スタック見積もりツール
  *バージョン
   V1.05.00.02 [30 Jul 2014]
@@ -320,7 +308,7 @@ IronPythonコンソール・プラグイン
 
 デバッグ・ツール共通インタフェース
  *バージョン
-  V8.11.00.03 [21 Nov 2023]
+  V8.12.00.03 [23 May 2024]
  *アセンブリ・バージョン
   3.12.10.1
  *DLL ファイル名
@@ -334,11 +322,11 @@ IronPythonコンソール・プラグイン
   DeviceInformation.dll
 
 --- メイン・プロジェクト情報 ---
-C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\MultiCoreC1H.mtpj
+C:\Users\0488813\Documents\GitHub\AMDT3074_E0_011_V1_000_20240822_IM\MultiCoreC1H.mtpj
 マイクロコントローラ情報
  *R7F701270
   *ファイル名: バージョン
-   RH850_Productlist.xml: V8.110100
+   RH850_Productlist.xml: V8.120000
    R7F701270_common.xml: V1.21.00.XX.XX
    DR7F701270.DVF: V1.21
    -: -
@@ -348,14 +336,14 @@ C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポー
 ビルド・ツール情報
  *CC-RH
    * プラグイン(*.dll)のバージョン
-     V8.11.00.02 [27 Oct 2023]
+     V8.12.00.01 [10 Apr 2024]
    * コンパイラ・パッケージのバージョン
      V2.06.00
   
 
 デバッグ・ツール情報
  *RH850 E1(LPD)
-  Debugger Library V8.11.00.03 [21 Nov 2023]
+  Debugger Library V8.12.00.03 [23 May 2024]
   
 
 その他のツール情報
@@ -370,12 +358,14 @@ C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポー
 
  *なし
 
+ *なし
+
 --- サブプロジェクト情報(1/2) ---
-C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE1\MotorDirver0.mtsp
+C:\Users\0488813\Documents\GitHub\AMDT3074_E0_011_V1_000_20240822_IM\PE1\MotorDirver0.mtsp
 マイクロコントローラ情報
  *R7F701270
   *ファイル名: バージョン
-   RH850_Productlist.xml: V8.110100
+   RH850_Productlist.xml: V8.120000
    R7F701270_common.xml: V1.21.00.XX.XX
    DR7F701270.DVF: V1.21
    -: -
@@ -385,14 +375,14 @@ C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポー
 ビルド・ツール情報
  *CC-RH
    * プラグイン(*.dll)のバージョン
-     V8.11.00.02 [27 Oct 2023]
+     V8.12.00.01 [10 Apr 2024]
    * コンパイラ・パッケージのバージョン
      V2.06.00
   
 
 デバッグ・ツール情報
  *RH850 E1(LPD)
-  Debugger Library V8.11.00.03 [21 Nov 2023]
+  Debugger Library V8.12.00.03 [23 May 2024]
   
 
 その他のツール情報
@@ -407,15 +397,17 @@ C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポー
  *プログラム解析
   *バージョン
    V4.13.00.03 [24 May 2023]
+
+ *なし
 
  *なし
 
 --- サブプロジェクト情報(2/2) ---
-C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポート様向け_SiCモジュール搭載水冷式汎用インバータ（AMDTINV_SH600A_SiC）\E_制御関係\IM\20240822_IM\PE2\MotorDriver1.mtsp
+C:\Users\0488813\Documents\GitHub\AMDT3074_E0_011_V1_000_20240822_IM\PE2\MotorDriver1.mtsp
 マイクロコントローラ情報
  *R7F701270
   *ファイル名: バージョン
-   RH850_Productlist.xml: V8.110100
+   RH850_Productlist.xml: V8.120000
    R7F701270_common.xml: V1.21.00.XX.XX
    DR7F701270.DVF: V1.21
    -: -
@@ -425,14 +417,14 @@ C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポー
 ビルド・ツール情報
  *CC-RH
    * プラグイン(*.dll)のバージョン
-     V8.11.00.02 [27 Oct 2023]
+     V8.12.00.01 [10 Apr 2024]
    * コンパイラ・パッケージのバージョン
      V2.06.00
   
 
 デバッグ・ツール情報
  *RH850 E1(LPD)
-  Debugger Library V8.11.00.03 [21 Nov 2023]
+  Debugger Library V8.12.00.03 [23 May 2024]
   
 
 その他のツール情報
@@ -447,6 +439,8 @@ C:\Users\basa2\Documents\AMDT-NPC\AMDT3074_【伊丹】_テクニカルサポー
  *プログラム解析
   *バージョン
    V4.13.00.03 [24 May 2023]
+
+ *なし
 
  *なし
 
