@@ -1,4 +1,4 @@
-Renesas Optimizing Linker (W3.06.00 )             03-Jun-2026 16:59:23
+Renesas Optimizing Linker (V3.06.00 )             22-Aug-2024 10:25:20
 
 *** Options ***
 
@@ -82,9 +82,9 @@ EIINTTBL_PE1_2
 com.text
                                   00801df4  00801e8d        9a   2
 .text
-                                  00801e8e  0080dbff      bd72   2
+                                  00801e8e  0080dbfb      bd6e   2
 .data
-                                  0080dc00  0080dc07         8   4
+                                  0080dbfc  0080dc03         8   4
 .data.R
                                   fe9f0000  fe9f0007         8   4
 .bss
@@ -246,607 +246,607 @@ FILE=DefaultBuild\io_CSIH1.obj
   _eprom_cs
                                   00803d4a        44   func ,g         * 
 FILE=DefaultBuild\io_ENCA0.obj
-                                  00803d8e  0080405d       2d0
+                                  00803d8e  00804059       2cc
   _enca0_init
-                                  00803d8e       1d4   func ,g         * 
+                                  00803d8e       1d0   func ,g         * 
   _u2_enca0_cnt_read
-                                  00803f62        24   func ,g         * 
+                                  00803f5e        24   func ,g         * 
   _enca0_stop
-                                  00803f86         a   func ,g         * 
+                                  00803f82         a   func ,g         * 
   _enca0_start
-                                  00803f90         a   func ,g         * 
+                                  00803f8c         a   func ,g         * 
   _enca0_cnt_set
-                                  00803f9a        30   func ,g         * 
+                                  00803f96        30   func ,g         * 
   _enca0_ccr1_set
-                                  00803fca        26   func ,g         * 
+                                  00803fc6        26   func ,g         * 
   _enca0_init_interrupt
-                                  00803ff0        6e   func ,g         * 
+                                  00803fec        6e   func ,g         * 
 FILE=DefaultBuild\io_ENCA1.obj
-                                  0080405e  0080435b       2fe
+                                  0080405a  00804357       2fe
   _enca1_init
-                                  0080405e       202   func ,g         * 
+                                  0080405a       202   func ,g         * 
   _u2_enca1_cnt_read
-                                  00804260        24   func ,g         * 
+                                  0080425c        24   func ,g         * 
   _enca1_stop
-                                  00804284         a   func ,g         * 
+                                  00804280         a   func ,g         * 
   _enca1_start
-                                  0080428e         a   func ,g         * 
+                                  0080428a         a   func ,g         * 
   _enca1_cnt_set
-                                  00804298        30   func ,g         * 
+                                  00804294        30   func ,g         * 
   _enca1_ccr1_set
-                                  008042c8        26   func ,g         * 
+                                  008042c4        26   func ,g         * 
   _enca1_init_interrupt
-                                  008042ee        6e   func ,g         * 
+                                  008042ea        6e   func ,g         * 
 FILE=DefaultBuild\io_FCAN.obj
-                                  0080435c  008057fd      14a2
+                                  00804358  008057f9      14a2
   _can_init
-                                  0080435c       b2e   func ,g         * 
+                                  00804358       b2e   func ,g         * 
   _can_setup_rx_mbox
-                                  00804e8a        b4   func ,g         * 
+                                  00804e86        b4   func ,g         * 
   _can_setup_tx_mbox
-                                  00804f3e        ac   func ,g         * 
+                                  00804f3a        ac   func ,g         * 
   _can_tx_data
-                                  00804fea        ea   func ,g         * 
+                                  00804fe6        ea   func ,g         * 
   _can0_init
-                                  008050d4        5a   func ,g         * 
+                                  008050d0        5a   func ,g         * 
   _can1_init
-                                  0080512e        5a   func ,g         * 
+                                  0080512a        5a   func ,g         * 
   _can2_init
-                                  00805188        5a   func ,g         * 
+                                  00805184        5a   func ,g         * 
   _can3_init
-                                  008051e2        5a   func ,g         * 
+                                  008051de        5a   func ,g         * 
   _can_rx_data
-                                  0080523c        5c   func ,g         * 
+                                  00805238        5c   func ,g         * 
   _u4_rx_fifo_chk
-                                  00805298        12   func ,g         * 
+                                  00805294        12   func ,g         * 
   _can_module_busoffchk
-                                  008052aa        20   func ,g         * 
+                                  008052a6        20   func ,g         * 
   _can_module_chk
-                                  008052ca         e   func ,g         * 
+                                  008052c6         e   func ,g         * 
   _can_chint_init
-                                  008052d8       468   func ,g         * 
+                                  008052d4       468   func ,g         * 
   _can_gint_init
-                                  00805740        be   func ,g         * 
+                                  0080573c        be   func ,g         * 
 FILE=DefaultBuild\io_RDC20.obj
-                                  008057fe  0080605b       85e
+                                  008057fa  00806057       85e
   _rdc20_init
-                                  008057fe       506   func ,g         * 
+                                  008057fa       506   func ,g         * 
   _u2_rdc20str_read
-                                  00805d04        44   func ,g         * 
+                                  00805d00        44   func ,g         * 
   _u2_rdc20_cnt_read
-                                  00805d48         e   func ,g         * 
+                                  00805d44         e   func ,g         * 
   _rdc20_init_interrupt
-                                  00805d56       184   func ,g         * 
+                                  00805d52       184   func ,g         * 
   _rdc20_cmp0_set
-                                  00805eda        18   func ,g         * 
+                                  00805ed6        18   func ,g         * 
   _rdc20_cmp1_set
-                                  00805ef2        18   func ,g         * 
+                                  00805eee        18   func ,g         * 
   _rdc20_cmp2_set
-                                  00805f0a        18   func ,g         * 
+                                  00805f06        18   func ,g         * 
   _s4_rdc20_rpm
-                                  00805f22       108   func ,g         * 
+                                  00805f1e       108   func ,g         * 
   _u2_read_rdc20_status
-                                  0080602a        1c   func ,g         * 
+                                  00806026        1c   func ,g         * 
   _rdc20_ABZ_Terminal_output
-                                  00806046        16   func ,g         * 
+                                  00806042        16   func ,g         * 
 FILE=DefaultBuild\io_RDC21.obj
-                                  0080605c  0080689b       840
+                                  00806058  00806897       840
   _rdc21_init
-                                  0080605c       506   func ,g         * 
+                                  00806058       506   func ,g         * 
   _u2_rdc21str_read
-                                  00806562        44   func ,g         * 
+                                  0080655e        44   func ,g         * 
   _u2_rdc21_cnt_read
-                                  008065a6         e   func ,g         * 
+                                  008065a2         e   func ,g         * 
   _rdc21_init_interrupt
-                                  008065b4       166   func ,g         * 
+                                  008065b0       166   func ,g         * 
   _rdc21_cmp0_set
-                                  0080671a        18   func ,g         * 
+                                  00806716        18   func ,g         * 
   _rdc21_cmp1_set
-                                  00806732        18   func ,g         * 
+                                  0080672e        18   func ,g         * 
   _rdc21_cmp2_set
-                                  0080674a        18   func ,g         * 
+                                  00806746        18   func ,g         * 
   _s4_rdc21_rpm
-                                  00806762       108   func ,g         * 
+                                  0080675e       108   func ,g         * 
   _u2_read_rdc21_status
-                                  0080686a        1c   func ,g         * 
+                                  00806866        1c   func ,g         * 
   _rdc21_ABZ_Terminal_output
-                                  00806886        16   func ,g         * 
+                                  00806882        16   func ,g         * 
 FILE=DefaultBuild\io_SCI0_40MHz.obj
-                                  0080689c  00806c2b       390
+                                  00806898  00806c27       390
   _sci0_init
-                                  0080689c       33c   func ,g         * 
+                                  00806898       33c   func ,g         * 
   _sci0_start
-                                  00806bd8        12   func ,g         * 
+                                  00806bd4        12   func ,g         * 
   _sci0_stop
-                                  00806bea         e   func ,g         * 
+                                  00806be6         e   func ,g         * 
   _u1_SO30_1byte
-                                  00806bf8        18   func ,g         * 
+                                  00806bf4        18   func ,g         * 
   _u1_SI30_1byte
-                                  00806c10        1c   func ,g         * 
+                                  00806c0c        1c   func ,g         * 
 FILE=DefaultBuild\io_SCI1_40MHz.obj
-                                  00806c2c  00806e35       20a
+                                  00806c28  00806e31       20a
   _sci1_init
-                                  00806c2c       1ee   func ,g         * 
+                                  00806c28       1ee   func ,g         * 
   _sci1_start
-                                  00806e1a         e   func ,g         * 
+                                  00806e16         e   func ,g         * 
   _sci1_stop
-                                  00806e28         e   func ,g         * 
+                                  00806e24         e   func ,g         * 
 FILE=DefaultBuild\io_SCI2_40MHz.obj
-                                  00806e36  00807041       20c
+                                  00806e32  0080703d       20c
   _sci2_init
-                                  00806e36       1f0   func ,g         * 
+                                  00806e32       1f0   func ,g         * 
   _sci2_start
-                                  00807026         e   func ,g         * 
+                                  00807022         e   func ,g         * 
   _sci2_stop
-                                  00807034         e   func ,g         * 
+                                  00807030         e   func ,g         * 
 FILE=DefaultBuild\io_TAUD0.obj
-                                  00807042  008080df      109e
+                                  0080703e  008080db      109e
   _taud0prescale_0_2_8_0_init
-                                  00807042        16   func ,g         * 
+                                  0080703e        16   func ,g         * 
   _taud0prescale_0_2_64_0_init
-                                  00807058        16   func ,g         * 
+                                  00807054        16   func ,g         * 
   _taud0_stop
-                                  0080706e         a   func ,g         * 
+                                  0080706a         a   func ,g         * 
   _interval00_init
-                                  00807078       116   func ,g         * 
+                                  00807074       116   func ,g         * 
   _interval00_start
-                                  0080718e         a   func ,g         * 
+                                  0080718a         a   func ,g         * 
   _interval00_stop
-                                  00807198         a   func ,g         * 
+                                  00807194         a   func ,g         * 
   _interval01_init
-                                  008071a2       118   func ,g         * 
+                                  0080719e       118   func ,g         * 
   _interval01_start
-                                  008072ba         a   func ,g         * 
+                                  008072b6         a   func ,g         * 
   _interval01_stop
-                                  008072c4         a   func ,g         * 
+                                  008072c0         a   func ,g         * 
   _interval02_init
-                                  008072ce       118   func ,g         * 
+                                  008072ca       118   func ,g         * 
   _interval02_start
-                                  008073e6         a   func ,g         * 
+                                  008073e2         a   func ,g         * 
   _interval02_stop
-                                  008073f0         a   func ,g         * 
+                                  008073ec         a   func ,g         * 
   _interval03_init
-                                  008073fa       118   func ,g         * 
+                                  008073f6       118   func ,g         * 
   _interval03_start
-                                  00807512         a   func ,g         * 
+                                  0080750e         a   func ,g         * 
   _interval03_stop
-                                  0080751c         a   func ,g         * 
+                                  00807518         a   func ,g         * 
   _interval04_init
-                                  00807526       11a   func ,g         * 
+                                  00807522       11a   func ,g         * 
   _interval04_start
-                                  00807640         c   func ,g         * 
+                                  0080763c         c   func ,g         * 
   _interval04_stop
-                                  0080764c         c   func ,g         * 
+                                  00807648         c   func ,g         * 
   _stopwatch0_init
-                                  00807658        b2   func ,g         * 
+                                  00807654        b2   func ,g         * 
   _stopwatch0_start
-                                  0080770a        10   func ,g         * 
+                                  00807706        10   func ,g         * 
   _stopwatch0_stop
-                                  0080771a        1e   func ,g         * 
+                                  00807716        1e   func ,g         * 
   _freq_capture5_init
-                                  00807738       126   func ,g         * 
+                                  00807734       126   func ,g         * 
   _freq_capture5_start
-                                  0080785e         c   func ,g         * 
+                                  0080785a         c   func ,g         * 
   _freq_capture5_flag_read
-                                  0080786a        12   func ,g         * 
+                                  00807866        12   func ,g         * 
   _freq_capture6_11_init
-                                  0080787c       32c   func ,g         * 
+                                  00807878       32c   func ,g         * 
   _freq_capture6_11_start
-                                  00807ba8         c   func ,g         * 
+                                  00807ba4         c   func ,g         * 
   _freq_capture6_11_stop
-                                  00807bb4         c   func ,g         * 
+                                  00807bb0         c   func ,g         * 
   _temp_capture6_read
-                                  00807bc0        5a   func ,g         * 
+                                  00807bbc        5a   func ,g         * 
   _temp_capture7_read
-                                  00807c1a        5a   func ,g         * 
+                                  00807c16        5a   func ,g         * 
   _temp_capture8_read
-                                  00807c74        5a   func ,g         * 
+                                  00807c70        5a   func ,g         * 
   _temp_capture9_read
-                                  00807cce        5a   func ,g         * 
+                                  00807cca        5a   func ,g         * 
   _temp_capture10_read
-                                  00807d28        5a   func ,g         * 
+                                  00807d24        5a   func ,g         * 
   _temp_capture11_read
-                                  00807d82        5a   func ,g         * 
+                                  00807d7e        5a   func ,g         * 
   _temp_capture6_11_ovfclr
-                                  00807ddc        38   func ,g         * 
+                                  00807dd8        38   func ,g         * 
   _freq_capture6_flag_read
-                                  00807e14        12   func ,g         * 
+                                  00807e10        12   func ,g         * 
   _freq_capture7_flag_read
-                                  00807e26        12   func ,g         * 
+                                  00807e22        12   func ,g         * 
   _freq_capture8_flag_read
-                                  00807e38        12   func ,g         * 
+                                  00807e34        12   func ,g         * 
   _freq_capture9_flag_read
-                                  00807e4a        12   func ,g         * 
+                                  00807e46        12   func ,g         * 
   _freq_capture10_flag_read
-                                  00807e5c        12   func ,g         * 
+                                  00807e58        12   func ,g         * 
   _freq_capture11_flag_read
-                                  00807e6e        12   func ,g         * 
+                                  00807e6a        12   func ,g         * 
   _pwm0_7_init
-                                  00807e80       1de   func ,g         * 
+                                  00807e7c       1de   func ,g         * 
   _pwm0_7_tim_start
-                                  0080805e         c   func ,g         * 
+                                  0080805a         c   func ,g         * 
   _pwm0_7_tim_stop
-                                  0080806a         c   func ,g         * 
+                                  00808066         c   func ,g         * 
   _pwm0_7_start
-                                  00808076         c   func ,g         * 
+                                  00808072         c   func ,g         * 
   _pwm0_7_stop
-                                  00808082         c   func ,g         * 
+                                  0080807e         c   func ,g         * 
   _pwm0_7_setm_f
-                                  0080808e        52   func ,g         * 
+                                  0080808a        52   func ,g         * 
 FILE=DefaultBuild\io_TAUD1.obj
-                                  008080e0  00808e05       d26
+                                  008080dc  00808e01       d26
   _taud1prescale_0_2_8_0_init
-                                  008080e0        16   func ,g         * 
+                                  008080dc        16   func ,g         * 
   _taud1prescale_0_2_32_0_init
-                                  008080f6        16   func ,g         * 
+                                  008080f2        16   func ,g         * 
   _taud1prescale_0_2_64_0_init
-                                  0080810c        16   func ,g         * 
+                                  00808108        16   func ,g         * 
   _taud1_stop
-                                  00808122         a   func ,g         * 
+                                  0080811e         a   func ,g         * 
   _interval10_init
-                                  0080812c       116   func ,g         * 
+                                  00808128       116   func ,g         * 
   _interval10_start
-                                  00808242         a   func ,g         * 
+                                  0080823e         a   func ,g         * 
   _interval10_stop
-                                  0080824c         a   func ,g         * 
+                                  00808248         a   func ,g         * 
   _interval12_init
-                                  00808256       118   func ,g         * 
+                                  00808252       118   func ,g         * 
   _interval12_start
-                                  0080836e         a   func ,g         * 
+                                  0080836a         a   func ,g         * 
   _interval12_stop
-                                  00808378         a   func ,g         * 
+                                  00808374         a   func ,g         * 
   _interval13_init
-                                  00808382       118   func ,g         * 
+                                  0080837e       118   func ,g         * 
   _interval13_start
-                                  0080849a         a   func ,g         * 
+                                  00808496         a   func ,g         * 
   _interval13_stop
-                                  008084a4         a   func ,g         * 
+                                  008084a0         a   func ,g         * 
   _interval14_init
-                                  008084ae       11a   func ,g         * 
+                                  008084aa       11a   func ,g         * 
   _interval14_start
-                                  008085c8         c   func ,g         * 
+                                  008085c4         c   func ,g         * 
   _interval14_stop
-                                  008085d4         c   func ,g         * 
+                                  008085d0         c   func ,g         * 
   _stopwatch1_init
-                                  008085e0        b2   func ,g         * 
+                                  008085dc        b2   func ,g         * 
   _stopwatch1_start
-                                  00808692        10   func ,g         * 
+                                  0080868e        10   func ,g         * 
   _stopwatch1_stop
-                                  008086a2        1e   func ,g         * 
+                                  0080869e        1e   func ,g         * 
   _level_capture6_11_init
-                                  008086c0       1f4   func ,g         * 
+                                  008086bc       1f4   func ,g         * 
   _level_capture6_11_start
-                                  008088b4         c   func ,g         * 
+                                  008088b0         c   func ,g         * 
   _levelcapture6_11_stop
-                                  008088c0         c   func ,g         * 
+                                  008088bc         c   func ,g         * 
   _level_capture6_flag_read
-                                  008088cc        12   func ,g         * 
+                                  008088c8        12   func ,g         * 
   _level_capture7_flag_read
-                                  008088de        12   func ,g         * 
+                                  008088da        12   func ,g         * 
   _level_capture8_flag_read
-                                  008088f0        12   func ,g         * 
+                                  008088ec        12   func ,g         * 
   _level_capture9_flag_read
-                                  00808902        12   func ,g         * 
+                                  008088fe        12   func ,g         * 
   _level_capture10_flag_read
-                                  00808914        12   func ,g         * 
+                                  00808910        12   func ,g         * 
   _level_capture11_flag_read
-                                  00808926        12   func ,g         * 
+                                  00808922        12   func ,g         * 
   _pwm1_15_init
-                                  00808938       1de   func ,g         * 
+                                  00808934       1de   func ,g         * 
   _pwm1_15_tim_start
-                                  00808b16         c   func ,g         * 
+                                  00808b12         c   func ,g         * 
   _pwm1_15_tim_stop
-                                  00808b22         c   func ,g         * 
+                                  00808b1e         c   func ,g         * 
   _pwm1_15_start
-                                  00808b2e         c   func ,g         * 
+                                  00808b2a         c   func ,g         * 
   _pwm1_15_stop
-                                  00808b3a         c   func ,g         * 
+                                  00808b36         c   func ,g         * 
   _pwm1_15_setm_f
-                                  00808b46        52   func ,g         * 
+                                  00808b42        52   func ,g         * 
   _phase_capture1_1_init
-                                  00808b98        ec   func ,g         * 
+                                  00808b94        ec   func ,g         * 
   _phase_capture1_1_start
-                                  00808c84         a   func ,g         * 
+                                  00808c80         a   func ,g         * 
   _phase_capture1_1_stop
-                                  00808c8e         a   func ,g         * 
+                                  00808c8a         a   func ,g         * 
   _phase_capture1_1_cnt_read
-                                  00808c98        1c   func ,g         * 
+                                  00808c94        1c   func ,g         * 
   _phase_capture1_1_flag_read
-                                  00808cb4        12   func ,g         * 
+                                  00808cb0        12   func ,g         * 
   _phase_capture1_15_init
-                                  00808cc6        ee   func ,g         * 
+                                  00808cc2        ee   func ,g         * 
   _phase_capture1_15_start
-                                  00808db4         c   func ,g         * 
+                                  00808db0         c   func ,g         * 
   _phase_capture1_15_stop
-                                  00808dc0         c   func ,g         * 
+                                  00808dbc         c   func ,g         * 
   _phase_capture1_15_cnt_read
-                                  00808dcc        1c   func ,g         * 
+                                  00808dc8        1c   func ,g         * 
   _phase_capture1_15_flag_read
-                                  00808de8        12   func ,g         * 
+                                  00808de4        12   func ,g         * 
   _phase_capture1_1_1_15_start
-                                  00808dfa         c   func ,g         * 
+                                  00808df6         c   func ,g         * 
 FILE=DefaultBuild\io_TAUJ0.obj
-                                  00808e06  00809721       91c
+                                  00808e02  0080971d       91c
   _tauj0prescale0_2_8_0_init
-                                  00808e06        16   func ,g         * 
+                                  00808e02        16   func ,g         * 
   _tauj0_stop
-                                  00808e1c         a   func ,g         * 
+                                  00808e18         a   func ,g         * 
   _pwm0_2_init
-                                  00808e26       17c   func ,g         * 
+                                  00808e22       17c   func ,g         * 
   _pwm0_2_tim_start
-                                  00808fa2        12   func ,g         * 
+                                  00808f9e        12   func ,g         * 
   _pwm0_2_tim_stop
-                                  00808fb4        12   func ,g         * 
+                                  00808fb0        12   func ,g         * 
   _pwm0_2_start
-                                  00808fc6        18   func ,g         * 
+                                  00808fc2        18   func ,g         * 
   _pwm0_2_stop
-                                  00808fde        18   func ,g         * 
+                                  00808fda        18   func ,g         * 
   _set_pwm0_2_m
-                                  00808ff6        4a   func ,g         * 
+                                  00808ff2        4a   func ,g         * 
   _set_pwm0_2_mf
-                                  00809040        94   func ,g         * 
+                                  0080903c        94   func ,g         * 
   _pwm0_3_init
-                                  008090d4       17c   func ,g         * 
+                                  008090d0       17c   func ,g         * 
   _pwm0_3_tim_start
-                                  00809250        12   func ,g         * 
+                                  0080924c        12   func ,g         * 
   _pwm0_3_tim_stop
-                                  00809262        12   func ,g         * 
+                                  0080925e        12   func ,g         * 
   _pwm0_3_start
-                                  00809274        18   func ,g         * 
+                                  00809270        18   func ,g         * 
   _pwm0_3_stop
-                                  0080928c        18   func ,g         * 
+                                  00809288        18   func ,g         * 
   _set_pwm0_3_m
-                                  008092a4        4a   func ,g         * 
+                                  008092a0        4a   func ,g         * 
   _set_pwm0_3_mf
-                                  008092ee        94   func ,g         * 
+                                  008092ea        94   func ,g         * 
   _freq_capture0_init
-                                  00809382        ea   func ,g         * 
+                                  0080937e        ea   func ,g         * 
   _freq_capture0_start
-                                  0080946c         a   func ,g         * 
+                                  00809468         a   func ,g         * 
   _freq_capture0_stop
-                                  00809476         a   func ,g         * 
+                                  00809472         a   func ,g         * 
   _freq_capture0_cnt_read
-                                  00809480        24   func ,g         * 
+                                  0080947c        24   func ,g         * 
   _freq_capture0_flag_read
-                                  008094a4        12   func ,g         * 
+                                  008094a0        12   func ,g         * 
   _freq_capture1_init
-                                  008094b6        ec   func ,g         * 
+                                  008094b2        ec   func ,g         * 
   _freq_capture1_start
-                                  008095a2         a   func ,g         * 
+                                  0080959e         a   func ,g         * 
   _freq_capture1_stop
-                                  008095ac         a   func ,g         * 
+                                  008095a8         a   func ,g         * 
   _freq_capture1_cnt_read
-                                  008095b6        24   func ,g         * 
+                                  008095b2        24   func ,g         * 
   _freq_capture1_flag_read
-                                  008095da        12   func ,g         * 
+                                  008095d6        12   func ,g         * 
   _freq_capture2_init
-                                  008095ec        ec   func ,g         * 
+                                  008095e8        ec   func ,g         * 
   _freq_capture2_start
-                                  008096d8         a   func ,g         * 
+                                  008096d4         a   func ,g         * 
   _freq_capture2_stop
-                                  008096e2         a   func ,g         * 
+                                  008096de         a   func ,g         * 
   _freq_capture2_cnt_read
-                                  008096ec        24   func ,g         * 
+                                  008096e8        24   func ,g         * 
   _freq_capture2_flag_read
-                                  00809710        12   func ,g         * 
+                                  0080970c        12   func ,g         * 
 FILE=DefaultBuild\io_TSG30.obj
-                                  00809722  0080a545       e24
+                                  0080971e  0080a541       e24
   _tsg30_init
-                                  00809722       40a   func ,g         * 
+                                  0080971e       40a   func ,g         * 
   _tsg30_start
-                                  00809b2c         a   func ,g         * 
+                                  00809b28         a   func ,g         * 
   _tsg30_stop
-                                  00809b36         a   func ,g         * 
+                                  00809b32         a   func ,g         * 
   _dpinv0_start
-                                  00809b40        18   func ,g         * 
+                                  00809b3c        18   func ,g         * 
   _dpinv0_stop
-                                  00809b58        18   func ,g         * 
+                                  00809b54        18   func ,g         * 
   _dpinv0_set_addelay
-                                  00809b70        20   func ,g         * 
+                                  00809b6c        20   func ,g         * 
   _dpinv0_setuvwf_f_V1
-                                  00809b90       19a   func ,g         * 
+                                  00809b8c       19a   func ,g         * 
   _dpinv0_setuvwf_f_V2
-                                  00809d2a       1a6   func ,g         * 
+                                  00809d26       1a6   func ,g         * 
   _dpinv0_setuvwf_f_V3
-                                  00809ed0       288   func ,g         * 
+                                  00809ecc       288   func ,g         * 
   _dpinv0_extgb_init
-                                  0080a158        82   func ,g         * 
+                                  0080a154        82   func ,g         * 
   _dpinv0_extgb_status
-                                  0080a1da        10   func ,g         * 
+                                  0080a1d6        10   func ,g         * 
   _dpinv0_extgb_clr
-                                  0080a1ea         a   func ,g         * 
+                                  0080a1e6         a   func ,g         * 
   _tsg30_111int_stop
-                                  0080a1f4        3a   func ,g         * 
+                                  0080a1f0        3a   func ,g         * 
   _dpinv0_setuvw_1pulse
-                                  0080a22e        16   func ,g         * 
+                                  0080a22a        16   func ,g         * 
   _dpinv0_gatectrl
-                                  0080a244        8a   func ,g         * 
+                                  0080a240        8a   func ,g         * 
   _tsg30_31_start
-                                  0080a2ce        22   func ,g         * 
+                                  0080a2ca        22   func ,g         * 
   _tsg30_TSG30O0_out
-                                  0080a2f0         c   func ,g         * 
+                                  0080a2ec         c   func ,g         * 
   _dpinv01_setuvw_1pulse
-                                  0080a2fc        22   func ,g         * 
+                                  0080a2f8        22   func ,g         * 
   _dpinv0_set_freq
-                                  0080a31e       228   func ,g         * 
+                                  0080a31a       228   func ,g         * 
 FILE=DefaultBuild\io_TSG31.obj
-                                  0080a546  0080b34f       e0a
+                                  0080a542  0080b34b       e0a
   _tsg31_init
-                                  0080a546       40a   func ,g         * 
+                                  0080a542       40a   func ,g         * 
   _tsg31_start
-                                  0080a950         a   func ,g         * 
+                                  0080a94c         a   func ,g         * 
   _tsg31_stop
-                                  0080a95a         a   func ,g         * 
+                                  0080a956         a   func ,g         * 
   _dpinv1_start
-                                  0080a964        18   func ,g         * 
+                                  0080a960        18   func ,g         * 
   _dpinv1_stop
-                                  0080a97c        18   func ,g         * 
+                                  0080a978        18   func ,g         * 
   _dpinv1_set_addelay
-                                  0080a994        20   func ,g         * 
+                                  0080a990        20   func ,g         * 
   _dpinv1_setuvwf_f_V1
-                                  0080a9b4       19a   func ,g         * 
+                                  0080a9b0       19a   func ,g         * 
   _dpinv1_setuvwf_f_V2
-                                  0080ab4e       1a6   func ,g         * 
+                                  0080ab4a       1a6   func ,g         * 
   _dpinv1_setuvwf_f_V3
-                                  0080acf4       288   func ,g         * 
+                                  0080acf0       288   func ,g         * 
   _dpinv1_extgb_init
-                                  0080af7c        82   func ,g         * 
+                                  0080af78        82   func ,g         * 
   _dpinv1_extgb_status
-                                  0080affe        10   func ,g         * 
+                                  0080affa        10   func ,g         * 
   _dpinv1_extgb_clr
-                                  0080b00e         a   func ,g         * 
+                                  0080b00a         a   func ,g         * 
   _tsg31_111int_stop
-                                  0080b018        3a   func ,g         * 
+                                  0080b014        3a   func ,g         * 
   _dpinv1_setuvw_1pulse
-                                  0080b052        16   func ,g         * 
+                                  0080b04e        16   func ,g         * 
   _dpinv1_gatectrl
-                                  0080b068        5c   func ,g         * 
+                                  0080b064        5c   func ,g         * 
   _re_set_port_for_conv
-                                  0080b0c4        28   func ,g         * 
+                                  0080b0c0        28   func ,g         * 
   _dpconv1_start
-                                  0080b0ec        18   func ,g         * 
+                                  0080b0e8        18   func ,g         * 
   _dpconv1_stop
-                                  0080b104        18   func ,g         * 
+                                  0080b100        18   func ,g         * 
   _tsg31_TSG31O0_out
-                                  0080b11c         c   func ,g         * 
+                                  0080b118         c   func ,g         * 
   _dpinv1_set_freq
-                                  0080b128       228   func ,g         * 
+                                  0080b124       228   func ,g         * 
 FILE=DefaultBuild\VECLIB_CMDMONI.obj
-                                  0080b350  0080b373        24
+                                  0080b34c  0080b36f        24
   _VECLIB_CMDMONI_INIT
-                                  0080b350         4   func ,g         * 
+                                  0080b34c         4   func ,g         * 
   _VECLIB_CMDMONI_MAIN
-                                  0080b354        10   func ,g         * 
+                                  0080b350        10   func ,g         * 
   _VECLIB_CMDMONI_1MS
-                                  0080b364         4   func ,g         * 
+                                  0080b360         4   func ,g         * 
   _VECLIB_CMDMONI_PWM
-                                  0080b368         4   func ,g         * 
+                                  0080b364         4   func ,g         * 
   _VECLIB_CMDMONI_INTR
-                                  0080b36c         4   func ,g         * 
+                                  0080b368         4   func ,g         * 
   _VECLIB_CMDMONI_INTRE
-                                  0080b370         4   func ,g         * 
+                                  0080b36c         4   func ,g         * 
 FILE=DefaultBuild\fpmsm_main.obj
-                                  0080b374  0080b481       10e
+                                  0080b370  0080b47d       10e
   _main
-                                  0080b374        ce   func ,g         * 
+                                  0080b370        ce   func ,g         * 
   _fb_main_start_init
-                                  0080b442        20   func ,g         * 
+                                  0080b43e        20   func ,g         * 
   _fb_main_error_init
-                                  0080b462        20   func ,g         * 
+                                  0080b45e        20   func ,g         * 
 FILE=DefaultBuild\fi_AWatcher.obj
-                                  0080b482  0080b671       1f0
+                                  0080b47e  0080b66d       1f0
   _fi_awc_rx
-                                  0080b482        e0   func ,g         * 
+                                  0080b47e        e0   func ,g         * 
   _fi_awc_re
-                                  0080b562       110   func ,g         * 
+                                  0080b55e       110   func ,g         * 
 FILE=DefaultBuild\fi_1ms_int.obj
-                                  0080b672  0080b719        a8
+                                  0080b66e  0080b715        a8
   _fi_1ms_int
-                                  0080b672        a6   func ,g         * 
+                                  0080b66e        a6   func ,g         * 
   _fb_1ms_int_init
-                                  0080b718         2   func ,g         * 
+                                  0080b714         2   func ,g         * 
 FILE=DefaultBuild\fi_20us_int.obj
-                                  0080b71a  0080b7c1        a8
+                                  0080b716  0080b7bd        a8
   _fi_20us_int
-                                  0080b71a        a6   func ,g         * 
+                                  0080b716        a6   func ,g         * 
   _fb_20us_int_init
-                                  0080b7c0         2   func ,g         * 
+                                  0080b7bc         2   func ,g         * 
 FILE=DefaultBuild\fi_enc1_int.obj
-                                  0080b7c2  0080b861        a0
+                                  0080b7be  0080b85d        a0
   _fi_enc1_int
-                                  0080b7c2        9e   func ,g         * 
+                                  0080b7be        9e   func ,g         * 
   _fb_enc1_int_init
-                                  0080b860         2   func ,g         * 
+                                  0080b85c         2   func ,g         * 
 FILE=DefaultBuild\fi_pwm_int.obj
-                                  0080b862  0080b90d        ac
+                                  0080b85e  0080b909        ac
   _fi_pwm_int
-                                  0080b862        aa   func ,g         * 
+                                  0080b85e        aa   func ,g         * 
   _fb_pwm_int_init
-                                  0080b90c         2   func ,g         * 
+                                  0080b908         2   func ,g         * 
 FILE=DefaultBuild\fb_therm_calc.obj
-                                  0080b90e  0080ba25       118
+                                  0080b90a  0080ba21       118
   _f4_thermister_calc_2_8
-                                  0080b90e       118   func ,g         * 
+                                  0080b90a       118   func ,g         * 
 FILE=DefaultBuild\fb_therm_tbl_module.obj
-                                  0080ba26  0080ba65        40
+                                  0080ba22  0080ba61        40
   _s2_therm_module_calc_lsb2
-                                  0080ba26        40   func ,g         * 
+                                  0080ba22        40   func ,g         * 
 FILE=DefaultBuild\fi_pwm_vctrlerrtbl.obj
-                                  0080ba66  0080baff        9a
+                                  0080ba62  0080bafb        9a
   _fi_pwm_vctrlerrtbl
-                                  0080ba66        90   func ,g         * 
+                                  0080ba62        90   func ,g         * 
   _fb_pwm_vctrlerr_init
-                                  0080baf6         a   func ,g         * 
+                                  0080baf2         a   func ,g         * 
 FILE=DefaultBuild\io_PIO_amdt0530.obj
-                                  0080bb00  0080c195       696
+                                  0080bafc  0080c191       696
   _pio_init
-                                  0080bb00       168   func ,g         * 
+                                  0080bafc       168   func ,g         * 
   _ex_intpx_init
-                                  0080bc68       484   func ,g         * 
+                                  0080bc64       484   func ,g         * 
   _intpx_status_read
-                                  0080c0ec        aa   func ,g         * 
+                                  0080c0e8        aa   func ,g         * 
 FILE=cmdmoni_wt
-                                  0080c196  0080d83d      16a8
+                                  0080c192  0080d839      16a8
   _MD_WT_INTRE
-                                  0080c196        28   func ,g         * 
+                                  0080c192        28   func ,g         * 
   _MD_WT_INTR
-                                  0080c1be       89e   func ,g         * 
+                                  0080c1ba       89e   func ,g         * 
   _CMDMONI_WT_INIT
-                                  0080ca5c        be   func ,g         * 
+                                  0080ca58        be   func ,g         * 
   _CMDMONI_WT_TRACEHALT.1
-                                  0080cb1a        24   func ,l         * 
+                                  0080cb16        24   func ,l         * 
   _CMDMONI_WT_TRACEWATCH
-                                  0080cb3e       580   func ,g         * 
+                                  0080cb3a       580   func ,g         * 
   _CMDMONI_WT_CHECKCMD
-                                  0080d0be       57e   func ,g         * 
+                                  0080d0ba       57e   func ,g         * 
   _CMDMONI_WT_SENDCMD
-                                  0080d63c        c8   func ,g         * 
+                                  0080d638        c8   func ,g         * 
   _CMDMONI_WT_1MS
-                                  0080d704        26   func ,g         * 
+                                  0080d700        26   func ,g         * 
   _zop_CalcCheckSum.1
-                                  0080d72a        56   func ,l         * 
+                                  0080d726        56   func ,l         * 
   _zop_PressSend.1
-                                  0080d780        be   func ,l         * 
+                                  0080d77c        be   func ,l         * 
 FILE=initsct_rh
-                                  0080d83e  0080d8ed        b0
+                                  0080d83a  0080d8e9        b0
   __INITSCT_RH
-                                  0080d83e         0   none ,g         * 
+                                  0080d83a         0   none ,g         * 
 FILE=logf
-                                  0080d8ee  0080db27       23a
+                                  0080d8ea  0080db23       23a
   _logf
-                                  0080d8ee         0   none ,g         * 
+                                  0080d8ea         0   none ,g         * 
   _poly_logf.1
-                                  0080da92         0   none ,l         * 
+                                  0080da8e         0   none ,l         * 
 FILE=com7d
-                                  0080db28  0080db2f         8
+                                  0080db24  0080db2b         8
   __REL_errno
-                                  0080db28         0   none ,g         * 
+                                  0080db24         0   none ,g         * 
 FILE=frexpf
-                                  0080db30  0080dbbd        8e
+                                  0080db2c  0080dbb9        8e
   _frexpf
-                                  0080db30         0   none ,g         * 
+                                  0080db2c         0   none ,g         * 
 FILE=logfspecial
-                                  0080dbbe  0080dbed        30
+                                  0080dbba  0080dbe9        30
   __REL_logf_special
-                                  0080dbbe         0   none ,g         * 
+                                  0080dbba         0   none ,g         * 
 FILE=nanf
-                                  0080dbee  0080dbf3         6
+                                  0080dbea  0080dbef         6
   __REL_nanf_value
-                                  0080dbee         0   none ,g         * 
+                                  0080dbea         0   none ,g         * 
 FILE=neginff
-                                  0080dbf4  0080dbf9         6
+                                  0080dbf0  0080dbf5         6
   __REL_neginff_value
-                                  0080dbf4         0   none ,g         * 
+                                  0080dbf0         0   none ,g         * 
 FILE=posinff
-                                  0080dbfa  0080dbff         6
+                                  0080dbf6  0080dbfb         6
   __REL_posinff_value
-                                  0080dbfa         0   none ,g         * 
+                                  0080dbf6         0   none ,g         * 
 
 SECTION=.data
 FILE=DefaultBuild\io_TSG30.obj
-                                  0080dc00  0080dc03         4
+                                  0080dbfc  0080dbff         4
 FILE=DefaultBuild\io_TSG31.obj
-                                  0080dc04  0080dc07         4
+                                  0080dc00  0080dc03         4
 
 SECTION=.data.R
 FILE=DefaultBuild\io_TSG30.obj
@@ -1085,11 +1085,11 @@ FILE=rlink_generates_02
   __s.text
                                   00801e8e         0   none ,g         * 
   __e.text
-                                  0080dc00         0   none ,g         * 
+                                  0080dbfc         0   none ,g         * 
   __S_text
                                   00801e8e         0   none ,g         * 
   __E_text
-                                  0080dc00         0   none ,g         * 
+                                  0080dbfc         0   none ,g         * 
   __scom.text
                                   00801df4         0   none ,g         * 
   __ecom.text
@@ -1115,17 +1115,17 @@ FILE=rlink_generates_02
   __EEIINTTBL_PE2
                                   00800080         0   none ,g         * 
   __s.data
-                                  0080dc00         0   none ,g         * 
+                                  0080dbfc         0   none ,g         * 
   __e.data
-                                  0080dc08         0   none ,g         * 
+                                  0080dc04         0   none ,g         * 
   __s.data.R
                                   fe9f0000         0   none ,g         * 
   __e.data.R
                                   fe9f0008         0   none ,g         * 
   __S_data
-                                  0080dc00         0   none ,g         * 
+                                  0080dbfc         0   none ,g         * 
   __E_data
-                                  0080dc08         0   none ,g         * 
+                                  0080dc04         0   none ,g         * 
   __S_data_R
                                   fe9f0000         0   none ,g         * 
   __E_data_R
