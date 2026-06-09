@@ -32,22 +32,22 @@ fshj
 /* 						マップデータの設定		   		  	   */
 /*=============================================================*/
 
-#define	N_X				16										/* Xのデータ数	回転数							*/
-#define	N_Y				101										/* Yのデータ数 トルク指令値						*/
-#define	N_Z				3										/* Zのデータ数	入力直流電圧					*/
+#define	N_X				11										/* Xのデータ数	回転数							*/
+#define	N_Y				29										/* Yのデータ数 トルク指令値						*/
+#define	N_Z				1										/* Zのデータ数	入力直流電圧					*/
 
 #define	N_X_ADD1		100000									/* 追加回転数1(rpm)								*/
 #define	N_X_ADD2		200000									/* 追加回転数2(rpm)								*/
 #define	N_Z_ADD			400.0									/* 追加電圧(V)									*/
 																/* 使用しない場合は、マップで使用する値よりも大きくしておくこと		*/
 
-#define ORIGIN_X		1000.0									/* Xの原点（オフセット値）						*/
-#define ORIGIN_Y		-250.0									/* Yの原点（オフセット値）						*/
-#define ORIGIN_Z		300.0									/* Zの原点（オフセット値）						*/
+#define ORIGIN_X		0.0									/* Xの原点（オフセット値）						*/
+#define ORIGIN_Y		-70.0									/* Yの原点（オフセット値）						*/
+#define ORIGIN_Z		48.0									/* Zの原点（オフセット値）						*/
 
-#define RESO_X			1000.0									/* Xの分解能									*/
+#define RESO_X			500.0									/* Xの分解能									*/
 #define RESO_Y			5.0										/* Yの分解能									*/
-#define RESO_Z			55.0									/* Zの分解能									*/
+#define RESO_Z			35.0									/* Zの分解能									*/
 																/* 追加した項目がある場合、分解能は大きいほうを優先すること		*/
 
 #define	SCALLING_A		(1.0/10.0)								/* 出力Aのスケーリング d軸電流指令値			*/

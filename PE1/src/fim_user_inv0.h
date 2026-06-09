@@ -150,7 +150,7 @@
 #define		ID_INV0_REF_MAX					(IDQ_INV0_MAX)		/* Unit=A:励磁(d軸)電流指令値上限				*/
 
 
-#define		LM_INV0_MODE					(0)					/* 励磁インダクタンス演算モード					*/
+#define		LM_INV0_MODE					(1)					/* 励磁インダクタンス演算モード					*/
 																/* 0:固定、1:マップデータ						*/
 
 #define		TMP_INV0_R1						(25.6)				/* Unit=℃：一次抵抗基準温度					*/
