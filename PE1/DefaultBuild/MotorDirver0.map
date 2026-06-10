@@ -1,4 +1,4 @@
-Renesas Optimizing Linker (V3.06.00 )             22-Aug-2024 10:25:06
+Renesas Optimizing Linker (W3.06.00 )             10-Jun-2026 15:48:29
 
 *** Options ***
 
@@ -98,23 +98,23 @@ EIINTTBL_PE1
 EIINTTBL_PE1_2
                                   00000080  000003ff       380   4
 .const
-                                  00001000  0000d847      c848   4
+                                  00001000  00004a1f      3a20   4
 .INIT_DSEC.const
-                                  0000d848  0000d86b        24   4
+                                  00004a20  00004a43        24   4
 .INIT_BSEC.const
-                                  0000d86c  0000d873         8   4
+                                  00004a44  00004a4b         8   4
 .text.cmn
-                                  0000d874  0000d8db        68   2
+                                  00004a4c  00004ab3        68   2
 com.text
-                                  0000d8dc  0000d975        9a   2
+                                  00004ab4  00004b4d        9a   2
 .text
-                                  0000d976  0002410f     1679a   2
+                                  00004b4e  0001b1cf     16682   2
 .data
-                                  00024110  00024136        27   4
+                                  0001b1d0  0001b1f6        27   4
 comGRAMA.data
-                                  00024138  0002413c         5   4
+                                  0001b1f8  0001b1fc         5   4
 comGRAMB.data
-                                  00024140  00024144         5   4
+                                  0001b200  0001b204         5   4
 .data.R
                                   febf0000  febf0026        27   4
 .bss
@@ -164,1017 +164,1017 @@ FILE=DefaultBuild\fb_vctrlerr_tbl.obj
   _f4_vctrlerr_tbl
                                   0000360c       404   data ,g         * 
 FILE=DefaultBuild\mapdata_trq_inv0_map.obj
-                                  00003a10  000085cf      4bc0
+                                  00003a10  00003f0b       4fc
   _map_tq_to_idq
-                                  00003a10      4bc0   data ,g         * 
+                                  00003a10       4fc   data ,g         * 
 FILE=DefaultBuild\mapdata_trq_inv0_map_limit.obj
-                                  000085d0  0000869b        cc
+                                  00003f0c  00003f37        2c
   _map_tq_limit
-                                  000085d0        cc   data ,g         * 
+                                  00003f0c        2c   data ,g         * 
 FILE=DefaultBuild\mapdata_trq_inv0_map_power.obj
-                                  0000869c  0000d25b      4bc0
+                                  00003f38  00004433       4fc
   _map_tq_to_power
-                                  0000869c      4bc0   data ,g         * 
+                                  00003f38       4fc   data ,g         * 
 FILE=DefaultBuild\fb_therm_tbl_module.obj
-                                  0000d25c  0000d35b       100
+                                  00004434  00004533       100
   _S2_THERM_MODULE_TBL0
-                                  0000d25c       100   data ,g         * 
+                                  00004434       100   data ,g         * 
 FILE=DefaultBuild\mapdata_lm_inv0_1d_map.obj
-                                  0000d35c  0000d75f       404
+                                  00004534  00004937       404
   _map_lm_1d
-                                  0000d35c       404   data ,g         * 
+                                  00004534       404   data ,g         * 
 FILE=cmdmoni_wt
-                                  0000d760  0000d76f        10
+                                  00004938  00004947        10
   _LengthMask.1
-                                  0000d760        10   data ,l         * 
+                                  00004938        10   data ,l         * 
 FILE=logf
-                                  0000d770  0000d7cf        60
+                                  00004948  000049a7        60
   _log_coeff_l.1
-                                  0000d770         0   none ,l         * 
+                                  00004948         0   none ,l         * 
   _log_coeff_r.2
-                                  0000d7a0         0   none ,l         * 
+                                  00004978         0   none ,l         * 
 FILE=consts
-                                  0000d7d0  0000d82f        60
+                                  000049a8  00004a07        60
   __IFZEROS
-                                  0000d7d0         0   none ,g         * 
+                                  000049a8         0   none ,g         * 
   __IFINFS
-                                  0000d7d4         0   none ,g         * 
+                                  000049ac         0   none ,g         * 
   __IFONES
-                                  0000d7d8         0   none ,g         * 
+                                  000049b0         0   none ,g         * 
   __HALFS
-                                  0000d7dc         0   none ,g         * 
+                                  000049b4         0   none ,g         * 
   __QUOTS
-                                  0000d7e0         0   none ,g         * 
+                                  000049b8         0   none ,g         * 
   __TWOS
-                                  0000d7e4         0   none ,g         * 
+                                  000049bc         0   none ,g         * 
   __FOURS
-                                  0000d7e8         0   none ,g         * 
+                                  000049c0         0   none ,g         * 
   __PAIS
-                                  0000d7ec         0   none ,g         * 
+                                  000049c4         0   none ,g         * 
   __2PAIS
-                                  0000d7f0         0   none ,g         * 
+                                  000049c8         0   none ,g         * 
   __HLFPAIS
-                                  0000d7f4         0   none ,g         * 
+                                  000049cc         0   none ,g         * 
   __QUOPAIS
-                                  0000d7f8         0   none ,g         * 
+                                  000049d0         0   none ,g         * 
   __LOGE2S
-                                  0000d7fc         0   none ,g         * 
+                                  000049d4         0   none ,g         * 
   __NIFZEROS
-                                  0000d800         0   none ,g         * 
+                                  000049d8         0   none ,g         * 
   __NIFINFS
-                                  0000d804         0   none ,g         * 
+                                  000049dc         0   none ,g         * 
   __NIFONES
-                                  0000d808         0   none ,g         * 
+                                  000049e0         0   none ,g         * 
   __NHALFS
-                                  0000d80c         0   none ,g         * 
+                                  000049e4         0   none ,g         * 
   __NQUOTS
-                                  0000d810         0   none ,g         * 
+                                  000049e8         0   none ,g         * 
   __NTWOS
-                                  0000d814         0   none ,g         * 
+                                  000049ec         0   none ,g         * 
   __NFOURS
-                                  0000d818         0   none ,g         * 
+                                  000049f0         0   none ,g         * 
   __NPAIS
-                                  0000d81c         0   none ,g         * 
+                                  000049f4         0   none ,g         * 
   __N2PAIS
-                                  0000d820         0   none ,g         * 
+                                  000049f8         0   none ,g         * 
   __NHLFPAIS
-                                  0000d824         0   none ,g         * 
+                                  000049fc         0   none ,g         * 
   __NQUOPAIS
-                                  0000d828         0   none ,g         * 
+                                  00004a00         0   none ,g         * 
   __NLOGE2S
-                                  0000d82c         0   none ,g         * 
+                                  00004a04         0   none ,g         * 
 FILE=_a_atans
-                                  0000d830  0000d847        18
+                                  00004a08  00004a1f        18
   _atan_coef.1._app_atans
-                                  0000d830         0   none ,l         * 
+                                  00004a08         0   none ,l         * 
 
 SECTION=.INIT_DSEC.const
 FILE=DefaultBuild\cstart1.obj
-                                  0000d848  0000d86b        24
+                                  00004a20  00004a43        24
 
 SECTION=.INIT_BSEC.const
 FILE=DefaultBuild\cstart1.obj
-                                  0000d86c  0000d873         8
+                                  00004a44  00004a4b         8
 
 SECTION=.text.cmn
 FILE=DefaultBuild\cstart1.obj
-                                  0000d874  0000d8db        68
+                                  00004a4c  00004ab3        68
   __cstart_pm1
-                                  0000d874         0   none ,g         * 
+                                  00004a4c         0   none ,g         * 
   _exit
-                                  0000d8da         0   none ,l         * 
+                                  00004ab2         0   none ,l         * 
 
 SECTION=com.text
 FILE=DefaultBuild\fi_pe1_error.obj
-                                  0000d8dc  0000d975        9a
+                                  00004ab4  00004b4d        9a
   _Dummy_func_pe1
-                                  0000d8dc         a   func ,g         * 
+                                  00004ab4         a   func ,g         * 
   _Dummy_EI_func_pe1
-                                  0000d8e6        90   func ,g         * 
+                                  00004abe        90   func ,g         * 
 
 SECTION=.text
 FILE=DefaultBuild\fi_pe1_error.obj
-                                  0000d976  0000da95       120
+                                  00004b4e  00004c6d       120
   _Dummy_EI_PE1
-                                  0000d976        90   func ,g         * 
+                                  00004b4e        90   func ,g         * 
   _Dummy_EI_PE12
-                                  0000da06        90   func ,g         * 
+                                  00004bde        90   func ,g         * 
 FILE=DefaultBuild\cstart1.obj
-                                  0000da96  0000daa1         c
+                                  00004c6e  00004c79         c
   _set_table_reference_method
-                                  0000da96         0   none ,l         * 
+                                  00004c6e         0   none ,l         * 
 FILE=DefaultBuild\io_CPU.obj
-                                  0000daa2  0000e155       6b4
+                                  00004c7a  0000532d       6b4
   _cpu_init
-                                  0000daa2        36   func ,g         * 
+                                  00004c7a        36   func ,g         * 
   _ecm2_init
-                                  0000dad8       29a   func ,g         * 
+                                  00004cb0       29a   func ,g         * 
   _clock_init
-                                  0000dd72        e0   func ,g         * 
+                                  00004f4a        e0   func ,g         * 
   _errout_set
-                                  0000de52        2a   func ,g         * 
+                                  0000502a        2a   func ,g         * 
   _u4_emc_status
-                                  0000de7c        64   func ,g         * 
+                                  00005054        64   func ,g         * 
   _pbg_prot_clr
-                                  0000dee0       1fe   func ,g         * 
+                                  000050b8       1fe   func ,g         * 
   _core0_peg_init
-                                  0000e0de        3c   func ,g         * 
+                                  000052b6        3c   func ,g         * 
   _core1_peg_init
-                                  0000e11a        3c   func ,g         * 
+                                  000052f2        3c   func ,g         * 
 FILE=DefaultBuild\io_ENCA0.obj
-                                  0000e156  0000e421       2cc
+                                  0000532e  000055f9       2cc
   _enca0_init
-                                  0000e156       1d0   func ,g         * 
+                                  0000532e       1d0   func ,g         * 
   _u2_enca0_cnt_read
-                                  0000e326        24   func ,g         * 
+                                  000054fe        24   func ,g         * 
   _enca0_stop
-                                  0000e34a         a   func ,g         * 
+                                  00005522         a   func ,g         * 
   _enca0_start
-                                  0000e354         a   func ,g         * 
+                                  0000552c         a   func ,g         * 
   _enca0_cnt_set
-                                  0000e35e        30   func ,g         * 
+                                  00005536        30   func ,g         * 
   _enca0_ccr1_set
-                                  0000e38e        26   func ,g         * 
+                                  00005566        26   func ,g         * 
   _enca0_init_interrupt
-                                  0000e3b4        6e   func ,g         * 
+                                  0000558c        6e   func ,g         * 
 FILE=DefaultBuild\io_ENCA1.obj
-                                  0000e422  0000e71f       2fe
+                                  000055fa  000058f7       2fe
   _enca1_init
-                                  0000e422       202   func ,g         * 
+                                  000055fa       202   func ,g         * 
   _u2_enca1_cnt_read
-                                  0000e624        24   func ,g         * 
+                                  000057fc        24   func ,g         * 
   _enca1_stop
-                                  0000e648         a   func ,g         * 
+                                  00005820         a   func ,g         * 
   _enca1_start
-                                  0000e652         a   func ,g         * 
+                                  0000582a         a   func ,g         * 
   _enca1_cnt_set
-                                  0000e65c        30   func ,g         * 
+                                  00005834        30   func ,g         * 
   _enca1_ccr1_set
-                                  0000e68c        26   func ,g         * 
+                                  00005864        26   func ,g         * 
   _enca1_init_interrupt
-                                  0000e6b2        6e   func ,g         * 
+                                  0000588a        6e   func ,g         * 
 FILE=DefaultBuild\io_FCAN.obj
-                                  0000e720  0000fbc1      14a2
+                                  000058f8  00006d99      14a2
   _can_init
-                                  0000e720       b2e   func ,g         * 
+                                  000058f8       b2e   func ,g         * 
   _can_setup_rx_mbox
-                                  0000f24e        b4   func ,g         * 
+                                  00006426        b4   func ,g         * 
   _can_setup_tx_mbox
-                                  0000f302        ac   func ,g         * 
+                                  000064da        ac   func ,g         * 
   _can_tx_data
-                                  0000f3ae        ea   func ,g         * 
+                                  00006586        ea   func ,g         * 
   _can0_init
-                                  0000f498        5a   func ,g         * 
+                                  00006670        5a   func ,g         * 
   _can1_init
-                                  0000f4f2        5a   func ,g         * 
+                                  000066ca        5a   func ,g         * 
   _can2_init
-                                  0000f54c        5a   func ,g         * 
+                                  00006724        5a   func ,g         * 
   _can3_init
-                                  0000f5a6        5a   func ,g         * 
+                                  0000677e        5a   func ,g         * 
   _can_rx_data
-                                  0000f600        5c   func ,g         * 
+                                  000067d8        5c   func ,g         * 
   _u4_rx_fifo_chk
-                                  0000f65c        12   func ,g         * 
+                                  00006834        12   func ,g         * 
   _can_module_busoffchk
-                                  0000f66e        20   func ,g         * 
+                                  00006846        20   func ,g         * 
   _can_module_chk
-                                  0000f68e         e   func ,g         * 
+                                  00006866         e   func ,g         * 
   _can_chint_init
-                                  0000f69c       468   func ,g         * 
+                                  00006874       468   func ,g         * 
   _can_gint_init
-                                  0000fb04        be   func ,g         * 
+                                  00006cdc        be   func ,g         * 
 FILE=DefaultBuild\io_RDC20.obj
-                                  0000fbc2  0001041f       85e
+                                  00006d9a  000075f7       85e
   _rdc20_init
-                                  0000fbc2       506   func ,g         * 
+                                  00006d9a       506   func ,g         * 
   _u2_rdc20str_read
-                                  000100c8        44   func ,g         * 
+                                  000072a0        44   func ,g         * 
   _u2_rdc20_cnt_read
-                                  0001010c         e   func ,g         * 
+                                  000072e4         e   func ,g         * 
   _rdc20_init_interrupt
-                                  0001011a       184   func ,g         * 
+                                  000072f2       184   func ,g         * 
   _rdc20_cmp0_set
-                                  0001029e        18   func ,g         * 
+                                  00007476        18   func ,g         * 
   _rdc20_cmp1_set
-                                  000102b6        18   func ,g         * 
+                                  0000748e        18   func ,g         * 
   _rdc20_cmp2_set
-                                  000102ce        18   func ,g         * 
+                                  000074a6        18   func ,g         * 
   _s4_rdc20_rpm
-                                  000102e6       108   func ,g         * 
+                                  000074be       108   func ,g         * 
   _u2_read_rdc20_status
-                                  000103ee        1c   func ,g         * 
+                                  000075c6        1c   func ,g         * 
   _rdc20_ABZ_Terminal_output
-                                  0001040a        16   func ,g         * 
+                                  000075e2        16   func ,g         * 
 FILE=DefaultBuild\io_SCI0_40MHz.obj
-                                  00010420  000107af       390
+                                  000075f8  00007987       390
   _sci0_init
-                                  00010420       33c   func ,g         * 
+                                  000075f8       33c   func ,g         * 
   _sci0_start
-                                  0001075c        12   func ,g         * 
+                                  00007934        12   func ,g         * 
   _sci0_stop
-                                  0001076e         e   func ,g         * 
+                                  00007946         e   func ,g         * 
   _u1_SO30_1byte
-                                  0001077c        18   func ,g         * 
+                                  00007954        18   func ,g         * 
   _u1_SI30_1byte
-                                  00010794        1c   func ,g         * 
+                                  0000796c        1c   func ,g         * 
 FILE=DefaultBuild\io_SCI1_40MHz.obj
-                                  000107b0  000109b9       20a
+                                  00007988  00007b91       20a
   _sci1_init
-                                  000107b0       1ee   func ,g         * 
+                                  00007988       1ee   func ,g         * 
   _sci1_start
-                                  0001099e         e   func ,g         * 
+                                  00007b76         e   func ,g         * 
   _sci1_stop
-                                  000109ac         e   func ,g         * 
+                                  00007b84         e   func ,g         * 
 FILE=DefaultBuild\io_SCI2_40MHz.obj
-                                  000109ba  00010bc5       20c
+                                  00007b92  00007d9d       20c
   _sci2_init
-                                  000109ba       1f0   func ,g         * 
+                                  00007b92       1f0   func ,g         * 
   _sci2_start
-                                  00010baa         e   func ,g         * 
+                                  00007d82         e   func ,g         * 
   _sci2_stop
-                                  00010bb8         e   func ,g         * 
+                                  00007d90         e   func ,g         * 
 FILE=DefaultBuild\io_TAUD0.obj
-                                  00010bc6  00011c59      1094
+                                  00007d9e  00008e31      1094
   _taud0prescale_0_2_8_0_init
-                                  00010bc6        16   func ,g         * 
+                                  00007d9e        16   func ,g         * 
   _taud0prescale_0_2_64_0_init
-                                  00010bdc        16   func ,g         * 
+                                  00007db4        16   func ,g         * 
   _taud0_stop
-                                  00010bf2         a   func ,g         * 
+                                  00007dca         a   func ,g         * 
   _interval00_init
-                                  00010bfc       116   func ,g         * 
+                                  00007dd4       116   func ,g         * 
   _interval00_start
-                                  00010d12         a   func ,g         * 
+                                  00007eea         a   func ,g         * 
   _interval00_stop
-                                  00010d1c         a   func ,g         * 
+                                  00007ef4         a   func ,g         * 
   _interval01_init
-                                  00010d26       118   func ,g         * 
+                                  00007efe       118   func ,g         * 
   _interval01_start
-                                  00010e3e         a   func ,g         * 
+                                  00008016         a   func ,g         * 
   _interval01_stop
-                                  00010e48         a   func ,g         * 
+                                  00008020         a   func ,g         * 
   _interval02_init
-                                  00010e52       118   func ,g         * 
+                                  0000802a       118   func ,g         * 
   _interval02_start
-                                  00010f6a         a   func ,g         * 
+                                  00008142         a   func ,g         * 
   _interval02_stop
-                                  00010f74         a   func ,g         * 
+                                  0000814c         a   func ,g         * 
   _interval03_init
-                                  00010f7e       118   func ,g         * 
+                                  00008156       118   func ,g         * 
   _interval03_start
-                                  00011096         a   func ,g         * 
+                                  0000826e         a   func ,g         * 
   _interval03_stop
-                                  000110a0         a   func ,g         * 
+                                  00008278         a   func ,g         * 
   _interval04_init
-                                  000110aa       11a   func ,g         * 
+                                  00008282       11a   func ,g         * 
   _interval04_start
-                                  000111c4         c   func ,g         * 
+                                  0000839c         c   func ,g         * 
   _interval04_stop
-                                  000111d0         c   func ,g         * 
+                                  000083a8         c   func ,g         * 
   _stopwatch0_init
-                                  000111dc        b2   func ,g         * 
+                                  000083b4        b2   func ,g         * 
   _stopwatch0_start
-                                  0001128e        10   func ,g         * 
+                                  00008466        10   func ,g         * 
   _stopwatch0_stop
-                                  0001129e        1e   func ,g         * 
+                                  00008476        1e   func ,g         * 
   _freq_capture5_init
-                                  000112bc       126   func ,g         * 
+                                  00008494       126   func ,g         * 
   _freq_capture5_start
-                                  000113e2         c   func ,g         * 
+                                  000085ba         c   func ,g         * 
   _freq_capture5_flag_read
-                                  000113ee        12   func ,g         * 
+                                  000085c6        12   func ,g         * 
   _freq_capture6_11_init
-                                  00011400       32c   func ,g         * 
+                                  000085d8       32c   func ,g         * 
   _freq_capture6_11_start
-                                  0001172c         c   func ,g         * 
+                                  00008904         c   func ,g         * 
   _freq_capture6_11_stop
-                                  00011738         c   func ,g         * 
+                                  00008910         c   func ,g         * 
   _temp_capture6_read
-                                  00011744        5a   func ,g         * 
+                                  0000891c        5a   func ,g         * 
   _temp_capture7_read
-                                  0001179e        5a   func ,g         * 
+                                  00008976        5a   func ,g         * 
   _temp_capture8_read
-                                  000117f8        5a   func ,g         * 
+                                  000089d0        5a   func ,g         * 
   _temp_capture9_read
-                                  00011852        5a   func ,g         * 
+                                  00008a2a        5a   func ,g         * 
   _temp_capture10_read
-                                  000118ac        5a   func ,g         * 
+                                  00008a84        5a   func ,g         * 
   _temp_capture11_read
-                                  00011906        5a   func ,g         * 
+                                  00008ade        5a   func ,g         * 
   _temp_capture6_11_ovfclr
-                                  00011960        38   func ,g         * 
+                                  00008b38        38   func ,g         * 
   _freq_capture6_flag_read
-                                  00011998        12   func ,g         * 
+                                  00008b70        12   func ,g         * 
   _freq_capture7_flag_read
-                                  000119aa        12   func ,g         * 
+                                  00008b82        12   func ,g         * 
   _freq_capture8_flag_read
-                                  000119bc        12   func ,g         * 
+                                  00008b94        12   func ,g         * 
   _freq_capture9_flag_read
-                                  000119ce        12   func ,g         * 
+                                  00008ba6        12   func ,g         * 
   _freq_capture10_flag_read
-                                  000119e0        12   func ,g         * 
+                                  00008bb8        12   func ,g         * 
   _freq_capture11_flag_read
-                                  000119f2        12   func ,g         * 
+                                  00008bca        12   func ,g         * 
   _pwm0_7_init
-                                  00011a04       1da   func ,g         * 
+                                  00008bdc       1da   func ,g         * 
   _pwm0_7_tim_start
-                                  00011bde         c   func ,g         * 
+                                  00008db6         c   func ,g         * 
   _pwm0_7_tim_stop
-                                  00011bea         c   func ,g         * 
+                                  00008dc2         c   func ,g         * 
   _pwm0_7_start
-                                  00011bf6         c   func ,g         * 
+                                  00008dce         c   func ,g         * 
   _pwm0_7_stop
-                                  00011c02         c   func ,g         * 
+                                  00008dda         c   func ,g         * 
   _pwm0_7_setm_f
-                                  00011c0e        4c   func ,g         * 
+                                  00008de6        4c   func ,g         * 
 FILE=DefaultBuild\io_TAUD1.obj
-                                  00011c5a  00012975       d1c
+                                  00008e32  00009b4d       d1c
   _taud1prescale_0_2_8_0_init
-                                  00011c5a        16   func ,g         * 
+                                  00008e32        16   func ,g         * 
   _taud1prescale_0_2_32_0_init
-                                  00011c70        16   func ,g         * 
+                                  00008e48        16   func ,g         * 
   _taud1prescale_0_2_64_0_init
-                                  00011c86        16   func ,g         * 
+                                  00008e5e        16   func ,g         * 
   _taud1_stop
-                                  00011c9c         a   func ,g         * 
+                                  00008e74         a   func ,g         * 
   _interval10_init
-                                  00011ca6       116   func ,g         * 
+                                  00008e7e       116   func ,g         * 
   _interval10_start
-                                  00011dbc         a   func ,g         * 
+                                  00008f94         a   func ,g         * 
   _interval10_stop
-                                  00011dc6         a   func ,g         * 
+                                  00008f9e         a   func ,g         * 
   _interval12_init
-                                  00011dd0       118   func ,g         * 
+                                  00008fa8       118   func ,g         * 
   _interval12_start
-                                  00011ee8         a   func ,g         * 
+                                  000090c0         a   func ,g         * 
   _interval12_stop
-                                  00011ef2         a   func ,g         * 
+                                  000090ca         a   func ,g         * 
   _interval13_init
-                                  00011efc       118   func ,g         * 
+                                  000090d4       118   func ,g         * 
   _interval13_start
-                                  00012014         a   func ,g         * 
+                                  000091ec         a   func ,g         * 
   _interval13_stop
-                                  0001201e         a   func ,g         * 
+                                  000091f6         a   func ,g         * 
   _interval14_init
-                                  00012028       11a   func ,g         * 
+                                  00009200       11a   func ,g         * 
   _interval14_start
-                                  00012142         c   func ,g         * 
+                                  0000931a         c   func ,g         * 
   _interval14_stop
-                                  0001214e         c   func ,g         * 
+                                  00009326         c   func ,g         * 
   _stopwatch1_init
-                                  0001215a        b2   func ,g         * 
+                                  00009332        b2   func ,g         * 
   _stopwatch1_start
-                                  0001220c        10   func ,g         * 
+                                  000093e4        10   func ,g         * 
   _stopwatch1_stop
-                                  0001221c        1e   func ,g         * 
+                                  000093f4        1e   func ,g         * 
   _level_capture6_11_init
-                                  0001223a       1f4   func ,g         * 
+                                  00009412       1f4   func ,g         * 
   _level_capture6_11_start
-                                  0001242e         c   func ,g         * 
+                                  00009606         c   func ,g         * 
   _levelcapture6_11_stop
-                                  0001243a         c   func ,g         * 
+                                  00009612         c   func ,g         * 
   _level_capture6_flag_read
-                                  00012446        12   func ,g         * 
+                                  0000961e        12   func ,g         * 
   _level_capture7_flag_read
-                                  00012458        12   func ,g         * 
+                                  00009630        12   func ,g         * 
   _level_capture8_flag_read
-                                  0001246a        12   func ,g         * 
+                                  00009642        12   func ,g         * 
   _level_capture9_flag_read
-                                  0001247c        12   func ,g         * 
+                                  00009654        12   func ,g         * 
   _level_capture10_flag_read
-                                  0001248e        12   func ,g         * 
+                                  00009666        12   func ,g         * 
   _level_capture11_flag_read
-                                  000124a0        12   func ,g         * 
+                                  00009678        12   func ,g         * 
   _pwm1_15_init
-                                  000124b2       1da   func ,g         * 
+                                  0000968a       1da   func ,g         * 
   _pwm1_15_tim_start
-                                  0001268c         c   func ,g         * 
+                                  00009864         c   func ,g         * 
   _pwm1_15_tim_stop
-                                  00012698         c   func ,g         * 
+                                  00009870         c   func ,g         * 
   _pwm1_15_start
-                                  000126a4         c   func ,g         * 
+                                  0000987c         c   func ,g         * 
   _pwm1_15_stop
-                                  000126b0         c   func ,g         * 
+                                  00009888         c   func ,g         * 
   _pwm1_15_setm_f
-                                  000126bc        4c   func ,g         * 
+                                  00009894        4c   func ,g         * 
   _phase_capture1_1_init
-                                  00012708        ec   func ,g         * 
+                                  000098e0        ec   func ,g         * 
   _phase_capture1_1_start
-                                  000127f4         a   func ,g         * 
+                                  000099cc         a   func ,g         * 
   _phase_capture1_1_stop
-                                  000127fe         a   func ,g         * 
+                                  000099d6         a   func ,g         * 
   _phase_capture1_1_cnt_read
-                                  00012808        1c   func ,g         * 
+                                  000099e0        1c   func ,g         * 
   _phase_capture1_1_flag_read
-                                  00012824        12   func ,g         * 
+                                  000099fc        12   func ,g         * 
   _phase_capture1_15_init
-                                  00012836        ee   func ,g         * 
+                                  00009a0e        ee   func ,g         * 
   _phase_capture1_15_start
-                                  00012924         c   func ,g         * 
+                                  00009afc         c   func ,g         * 
   _phase_capture1_15_stop
-                                  00012930         c   func ,g         * 
+                                  00009b08         c   func ,g         * 
   _phase_capture1_15_cnt_read
-                                  0001293c        1c   func ,g         * 
+                                  00009b14        1c   func ,g         * 
   _phase_capture1_15_flag_read
-                                  00012958        12   func ,g         * 
+                                  00009b30        12   func ,g         * 
   _phase_capture1_1_1_15_start
-                                  0001296a         c   func ,g         * 
+                                  00009b42         c   func ,g         * 
 FILE=DefaultBuild\io_TAUJ0.obj
-                                  00012976  00013279       904
+                                  00009b4e  0000a451       904
   _tauj0prescale0_2_8_0_init
-                                  00012976        16   func ,g         * 
+                                  00009b4e        16   func ,g         * 
   _tauj0_stop
-                                  0001298c         a   func ,g         * 
+                                  00009b64         a   func ,g         * 
   _pwm0_2_init
-                                  00012996       178   func ,g         * 
+                                  00009b6e       178   func ,g         * 
   _pwm0_2_tim_start
-                                  00012b0e        12   func ,g         * 
+                                  00009ce6        12   func ,g         * 
   _pwm0_2_tim_stop
-                                  00012b20        12   func ,g         * 
+                                  00009cf8        12   func ,g         * 
   _pwm0_2_start
-                                  00012b32        18   func ,g         * 
+                                  00009d0a        18   func ,g         * 
   _pwm0_2_stop
-                                  00012b4a        18   func ,g         * 
+                                  00009d22        18   func ,g         * 
   _set_pwm0_2_m
-                                  00012b62        4a   func ,g         * 
+                                  00009d3a        4a   func ,g         * 
   _set_pwm0_2_mf
-                                  00012bac        8c   func ,g         * 
+                                  00009d84        8c   func ,g         * 
   _pwm0_3_init
-                                  00012c38       178   func ,g         * 
+                                  00009e10       178   func ,g         * 
   _pwm0_3_tim_start
-                                  00012db0        12   func ,g         * 
+                                  00009f88        12   func ,g         * 
   _pwm0_3_tim_stop
-                                  00012dc2        12   func ,g         * 
+                                  00009f9a        12   func ,g         * 
   _pwm0_3_start
-                                  00012dd4        18   func ,g         * 
+                                  00009fac        18   func ,g         * 
   _pwm0_3_stop
-                                  00012dec        18   func ,g         * 
+                                  00009fc4        18   func ,g         * 
   _set_pwm0_3_m
-                                  00012e04        4a   func ,g         * 
+                                  00009fdc        4a   func ,g         * 
   _set_pwm0_3_mf
-                                  00012e4e        8c   func ,g         * 
+                                  0000a026        8c   func ,g         * 
   _freq_capture0_init
-                                  00012eda        ea   func ,g         * 
+                                  0000a0b2        ea   func ,g         * 
   _freq_capture0_start
-                                  00012fc4         a   func ,g         * 
+                                  0000a19c         a   func ,g         * 
   _freq_capture0_stop
-                                  00012fce         a   func ,g         * 
+                                  0000a1a6         a   func ,g         * 
   _freq_capture0_cnt_read
-                                  00012fd8        24   func ,g         * 
+                                  0000a1b0        24   func ,g         * 
   _freq_capture0_flag_read
-                                  00012ffc        12   func ,g         * 
+                                  0000a1d4        12   func ,g         * 
   _freq_capture1_init
-                                  0001300e        ec   func ,g         * 
+                                  0000a1e6        ec   func ,g         * 
   _freq_capture1_start
-                                  000130fa         a   func ,g         * 
+                                  0000a2d2         a   func ,g         * 
   _freq_capture1_stop
-                                  00013104         a   func ,g         * 
+                                  0000a2dc         a   func ,g         * 
   _freq_capture1_cnt_read
-                                  0001310e        24   func ,g         * 
+                                  0000a2e6        24   func ,g         * 
   _freq_capture1_flag_read
-                                  00013132        12   func ,g         * 
+                                  0000a30a        12   func ,g         * 
   _freq_capture2_init
-                                  00013144        ec   func ,g         * 
+                                  0000a31c        ec   func ,g         * 
   _freq_capture2_start
-                                  00013230         a   func ,g         * 
+                                  0000a408         a   func ,g         * 
   _freq_capture2_stop
-                                  0001323a         a   func ,g         * 
+                                  0000a412         a   func ,g         * 
   _freq_capture2_cnt_read
-                                  00013244        24   func ,g         * 
+                                  0000a41c        24   func ,g         * 
   _freq_capture2_flag_read
-                                  00013268        12   func ,g         * 
+                                  0000a440        12   func ,g         * 
 FILE=DefaultBuild\io_TSG30.obj
-                                  0001327a  00014045       dcc
+                                  0000a452  0000b21d       dcc
   _tsg30_init
-                                  0001327a       400   func ,g         * 
+                                  0000a452       400   func ,g         * 
   _tsg30_start
-                                  0001367a         a   func ,g         * 
+                                  0000a852         a   func ,g         * 
   _tsg30_stop
-                                  00013684         a   func ,g         * 
+                                  0000a85c         a   func ,g         * 
   _dpinv0_start
-                                  0001368e        18   func ,g         * 
+                                  0000a866        18   func ,g         * 
   _dpinv0_stop
-                                  000136a6        18   func ,g         * 
+                                  0000a87e        18   func ,g         * 
   _dpinv0_set_addelay
-                                  000136be        20   func ,g         * 
+                                  0000a896        20   func ,g         * 
   _dpinv0_setuvwf_f_V1
-                                  000136de       188   func ,g         * 
+                                  0000a8b6       188   func ,g         * 
   _dpinv0_setuvwf_f_V2
-                                  00013866       194   func ,g         * 
+                                  0000aa3e       194   func ,g         * 
   _dpinv0_setuvwf_f_V3
-                                  000139fa       270   func ,g         * 
+                                  0000abd2       270   func ,g         * 
   _dpinv0_extgb_init
-                                  00013c6a        82   func ,g         * 
+                                  0000ae42        82   func ,g         * 
   _dpinv0_extgb_status
-                                  00013cec        10   func ,g         * 
+                                  0000aec4        10   func ,g         * 
   _dpinv0_extgb_clr
-                                  00013cfc         a   func ,g         * 
+                                  0000aed4         a   func ,g         * 
   _tsg30_111int_stop
-                                  00013d06        3a   func ,g         * 
+                                  0000aede        3a   func ,g         * 
   _dpinv0_setuvw_1pulse
-                                  00013d40        16   func ,g         * 
+                                  0000af18        16   func ,g         * 
   _dpinv0_gatectrl
-                                  00013d56        8a   func ,g         * 
+                                  0000af2e        8a   func ,g         * 
   _tsg30_31_start
-                                  00013de0        22   func ,g         * 
+                                  0000afb8        22   func ,g         * 
   _tsg30_TSG30O0_out
-                                  00013e02         c   func ,g         * 
+                                  0000afda         c   func ,g         * 
   _dpinv01_setuvw_1pulse
-                                  00013e0e        22   func ,g         * 
+                                  0000afe6        22   func ,g         * 
   _dpinv0_set_freq
-                                  00013e30       216   func ,g         * 
+                                  0000b008       216   func ,g         * 
 FILE=DefaultBuild\io_TSG31.obj
-                                  00014046  00014df7       db2
+                                  0000b21e  0000bfcf       db2
   _tsg31_init
-                                  00014046       400   func ,g         * 
+                                  0000b21e       400   func ,g         * 
   _tsg31_start
-                                  00014446         a   func ,g         * 
+                                  0000b61e         a   func ,g         * 
   _tsg31_stop
-                                  00014450         a   func ,g         * 
+                                  0000b628         a   func ,g         * 
   _dpinv1_start
-                                  0001445a        18   func ,g         * 
+                                  0000b632        18   func ,g         * 
   _dpinv1_stop
-                                  00014472        18   func ,g         * 
+                                  0000b64a        18   func ,g         * 
   _dpinv1_set_addelay
-                                  0001448a        20   func ,g         * 
+                                  0000b662        20   func ,g         * 
   _dpinv1_setuvwf_f_V1
-                                  000144aa       188   func ,g         * 
+                                  0000b682       188   func ,g         * 
   _dpinv1_setuvwf_f_V2
-                                  00014632       194   func ,g         * 
+                                  0000b80a       194   func ,g         * 
   _dpinv1_setuvwf_f_V3
-                                  000147c6       270   func ,g         * 
+                                  0000b99e       270   func ,g         * 
   _dpinv1_extgb_init
-                                  00014a36        82   func ,g         * 
+                                  0000bc0e        82   func ,g         * 
   _dpinv1_extgb_status
-                                  00014ab8        10   func ,g         * 
+                                  0000bc90        10   func ,g         * 
   _dpinv1_extgb_clr
-                                  00014ac8         a   func ,g         * 
+                                  0000bca0         a   func ,g         * 
   _tsg31_111int_stop
-                                  00014ad2        3a   func ,g         * 
+                                  0000bcaa        3a   func ,g         * 
   _dpinv1_setuvw_1pulse
-                                  00014b0c        16   func ,g         * 
+                                  0000bce4        16   func ,g         * 
   _dpinv1_gatectrl
-                                  00014b22        5c   func ,g         * 
+                                  0000bcfa        5c   func ,g         * 
   _re_set_port_for_conv
-                                  00014b7e        28   func ,g         * 
+                                  0000bd56        28   func ,g         * 
   _dpconv1_start
-                                  00014ba6        18   func ,g         * 
+                                  0000bd7e        18   func ,g         * 
   _dpconv1_stop
-                                  00014bbe        18   func ,g         * 
+                                  0000bd96        18   func ,g         * 
   _tsg31_TSG31O0_out
-                                  00014bd6         c   func ,g         * 
+                                  0000bdae         c   func ,g         * 
   _dpinv1_set_freq
-                                  00014be2       216   func ,g         * 
+                                  0000bdba       216   func ,g         * 
 FILE=DefaultBuild\io_RDC21.obj
-                                  00014df8  00015637       840
+                                  0000bfd0  0000c80f       840
   _rdc21_init
-                                  00014df8       506   func ,g         * 
+                                  0000bfd0       506   func ,g         * 
   _u2_rdc21str_read
-                                  000152fe        44   func ,g         * 
+                                  0000c4d6        44   func ,g         * 
   _u2_rdc21_cnt_read
-                                  00015342         e   func ,g         * 
+                                  0000c51a         e   func ,g         * 
   _rdc21_init_interrupt
-                                  00015350       166   func ,g         * 
+                                  0000c528       166   func ,g         * 
   _rdc21_cmp0_set
-                                  000154b6        18   func ,g         * 
+                                  0000c68e        18   func ,g         * 
   _rdc21_cmp1_set
-                                  000154ce        18   func ,g         * 
+                                  0000c6a6        18   func ,g         * 
   _rdc21_cmp2_set
-                                  000154e6        18   func ,g         * 
+                                  0000c6be        18   func ,g         * 
   _s4_rdc21_rpm
-                                  000154fe       108   func ,g         * 
+                                  0000c6d6       108   func ,g         * 
   _u2_read_rdc21_status
-                                  00015606        1c   func ,g         * 
+                                  0000c7de        1c   func ,g         * 
   _rdc21_ABZ_Terminal_output
-                                  00015622        16   func ,g         * 
+                                  0000c7fa        16   func ,g         * 
 FILE=DefaultBuild\VECLIB_CMDMONI.obj
-                                  00015638  0001565b        24
+                                  0000c810  0000c833        24
   _VECLIB_CMDMONI_INIT
-                                  00015638         4   func ,g         * 
+                                  0000c810         4   func ,g         * 
   _VECLIB_CMDMONI_MAIN
-                                  0001563c        10   func ,g         * 
+                                  0000c814        10   func ,g         * 
   _VECLIB_CMDMONI_1MS
-                                  0001564c         4   func ,g         * 
+                                  0000c824         4   func ,g         * 
   _VECLIB_CMDMONI_PWM
-                                  00015650         4   func ,g         * 
+                                  0000c828         4   func ,g         * 
   _VECLIB_CMDMONI_INTR
-                                  00015654         4   func ,g         * 
+                                  0000c82c         4   func ,g         * 
   _VECLIB_CMDMONI_INTRE
-                                  00015658         4   func ,g         * 
+                                  0000c830         4   func ,g         * 
 FILE=DefaultBuild\mathlib.obj
-                                  0001565c  00015adf       484
+                                  0000c834  0000ccb7       484
   _dpcos
-                                  0001565c        aa   func ,g         * 
+                                  0000c834        aa   func ,g         * 
   _dpsin
-                                  00015706        aa   func ,g         * 
+                                  0000c8de        aa   func ,g         * 
   _dpatan
-                                  000157b0        f4   func ,g         * 
+                                  0000c988        f4   func ,g         * 
   _dpsqrt
-                                  000158a4        a4   func ,g         * 
+                                  0000ca7c        a4   func ,g         * 
   _Table_atan2Lookup
-                                  00015948        1c   func ,g         * 
+                                  0000cb20        1c   func ,g         * 
   _dpatan2_f
-                                  00015964       17c   func ,g         * 
+                                  0000cb3c       17c   func ,g         * 
 FILE=DefaultBuild\io_CSIH0.obj
-                                  00015ae0  00015cad       1ce
+                                  0000ccb8  0000ce85       1ce
   _csih0_init
-                                  00015ae0        d0   func ,g         * 
+                                  0000ccb8        d0   func ,g         * 
   _u1_CSIH0_SO_1byte
-                                  00015bb0        20   func ,g         * 
+                                  0000cd88        20   func ,g         * 
   _u1_CSIH0_SO_2byte
-                                  00015bd0        20   func ,g         * 
+                                  0000cda8        20   func ,g         * 
   _u1_CSIH0_SI_1byte
-                                  00015bf0        26   func ,g         * 
+                                  0000cdc8        26   func ,g         * 
   _u1_CSIH0_SI_2byte
-                                  00015c16        2a   func ,g         * 
+                                  0000cdee        2a   func ,g         * 
   _csih0_tx_intlv_init
-                                  00015c40        6e   func ,g         * 
+                                  0000ce18        6e   func ,g         * 
 FILE=DefaultBuild\io_ADC.obj
-                                  00015cae  00016d5f      10b2
+                                  0000ce86  0000df37      10b2
   _adcc0_init
-                                  00015cae       774   func ,g         * 
+                                  0000ce86       774   func ,g         * 
   _adcc1_init
-                                  00016422       772   func ,g         * 
+                                  0000d5fa       772   func ,g         * 
   _adcc0_sg4_trig_set
-                                  00016b94        6c   func ,g         * 
+                                  0000dd6c        6c   func ,g         * 
   _adcc1_sg4_trig_set
-                                  00016c00        6c   func ,g         * 
+                                  0000ddd8        6c   func ,g         * 
   _adcc0_sg4_int_init
-                                  00016c6c        7a   func ,g         * 
+                                  0000de44        7a   func ,g         * 
   _adcc1_sg4_int_init
-                                  00016ce6        7a   func ,g         * 
+                                  0000debe        7a   func ,g         * 
 FILE=DefaultBuild\io_CSIH1.obj
-                                  00016d60  000171ff       4a0
+                                  0000df38  0000e3d7       4a0
   _csih1_init
-                                  00016d60        d0   func ,g         * 
+                                  0000df38        d0   func ,g         * 
   _csih1_RA270000_init
-                                  00016e30        c0   func ,g         * 
+                                  0000e008        c0   func ,g         * 
   _u1_CSIH1_SO_1byte
-                                  00016ef0        20   func ,g         * 
+                                  0000e0c8        20   func ,g         * 
   _u1_CSIH1_SO_2byte
-                                  00016f10        20   func ,g         * 
+                                  0000e0e8        20   func ,g         * 
   _u1_CSIH1_SI_1byte
-                                  00016f30        26   func ,g         * 
+                                  0000e108        26   func ,g         * 
   _u1_CSIH1_SI_2byte
-                                  00016f56        26   func ,g         * 
+                                  0000e12e        26   func ,g         * 
   _csih1_tx_intlv_init
-                                  00016f7c        6e   func ,g         * 
+                                  0000e154        6e   func ,g         * 
   _u1_TX1_RA270000
-                                  00016fea        34   func ,g         * 
+                                  0000e1c2        34   func ,g         * 
   _u1_RX1_RA270000
-                                  0001701e        26   func ,g         * 
+                                  0000e1f6        26   func ,g         * 
   _csih1_eeprom_init
-                                  00017044        dc   func ,g         * 
+                                  0000e21c        dc   func ,g         * 
   _u1_CSIH1_EPIF_TX_2byte
-                                  00017120        28   func ,g         * 
+                                  0000e2f8        28   func ,g         * 
   _u1_CSIH1_EPIF_TX_1byte
-                                  00017148        28   func ,g         * 
+                                  0000e320        28   func ,g         * 
   _u1_CSIH1_EPIF_RX_2byte
-                                  00017170        26   func ,g         * 
+                                  0000e348        26   func ,g         * 
   _u1_CSIH1_EPIF_RX_1byte
-                                  00017196        26   func ,g         * 
+                                  0000e36e        26   func ,g         * 
   _eprom_cs
-                                  000171bc        44   func ,g         * 
+                                  0000e394        44   func ,g         * 
 FILE=DefaultBuild\fb_can0_ctrl.obj
-                                  00017200  00018b77      1978
+                                  0000e3d8  0000fd4f      1978
   _fb_can0_ctrl
-                                  00017200      1402   func ,g         * 
+                                  0000e3d8      1402   func ,g         * 
   _fb_can0_rx_data
-                                  00018602        c2   func ,g         * 
+                                  0000f7da        c2   func ,g         * 
   _fb_can0_ctrl_init
-                                  000186c4       2bc   func ,g         * 
+                                  0000f89c       2bc   func ,g         * 
   _fb_can0_driver_init
-                                  00018980       1f8   func ,g         * 
+                                  0000fb58       1f8   func ,g         * 
 FILE=DefaultBuild\fb_hw_ctrl.obj
-                                  00018b78  00018d5b       1e4
+                                  0000fd50  0000ff0b       1bc
   _fb_hw_ctrl_init
-                                  00018b78       1e4   func ,g         * 
+                                  0000fd50       1bc   func ,g         * 
 FILE=DefaultBuild\fb_therm_calc.obj
-                                  00018d5c  00018e3b        e0
+                                  0000ff0c  0000ffeb        e0
   _f4_thermister_calc_2_8
-                                  00018d5c        e0   func ,g         * 
+                                  0000ff0c        e0   func ,g         * 
 FILE=DefaultBuild\fi_1ms_int.obj
-                                  00018e3c  0001900d       1d2
+                                  0000ffec  000101bd       1d2
   _fi_1ms_int
-                                  00018e3c       19e   func ,g         * 
+                                  0000ffec       19e   func ,g         * 
   _fb_1ms_int_init
-                                  00018fda        34   func ,g         * 
+                                  0001018a        34   func ,g         * 
 FILE=DefaultBuild\fi_1ms_inv0_adctrl.obj
-                                  0001900e  000197fd       7f0
+                                  000101be  000109ad       7f0
   _fi_1ms_inv0_adctrl
-                                  0001900e       51a   func ,g         * 
+                                  000101be       51a   func ,g         * 
   _fb_1ms_inv0_adctrl_init
-                                  00019528       2d6   func ,g         * 
+                                  000106d8       2d6   func ,g         * 
 FILE=DefaultBuild\fi_1ms_inv0_errctrl.obj
-                                  000197fe  0001a12d       930
+                                  000109ae  000112df       932
   _fi_1ms_inv0_errctrl
-                                  000197fe       720   func ,g         * 
+                                  000109ae       720   func ,g         * 
   _fb_1ms_inv0_errctrl_init
-                                  00019f1e       210   func ,g         * 
+                                  000110ce       212   func ,g         * 
 FILE=DefaultBuild\fi_1ms_inv0_idqcom.obj
-                                  0001a12e  0001aae5       9b8
+                                  000112e0  00011c97       9b8
   _fi_1ms_inv0_idqcom
-                                  0001a12e       826   func ,g         * 
+                                  000112e0       826   func ,g         * 
   _fb_1ms_inv0_idqcom_init
-                                  0001a954       192   func ,g         * 
+                                  00011b06       192   func ,g         * 
 FILE=DefaultBuild\fi_1ms_inv0_seqctrl.obj
-                                  0001aae6  0001ae07       322
+                                  00011c98  00011fb9       322
   _fi_1ms_inv0_seqctrl
-                                  0001aae6       1dc   func ,g         * 
+                                  00011c98       1dc   func ,g         * 
   _u1_fi_1ms_inv0_seq_runctrl
-                                  0001acc2        7e   func ,g         * 
+                                  00011e74        7e   func ,g         * 
   _u1_fi_1ms_inv0_seq_stopctrl
-                                  0001ad40        42   func ,g         * 
+                                  00011ef2        42   func ,g         * 
   _u1_fi_1ms_inv0_seq_errctrl
-                                  0001ad82        42   func ,g         * 
+                                  00011f34        42   func ,g         * 
   _fb_1ms_inv0_seq_flaginit
-                                  0001adc4        2a   func ,g         * 
+                                  00011f76        2a   func ,g         * 
   _fb_1ms_inv0_seq_modeinit
-                                  0001adee        1a   func ,g         * 
+                                  00011fa0        1a   func ,g         * 
 FILE=DefaultBuild\fi_1ms_inv0_wrctrl.obj
-                                  0001ae08  0001b39b       594
+                                  00011fba  0001254d       594
   _fi_1ms_inv0_wrctrl
-                                  0001ae08       492   func ,g         * 
+                                  00011fba       492   func ,g         * 
   _fb_1ms_inv0_wrctrl_init
-                                  0001b29a       102   func ,g         * 
+                                  0001244c       102   func ,g         * 
 FILE=DefaultBuild\fi_AWatcher.obj
-                                  0001b39c  0001b58b       1f0
+                                  0001254e  0001273d       1f0
   _fi_awc_rx
-                                  0001b39c        e0   func ,g         * 
+                                  0001254e        e0   func ,g         * 
   _fi_awc_re
-                                  0001b47c       110   func ,g         * 
+                                  0001262e       110   func ,g         * 
 FILE=DefaultBuild\fi_pwm_int.obj
-                                  0001b58c  0001b7b5       22a
+                                  0001273e  00012967       22a
   _fi_pwm_int
-                                  0001b58c       1c0   func ,g         * 
+                                  0001273e       1c0   func ,g         * 
   _fb_pwm_int_init
-                                  0001b74c        6a   func ,g         * 
+                                  000128fe        6a   func ,g         * 
 FILE=DefaultBuild\fi_pwm_inv0_1pulse.obj
-                                  0001b7b6  0001b911       15c
+                                  00012968  00012ac3       15c
   _fi_pwm_inv0_1pulse
-                                  0001b7b6       142   func ,g         * 
+                                  00012968       142   func ,g         * 
   _fb_pwm_inv0_1pulse_init
-                                  0001b8f8        1a   func ,g         * 
+                                  00012aaa        1a   func ,g         * 
 FILE=DefaultBuild\fi_pwm_inv0_adctrl.obj
-                                  0001b912  0001c39f       a8e
+                                  00012ac4  00013551       a8e
   _fi_pwm_inv0_adctrl
-                                  0001b912       6b4   func ,g         * 
+                                  00012ac4       6b4   func ,g         * 
   _fb_pwm_inv0_adctrl_init
-                                  0001bfc6       3da   func ,g         * 
+                                  00013178       3da   func ,g         * 
 FILE=DefaultBuild\fi_pwm_inv0_encctrl.obj
-                                  0001c3a0  0001c7d3       434
+                                  00013552  000139a1       450
   _fi_pwm_inv0_encctrl
-                                  0001c3a0       35a   func ,g         * 
+                                  00013552       376   func ,g         * 
   _fb_pwm_inv0_encctrl_init
-                                  0001c6fa        da   func ,g         * 
+                                  000138c8        da   func ,g         * 
 FILE=DefaultBuild\fi_pwm_inv0_errctrl.obj
-                                  0001c7d4  0001c9c5       1f2
+                                  000139a2  00013b83       1e2
   _fi_pwm_inv0_errctrl
-                                  0001c7d4       18e   func ,g         * 
+                                  000139a2       17e   func ,g         * 
   _fb_pwm_inv0_errctrl_init
-                                  0001c962        64   func ,g         * 
+                                  00013b20        64   func ,g         * 
 FILE=DefaultBuild\fi_pwm_inv0_idqctrl.obj
-                                  0001c9c6  0001e4dd      1b18
+                                  00013b84  000156a1      1b1e
   _fi_pwm_inv0_idqctrl
-                                  0001c9c6      1688   func ,g         * 
+                                  00013b84      1688   func ,g         * 
   _fb_pwm_inv0_idqctrl_init
-                                  0001e04e       490   func ,g         * 
+                                  0001520c       496   func ,g         * 
 FILE=DefaultBuild\fi_pwm_inv0_invadj.obj
-                                  0001e4de  0001f069       b8c
+                                  000156a2  0001622d       b8c
   _fi_pwm_inv0_invadj
-                                  0001e4de       9d8   func ,g         * 
+                                  000156a2       9d8   func ,g         * 
   _fb_pwm_inv0_invadj_init
-                                  0001eeb6       1b4   func ,g         * 
+                                  0001607a       1b4   func ,g         * 
 FILE=DefaultBuild\fi_pwm_inv0_svctrl.obj
-                                  0001f06a  0001f27b       212
+                                  0001622e  0001643f       212
   _fi_pwm_inv0_svctrl
-                                  0001f06a       1d2   func ,g         * 
+                                  0001622e       1d2   func ,g         * 
   _fb_pwm_inv0_svctrl_init
-                                  0001f23c        40   func ,g         * 
+                                  00016400        40   func ,g         * 
 FILE=DefaultBuild\fi_pwm_inv0_vctrlerr.obj
-                                  0001f27c  0001f477       1fc
+                                  00016440  0001663b       1fc
   _fi_pwm_inv0_vctrlerr
-                                  0001f27c       19c   func ,g         * 
+                                  00016440       19c   func ,g         * 
   _fb_pwm_inv0_vctrlerr_init
-                                  0001f418        60   func ,g         * 
+                                  000165dc        60   func ,g         * 
 FILE=DefaultBuild\fi_pwm_vctrlerrtbl.obj
-                                  0001f478  0001f511        9a
+                                  0001663c  000166d5        9a
   _fi_pwm_vctrlerrtbl
-                                  0001f478        90   func ,g         * 
+                                  0001663c        90   func ,g         * 
   _fb_pwm_vctrlerr_init
-                                  0001f508         a   func ,g         * 
+                                  000166cc         a   func ,g         * 
 FILE=DefaultBuild\mapdata_trq_inv0.obj
-                                  0001f512  0001fead       99c
+                                  000166d6  00016fdd       908
   _u1_tq_map_get
-                                  0001f512       99c   func ,g         * 
+                                  000166d6       908   func ,g         * 
 FILE=DefaultBuild\mapdata_trq_inv0_limit.obj
-                                  0001feae  000203e9       53c
+                                  00016fde  000174a9       4cc
   _u1_tq_map_limit
-                                  0001feae       53c   func ,g         * 
+                                  00016fde       4cc   func ,g         * 
 FILE=DefaultBuild\fb_can1_ctrl_init.obj
-                                  000203ea  00020571       188
+                                  000174aa  00017631       188
   _fb_can1_driver_init
-                                  000203ea       188   func ,g         * 
+                                  000174aa       188   func ,g         * 
 FILE=DefaultBuild\fi_1ms_inv0_ifctrl.obj
-                                  00020572  000207f9       288
+                                  00017632  000178b9       288
   _fi_1ms_inv0_ifctrl
-                                  00020572       286   func ,g         * 
+                                  00017632       286   func ,g         * 
   _fb_1ms_inv0_ifctrl_init
-                                  000207f8         2   func ,g         * 
+                                  000178b8         2   func ,g         * 
 FILE=DefaultBuild\fi_pwm_inv0_syncctrl.obj
-                                  000207fa  00020cd5       4dc
+                                  000178ba  00017d95       4dc
   _fi_pwm_inv0_syncctrl
-                                  000207fa       3de   func ,g         * 
+                                  000178ba       3de   func ,g         * 
   _fb_pwm_inv0_syncctrl_init
-                                  00020bd8        fe   func ,g         * 
+                                  00017c98        fe   func ,g         * 
 FILE=DefaultBuild\fb_therm_tbl_module.obj
-                                  00020cd6  00020d15        40
+                                  00017d96  00017dd5        40
   _s2_therm_module_calc_lsb2
-                                  00020cd6        40   func ,g         * 
+                                  00017d96        40   func ,g         * 
 FILE=DefaultBuild\io_PIO_amdt0530.obj
-                                  00020d16  000213ab       696
+                                  00017dd6  0001846b       696
   _pio_init
-                                  00020d16       168   func ,g         * 
+                                  00017dd6       168   func ,g         * 
   _ex_intpx_init
-                                  00020e7e       484   func ,g         * 
+                                  00017f3e       484   func ,g         * 
   _intpx_status_read
-                                  00021302        aa   func ,g         * 
+                                  000183c2        aa   func ,g         * 
 FILE=DefaultBuild\fim_main.obj
-                                  000213ac  0002169b       2f0
+                                  0001846c  0001875b       2f0
   _main
-                                  000213ac       1d8   func ,g         * 
+                                  0001846c       1d8   func ,g         * 
   _fb_main_start_init
-                                  00021584        b0   func ,g         * 
+                                  00018644        b0   func ,g         * 
   _fb_main_error_init
-                                  00021634        68   func ,g         * 
+                                  000186f4        68   func ,g         * 
 FILE=DefaultBuild\mapdata_lm_inv0_1d.obj
-                                  0002169c  00021783        e8
+                                  0001875c  00018843        e8
   _u1_lm_map_1d_get
-                                  0002169c        e8   func ,g         * 
+                                  0001875c        e8   func ,g         * 
 FILE=cmdmoni_wt
-                                  00021784  00022e2b      16a8
+                                  00018844  00019eeb      16a8
   _MD_WT_INTRE
-                                  00021784        28   func ,g         * 
+                                  00018844        28   func ,g         * 
   _MD_WT_INTR
-                                  000217ac       89e   func ,g         * 
+                                  0001886c       89e   func ,g         * 
   _CMDMONI_WT_INIT
-                                  0002204a        be   func ,g         * 
+                                  0001910a        be   func ,g         * 
   _CMDMONI_WT_TRACEHALT.1
-                                  00022108        24   func ,l         * 
+                                  000191c8        24   func ,l         * 
   _CMDMONI_WT_TRACEWATCH
-                                  0002212c       580   func ,g         * 
+                                  000191ec       580   func ,g         * 
   _CMDMONI_WT_CHECKCMD
-                                  000226ac       57e   func ,g         * 
+                                  0001976c       57e   func ,g         * 
   _CMDMONI_WT_SENDCMD
-                                  00022c2a        c8   func ,g         * 
+                                  00019cea        c8   func ,g         * 
   _CMDMONI_WT_1MS
-                                  00022cf2        26   func ,g         * 
+                                  00019db2        26   func ,g         * 
   _zop_CalcCheckSum.1
-                                  00022d18        56   func ,l         * 
+                                  00019dd8        56   func ,l         * 
   _zop_PressSend.1
-                                  00022d6e        be   func ,l         * 
+                                  00019e2e        be   func ,l         * 
 FILE=initsct_rh
-                                  00022e2c  00022edb        b0
+                                  00019eec  00019f9b        b0
   __INITSCT_RH
-                                  00022e2c         0   none ,g         * 
+                                  00019eec         0   none ,g         * 
 FILE=atan2f
-                                  00022edc  00022fb9        de
+                                  00019f9c  0001a079        de
   _atan2f
-                                  00022edc         0   none ,g         * 
+                                  00019f9c         0   none ,g         * 
 FILE=atanf
-                                  00022fba  000231a5       1ec
+                                  0001a07a  0001a265       1ec
   _near_zero.1
-                                  00022fba         0   none ,l         * 
+                                  0001a07a         0   none ,l         * 
   _atanf_special_case.1
-                                  00022fe2         0   none ,l         * 
+                                  0001a0a2         0   none ,l         * 
   _atanf
-                                  00023008         0   none ,g         * 
+                                  0001a0c8         0   none ,g         * 
 FILE=cosf
-                                  000231a6  0002341b       276
+                                  0001a266  0001a4db       276
   _sincosf_special.1
-                                  000231a6         0   none ,l         * 
+                                  0001a266         0   none ,l         * 
   _cosf
-                                  000232c4         0   none ,g         * 
+                                  0001a384         0   none ,g         * 
 FILE=logf
-                                  0002341c  00023655       23a
+                                  0001a4dc  0001a715       23a
   _logf
-                                  0002341c         0   none ,g         * 
+                                  0001a4dc         0   none ,g         * 
   _poly_logf.1
-                                  000235c0         0   none ,l         * 
+                                  0001a680         0   none ,l         * 
 FILE=modff
-                                  00023656  0002368f        3a
+                                  0001a716  0001a74f        3a
   _modff
-                                  00023656         0   none ,g         * 
+                                  0001a716         0   none ,g         * 
 FILE=sinf
-                                  00023690  00023a37       3a8
+                                  0001a750  0001aaf7       3a8
   _sincosf_special.1
-                                  00023690         0   none ,l         * 
+                                  0001a750         0   none ,l         * 
   _sinf
-                                  000237bc         0   none ,g         * 
+                                  0001a87c         0   none ,g         * 
 FILE=sqrtf
-                                  00023a38  00023a6f        38
+                                  0001aaf8  0001ab2f        38
   _sqrtf
-                                  00023a38         0   none ,g         * 
+                                  0001aaf8         0   none ,g         * 
 FILE=com7d
-                                  00023a70  00023a77         8
+                                  0001ab30  0001ab37         8
   __REL_errno
-                                  00023a70         0   none ,g         * 
+                                  0001ab30         0   none ,g         * 
 FILE=_i_atn2s
-                                  00023a78  00023abb        44
+                                  0001ab38  0001ab7b        44
   __in_atan2s
-                                  00023a78         0   none ,g         * 
+                                  0001ab38         0   none ,g         * 
 FILE=_i_modfs
-                                  00023abc  00023b45        8a
+                                  0001ab7c  0001ac05        8a
   __in_modfs
-                                  00023abc         0   none ,g         * 
+                                  0001ab7c         0   none ,g         * 
 FILE=_wrap_matherrf
-                                  00023b46  00023b63        1e
+                                  0001ac06  0001ac23        1e
   .wrap_matherrf
-                                  00023b46         0   none ,g         * 
+                                  0001ac06         0   none ,g         * 
 FILE=domerrf
-                                  00023b64  00023b85        22
+                                  0001ac24  0001ac45        22
   __REL_domerrf
-                                  00023b64         0   none ,g         * 
+                                  0001ac24         0   none ,g         * 
 FILE=fmodf
-                                  00023b86  00023bf3        6e
+                                  0001ac46  0001acb3        6e
   _fmodf
-                                  00023b86         0   none ,g         * 
+                                  0001ac46         0   none ,g         * 
 FILE=frexpf
-                                  00023bf4  00023c81        8e
+                                  0001acb4  0001ad41        8e
   _frexpf
-                                  00023bf4         0   none ,g         * 
+                                  0001acb4         0   none ,g         * 
 FILE=logfspecial
-                                  00023c82  00023cb1        30
+                                  0001ad42  0001ad71        30
   __REL_logf_special
-                                  00023c82         0   none ,g         * 
+                                  0001ad42         0   none ,g         * 
 FILE=nanf
-                                  00023cb2  00023cb7         6
+                                  0001ad72  0001ad77         6
   __REL_nanf_value
-                                  00023cb2         0   none ,g         * 
+                                  0001ad72         0   none ,g         * 
 FILE=neginff
-                                  00023cb8  00023cbd         6
+                                  0001ad78  0001ad7d         6
   __REL_neginff_value
-                                  00023cb8         0   none ,g         * 
+                                  0001ad78         0   none ,g         * 
 FILE=rngerrf
-                                  00023cbe  00023ce5        28
+                                  0001ad7e  0001ada5        28
   __REL_rngerrf
-                                  00023cbe         0   none ,g         * 
+                                  0001ad7e         0   none ,g         * 
 FILE=_i_atans
-                                  00023ce6  00023ebf       1da
+                                  0001ada6  0001af7f       1da
   __in_atans
-                                  00023ce6         0   none ,g         * 
+                                  0001ada6         0   none ,g         * 
 FILE=_i_fmds
-                                  00023ec0  00024009       14a
+                                  0001af80  0001b0c9       14a
   __in_fmods
-                                  00023ec0         0   none ,g         * 
+                                  0001af80         0   none ,g         * 
 FILE=posinff
-                                  0002400a  0002400f         6
+                                  0001b0ca  0001b0cf         6
   __REL_posinff_value
-                                  0002400a         0   none ,g         * 
+                                  0001b0ca         0   none ,g         * 
 FILE=_a_atans
-                                  00024010  00024075        66
+                                  0001b0d0  0001b135        66
   __app_atans
-                                  00024010         0   none ,g         * 
+                                  0001b0d0         0   none ,g         * 
 FILE=_i_ldes
-                                  00024076  0002410f        9a
+                                  0001b136  0001b1cf        9a
   __in_ldexps
-                                  00024076         0   none ,g         * 
+                                  0001b136         0   none ,g         * 
 
 SECTION=.data
 FILE=DefaultBuild\io_TSG30.obj
-                                  00024110  00024113         4
+                                  0001b1d0  0001b1d3         4
 FILE=DefaultBuild\io_TSG31.obj
-                                  00024114  00024117         4
+                                  0001b1d4  0001b1d7         4
 FILE=DefaultBuild\fi_1ms_inv0_ifctrl.obj
-                                  00024118  00024136        1f
+                                  0001b1d8  0001b1f6        1f
 
 SECTION=comGRAMA.data
 FILE=DefaultBuild\commonPE1toPE2.obj
-                                  00024138  0002413c         5
+                                  0001b1f8  0001b1fc         5
 
 SECTION=comGRAMB.data
 FILE=DefaultBuild\commonPE2toPE1.obj
-                                  00024140  00024144         5
+                                  0001b200  0001b204         5
 
 SECTION=.data.R
 FILE=DefaultBuild\io_TSG30.obj
@@ -3057,21 +3057,21 @@ FILE=rlink_generates_01
                                   00000000         0   none ,g         * 
 FILE=rlink_generates_02
   __s.text
-                                  0000d976         0   none ,g         * 
+                                  00004b4e         0   none ,g         * 
   __e.text
-                                  00024110         0   none ,g         * 
+                                  0001b1d0         0   none ,g         * 
   __S_text
-                                  0000d976         0   none ,g         * 
+                                  00004b4e         0   none ,g         * 
   __E_text
-                                  00024110         0   none ,g         * 
+                                  0001b1d0         0   none ,g         * 
   __scom.text
-                                  0000d8dc         0   none ,g         * 
+                                  00004ab4         0   none ,g         * 
   __ecom.text
-                                  0000d976         0   none ,g         * 
+                                  00004b4e         0   none ,g         * 
   __Scom_text
-                                  0000d8dc         0   none ,g         * 
+                                  00004ab4         0   none ,g         * 
   __Ecom_text
-                                  0000d976         0   none ,g         * 
+                                  00004b4e         0   none ,g         * 
   __scomGRAMA.bss
                                   feef0008         0   none ,g         * 
   __ecomGRAMA.bss
@@ -3089,33 +3089,33 @@ FILE=rlink_generates_02
   __EEIINTTBL_PE1
                                   00000080         0   none ,g         * 
   __scomGRAMA.data
-                                  00024138         0   none ,g         * 
+                                  0001b1f8         0   none ,g         * 
   __ecomGRAMA.data
-                                  0002413d         0   none ,g         * 
+                                  0001b1fd         0   none ,g         * 
   __scomGRAMA.data.R
                                   feef0000         0   none ,g         * 
   __ecomGRAMA.data.R
                                   feef0005         0   none ,g         * 
   __ScomGRAMA_data
-                                  00024138         0   none ,g         * 
+                                  0001b1f8         0   none ,g         * 
   __EcomGRAMA_data
-                                  0002413d         0   none ,g         * 
+                                  0001b1fd         0   none ,g         * 
   __ScomGRAMA_data_R
                                   feef0000         0   none ,g         * 
   __EcomGRAMA_data_R
                                   feef0005         0   none ,g         * 
   __s.data
-                                  00024110         0   none ,g         * 
+                                  0001b1d0         0   none ,g         * 
   __e.data
-                                  00024137         0   none ,g         * 
+                                  0001b1f7         0   none ,g         * 
   __s.data.R
                                   febf0000         0   none ,g         * 
   __e.data.R
                                   febf0027         0   none ,g         * 
   __S_data
-                                  00024110         0   none ,g         * 
+                                  0001b1d0         0   none ,g         * 
   __E_data
-                                  00024137         0   none ,g         * 
+                                  0001b1f7         0   none ,g         * 
   __S_data_R
                                   febf0000         0   none ,g         * 
   __E_data_R
@@ -3131,11 +3131,11 @@ FILE=rlink_generates_02
   __s.const
                                   00001000         0   none ,g         * 
   __e.const
-                                  0000d848         0   none ,g         * 
+                                  00004a20         0   none ,g         * 
   __S_const
                                   00001000         0   none ,g         * 
   __E_const
-                                  0000d848         0   none ,g         * 
+                                  00004a20         0   none ,g         * 
   __s.stack.bss
                                   febf2e60         0   none ,g         * 
   __e.stack.bss
@@ -3145,29 +3145,29 @@ FILE=rlink_generates_02
   __E_stack_bss
                                   febf3660         0   none ,g         * 
   __s.INIT_DSEC.const
-                                  0000d848         0   none ,g         * 
+                                  00004a20         0   none ,g         * 
   __e.INIT_DSEC.const
-                                  0000d86c         0   none ,g         * 
+                                  00004a44         0   none ,g         * 
   __S_INIT_DSEC_const
-                                  0000d848         0   none ,g         * 
+                                  00004a20         0   none ,g         * 
   __E_INIT_DSEC_const
-                                  0000d86c         0   none ,g         * 
+                                  00004a44         0   none ,g         * 
   __s.INIT_BSEC.const
-                                  0000d86c         0   none ,g         * 
+                                  00004a44         0   none ,g         * 
   __e.INIT_BSEC.const
-                                  0000d874         0   none ,g         * 
+                                  00004a4c         0   none ,g         * 
   __S_INIT_BSEC_const
-                                  0000d86c         0   none ,g         * 
+                                  00004a44         0   none ,g         * 
   __E_INIT_BSEC_const
-                                  0000d874         0   none ,g         * 
+                                  00004a4c         0   none ,g         * 
   __s.text.cmn
-                                  0000d874         0   none ,g         * 
+                                  00004a4c         0   none ,g         * 
   __e.text.cmn
-                                  0000d8dc         0   none ,g         * 
+                                  00004ab4         0   none ,g         * 
   __S_text_cmn
-                                  0000d874         0   none ,g         * 
+                                  00004a4c         0   none ,g         * 
   __E_text_cmn
-                                  0000d8dc         0   none ,g         * 
+                                  00004ab4         0   none ,g         * 
   __sEIINTTBL_PE1_2
                                   00000080         0   none ,g         * 
   __eEIINTTBL_PE1_2
@@ -3177,17 +3177,17 @@ FILE=rlink_generates_02
   __EEIINTTBL_PE1_2
                                   00000400         0   none ,g         * 
   __scomGRAMB.data
-                                  00024140         0   none ,g         * 
+                                  0001b200         0   none ,g         * 
   __ecomGRAMB.data
-                                  00024145         0   none ,g         * 
+                                  0001b205         0   none ,g         * 
   __scomGRAMB.data.R
                                   fef00000         0   none ,g         * 
   __ecomGRAMB.data.R
                                   fef00005         0   none ,g         * 
   __ScomGRAMB_data
-                                  00024140         0   none ,g         * 
+                                  0001b200         0   none ,g         * 
   __EcomGRAMB_data
-                                  00024145         0   none ,g         * 
+                                  0001b205         0   none ,g         * 
   __ScomGRAMB_data_R
                                   fef00000         0   none ,g         * 
   __EcomGRAMB_data_R

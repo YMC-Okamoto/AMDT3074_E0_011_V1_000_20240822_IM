@@ -1,4 +1,4 @@
-Renesas Optimizing Linker (V3.06.00 )             22-Aug-2024 10:25:20
+Renesas Optimizing Linker (W3.06.00 )             10-Jun-2026 15:48:31
 
 *** Options ***
 
@@ -72,11 +72,11 @@ FILE=DefaultBuild\boot1.obj
 Absolute value symbols
 FILE=DefaultBuild\MotorDirver0.obj
   __cstart_pm1
-                                  0000d874         0   none ,g         * 
+                                  00004a4c         0   none ,g         * 
   _Dummy_func_pe1
-                                  0000d8dc         0   none ,g         * 
+                                  00004ab4         0   none ,g         * 
   _Dummy_EI_func_pe1
-                                  0000d8e6         0   none ,g         * 
+                                  00004abe         0   none ,g         * 
   _u4_pe1_status
                                   feef0000         0   none ,g         * 
   _u1_status_awatcher_cpu2

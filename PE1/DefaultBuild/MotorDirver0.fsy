@@ -1,14 +1,14 @@
-;RENESAS OPTIMIZING LINKER GENERATED FILE 2024.08.22
+;RENESAS OPTIMIZING LINKER GENERATED FILE 2026.06.10
 ;fsymbol = .text.cmn, com.text, comGRAMA.data, comGRAMA.bss, comGRAMB.data, comGRAMB.bss
 
 ;SECTION NAME = .text.cmn
  .public __cstart_pm1
-__cstart_pm1 .equ 0xd874
+__cstart_pm1 .equ 0x4a4c
 ;SECTION NAME = com.text
  .public _Dummy_func_pe1
-_Dummy_func_pe1 .equ 0xd8dc
+_Dummy_func_pe1 .equ 0x4ab4
  .public _Dummy_EI_func_pe1
-_Dummy_EI_func_pe1 .equ 0xd8e6
+_Dummy_EI_func_pe1 .equ 0x4abe
 ;SECTION NAME = comGRAMA.data
  .public _u4_pe1_status
 _u4_pe1_status .equ 0xfeef0000
