@@ -631,7 +631,7 @@ grid on;
 
 % --- サブプロット 6: 同期角 ---
 subplot(3, 2, 6);
-plot(log_t, mod(log_theta, 2*pi), 'c-', 'LineWidth', 1.0);
+plot(log_t, log_theta, 'c-', 'LineWidth', 1.0);
 xlabel('時間 [s]');
 ylabel('同期角 [rad]');
 title('同期角 θ（磁束位相）');
