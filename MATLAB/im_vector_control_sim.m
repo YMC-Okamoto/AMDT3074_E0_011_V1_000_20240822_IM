@@ -97,7 +97,7 @@ s.tmp_mot_max   = T_MOT_INIT;
 s.tq_ref_ext    = 0.0;   % [Nm]  external torque request
 s.tq_ref        = 0.0;   % [Nm]  f4_tq_inv0_ref
 s.tq_ref_tmp    = 0.0;   % [Nm]  f4_tq_inv0_ref_tmp (rate-limited)
-s.id_ctrl       = p.ID_INV0_MIN;  % [A]  f4_id_inv0_ctrl
+s.id_ctrl       = p.ID_INV0_REF_MIN;  % [A]  f4_id_inv0_ctrl
 s.iq_ctrl       = 0.0;   % [A]  f4_iq_inv0_ctrl
 s.tq_est        = 0.0;   % [Nm] f4_tq_inv0_est  (LPF output)
 s.idc_est       = 0.0;   % [A]  f4_idc_inv0_est (LPF output)
@@ -116,12 +116,12 @@ s.wsl_ref       = 0.0;   % [rad/s] slip frequency
 s.wr_pll        = 0.0;   % [rad/s] rotor PLL speed
 s.wr_pll_lpf    = 0.0;   % [rad/s] PLL speed LPF
 s.wr_pll_intg   = 0.0;   % PLL integrator state
-s.fd_ref        = p.LM_INV0 * p.ID_INV0_MIN;  % [Wb] flux reference
+s.fd_ref        = p.LM_INV0 * p.ID_INV0_REF_MIN;  % [Wb] flux reference
 
 % idq PI controller state (PWM interrupt)
 s.id_intg       = 0.0;   % d-axis integrator
 s.iq_intg       = 0.0;   % q-axis integrator
-s.id_ref        = p.ID_INV0_MIN;
+s.id_ref        = p.ID_INV0_REF_MIN;
 s.iq_ref        = 0.0;
 s.vd_ref        = 0.0;   % [V] d-axis voltage reference
 s.vq_ref        = 0.0;   % [V] q-axis voltage reference
@@ -139,6 +139,26 @@ s.mu = 0.0; s.mv = 0.0; s.mw = 0.0;
 % Enable flags (mirrors u1_flag_enable_* in embedded code)
 s.flag_r1_cmp   = p.ENABLE_INV0_R1_CMP;
 s.flag_r2_cmp   = p.ENABLE_INV0_R2_CMP;
+
+% Additional state fields required by controller functions
+s.pwm_status    = 1;          % u1_pwm_inv0_status — 1=active, 0=off
+s.vdc_lpf       = VDC;        % f4_vdc_inv0_lpf    — DC bus LPF
+s.power_p123_lpf = 0.0;       % f4_pwr_inv0_p123_lpf — power LPF state
+s.vd_ctrli      = 0.0;        % d-axis PI integrator (alternate name)
+s.vq_ctrli      = 0.0;        % q-axis PI integrator (alternate name)
+s.tmp_igbt      = T_MOT_INIT; % f4_tmp_inv0_igbt    — IGBT temperature [°C]
+s.tmp_mot1      = T_MOT_INIT; % f4_tmp_inv0_mot1    — Motor temperature 1 [°C]
+s.tmp_mot2      = T_MOT_INIT; % f4_tmp_inv0_mot2    — Motor temperature 2 [°C]
+s.idq_vdqctrli  = 0.0;        % FW integrator state (alternate name)
+s.idq_ctrl      = p.ID_INV0_REF_MIN;  % Current vector magnitude for FW
+% PLL state fields (used inside fi_pwm_inv0_encctrl)
+s.wt_pll        = 0.0;        % PLL tracked angle [rad]
+s.wr_enc_pll    = 0.0;        % PLL speed output [rad/s]
+s.wr_enc_pllp   = 0.0;        % PLL proportional term
+s.wr_enc_plli   = 0.0;        % PLL integral state
+s.wr_pll_lpf_abs = 0.0;       % |wr_pll_lpf|
+s.winv_ref_abs  = 0.0;        % |winv_ref|
+s.speed_lpf     = 0.0;        % Speed LPF [rpm]
 
 %% =====================================================================
 %  5. Logging arrays

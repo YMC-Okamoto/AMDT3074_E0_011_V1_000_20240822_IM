@@ -121,6 +121,7 @@ function p = params_inv0()
     % ---------------------------------------------------------------
     p.M_INV0_MAX        = 1.10;     % Max modulation index
     p.K_INV0_MODU_MAX   = 27.259;   % PWM modulation gain
+    p.WCLPF_INV0_M      = 200.0;    % [rad/s] Modulation-index LPF cut-off
 
     % ---------------------------------------------------------------
     % DC bus nominal (simulation default — not in header)

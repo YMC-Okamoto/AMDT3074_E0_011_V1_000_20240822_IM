@@ -45,13 +45,11 @@ MATLAB/
 1. Open MATLAB and add the `MATLAB/` directory to the path (or `cd` into it).
 2. Run `im_vector_control_sim` from the command window or open the script
    and press **Run**.
-3. The script produces five figure windows:
-   - Torque (reference, estimate, plant)
-   - Rotor speed [rpm]
-   - Slip / inverter frequency
-   - dq currents (reference vs. measured)
-   - dq voltages and SVPWM modulation indices
-   - Lm map output over time
+3. The script produces four figure windows:
+   - **Torque & Speed**: torque (reference, estimate, plant), rotor speed, slip/inverter frequency
+   - **dq Currents**: d-axis and q-axis currents (reference vs. measured)
+   - **dq Voltages**: dq voltage references and SVPWM modulation indices
+   - **Lm**: magnetising inductance (Lm map output over time)
 
 Edit the **Scenario** section near the top of `im_vector_control_sim.m` to
 change the torque profile, simulation duration, load torque, or DC bus

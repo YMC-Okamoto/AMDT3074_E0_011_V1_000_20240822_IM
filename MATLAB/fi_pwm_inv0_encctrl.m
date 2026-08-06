@@ -44,8 +44,9 @@ function s = fi_pwm_inv0_encctrl(s, p)
 
     s.wt_pll = wrap_pi(s.wt_pll + s.wr_enc_pll * Ts);
 
-    % Electrical angular velocity of rotor × pole pairs
-    s.wr_pll = s.wr_enc_pll * p.PF_INV0;
+    % Electrical angular velocity of rotor (PLL output is already in
+    % electrical rad/s because it tracked the electrical angle wt_dq_tmp)
+    s.wr_pll = s.wr_enc_pll;
 
     % LPF on rotor speed  (f4_wr_inv0_pll_lpf)
     err = s.wr_pll - s.wr_pll_lpf;
