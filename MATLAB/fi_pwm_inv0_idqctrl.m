@@ -174,7 +174,9 @@ end
 %   Vdq_err = |Vdq_norm| - Vdq_ctrl_max
 %   → Vdq_norm が制限値を超えている場合のみ補正量を演算
 %
-% 補正量（PI制御）→ s.id_ref への加算（負の補正でd軸電流を減少）
+% 補正量（PI制御）→ s.id_ref から減算（d軸電流を減少させて磁束を弱める）
+%
+% ※ 補正量は常に非負とすることで、id_ref が意図せず増加しないようにする。
 %
 % 組み込み: KP_INV0_VDQCTRL = 0.02, KI_INV0_VDQCTRL = 0.004
 
@@ -182,21 +184,23 @@ end
 Vdq_err = Vdq_norm - Vdq_max;
 
 if Vdq_err > 0.0
-    % 超過している場合: d軸電流を減少させる補正量をPI演算
-    vdq_correction_p = p.Kp_vdqctrl * Vdq_err;
+    % 超過している場合: 積分項を正方向に蓄積（補正量を増やす方向）
     s.vdq_ctrli = s.vdq_ctrli + p.Ki_vdqctrl * Vdq_err * p.Ts_pwm;
 
-    % 積分項の制限（負方向への補正量の上限）
-    s.vdq_ctrli = max(-p.Idq_vdqctrl_max, min(0.0, s.vdq_ctrli));
+    % 積分項の上限制限（過補正防止）
+    s.vdq_ctrli = max(0.0, min(p.Idq_vdqctrl_max, s.vdq_ctrli));
 
-    vdq_correction = vdq_correction_p + s.vdq_ctrli;
+    % 補正量 = 比例項 + 積分項（常に非負: id_refを減少させる方向のみ作用）
+    vdq_correction = p.Kp_vdqctrl * Vdq_err + s.vdq_ctrli;
+    vdq_correction = max(0.0, vdq_correction);  % 非負に制限
 
     % d軸電流指令から補正量を減算（磁束を弱める）
     s.id_ref = s.id_ref - vdq_correction;
-    s.id_ref = max(0.0, min(p.Id_ref_max, s.id_ref));  % 正値に制限
+    s.id_ref = max(0.0, min(p.Id_ref_max, s.id_ref));  % 範囲制限
 else
     % 超過していない場合: 積分項をゆっくりリセット（アンチワインドアップ）
     s.vdq_ctrli = s.vdq_ctrli * 0.99;
+    s.vdq_ctrli = max(0.0, s.vdq_ctrli);  % 非負を維持
 end
 
 end
